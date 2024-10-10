@@ -6,24 +6,18 @@
     <section id="portfolio" class="portfolio section">
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
-            <span class="description-title">Satuan Kerja</span>
-            <h2>Satuan Kerja</h2>
+            <span class="description-title">Satuan Kerja Kecamatan</span>
+            <h2>Satuan Kerja Kecamatan</h2>
         </div>
         <!-- End Section Title -->
         <div class="container">
             <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
-                <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
-                    <li data-filter="*" class="filter-active">All</li>
-                    <li data-filter=".filter-Kecamatan">Kecamatan</li>
-                    <li data-filter=".filter-Kelurahan">Kelurahan</li>
-                </ul>
-                <!-- End Portfolio Filters -->
 
                 <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="50">
 
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan">
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                         <div class="portfolio-content h-100">
-                            <a data-gallery="portfolio-gallery-app" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
+                            <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
                             <div class="portfolio-info">
                                 <h4><a href="portfolio-details.html" title="More Details">Kecamatan 1</a></h4>
                                 <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -31,19 +25,9 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kelurahan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                         <div class="portfolio-content h-100">
                             <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html" title="More Details">Kelurahan 1</a></h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan">
-                        <div class="portfolio-content h-100">
-                            <a href="/kecamatan" data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
                             <div class="portfolio-info">
                                 <h4><a href="portfolio-details.html" title="More Details">Kecamatan 2</a></h4>
                                 <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -51,19 +35,9 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kelurahan">
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                         <div class="portfolio-content h-100">
-                            <a href="/kelurahan" data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html" title="More Details">Kelurahan 2</a></h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan">
-                        <div class="portfolio-content h-100">
-                            <a href="/table" data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
+                            <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
                             <div class="portfolio-info">
                                 <h4><a href="portfolio-details.html" title="More Details">Kecamatan 3</a></h4>
                                 <p>Lorem ipsum, dolor sit amet consectetur</p>
@@ -71,15 +45,74 @@
                         </div>
                     </div>
 
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kelurahan">
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                         <div class="portfolio-content h-100">
-                            <a href="/table.jpg" data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
+                            <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
                             <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html" title="More Details">Kelurahan 3</a></h4>
+                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan 4</a></h4>
                                 <p>Lorem ipsum, dolor sit amet consectetur</p>
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <div class="portfolio-content h-100">
+                            <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
+                            <div class="portfolio-info">
+                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan 5</a></h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <div class="portfolio-content h-100">
+                            <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
+                            <div class="portfolio-info">
+                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan 6</a></h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <div class="portfolio-content h-100">
+                            <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
+                            <div class="portfolio-info">
+                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan 7</a></h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <div class="portfolio-content h-100">
+                            <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
+                            <div class="portfolio-info">
+                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan 8</a></h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <div class="portfolio-content h-100">
+                            <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
+                            <div class="portfolio-info">
+                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan 9</a></h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                        <div class="portfolio-content h-100">
+                            <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
+                            <div class="portfolio-info">
+                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan 10</a></h4>
+                                <p>Lorem ipsum, dolor sit amet consectetur</p>
+                            </div>
+                        </div>
+                    </div>
+
 
                 </div>
             </div>
@@ -175,6 +208,5 @@
 
     </section>
 </main>
-<!-- Scroll Tap -->
-<a class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<a href="" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 <?= $this->endSection('content'); ?>

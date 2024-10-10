@@ -7,3 +7,5 @@ use CodeIgniter\Router\RouteCollection;
  */
 $routes->get('/', 'DaftarApp::index');
 $routes->get('/table', 'DaftarApp::table');
+$routes->get('/kecamatan', 'DaftarApp::kecamatan');
+$routes->get('/kelurahan', 'DaftarApp::kelurahan');

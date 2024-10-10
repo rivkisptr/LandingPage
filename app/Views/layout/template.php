@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <title>Daftar APP Kota Administrasi Jakarta Selatan</title>
+    <title><?= $title; ?></title>
     <meta name="description" content="">
     <meta name="keywords" content="">
 
@@ -29,7 +29,7 @@
     <link href="/assets/css/main.css" rel="stylesheet">
 </head>
 
-<body class="index-page">
+<body class="index-page" scroll-behavior="auto">
     
     <?= $this->renderSection('content'); ?>
     
