@@ -1,0 +1,113 @@
+CRITICAL - 2024-10-11 01:32:23 --> Error: Call to a member function getKecamatan() on null
+[Method: GET, Route: kecamatan]
+in APPPATH\Controllers\DaftarApp.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->kecamatan()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-10-11 02:10:52 --> TypeError: CodeIgniter\Database\BaseBuilder::distinct(): Argument #1 ($val) must be of type bool, string given, called in C:\xampp\htdocs\LandingPage\system\Model.php on line 930
+[Method: GET, Route: kelurahan]
+in SYSTEMPATH\Database\BaseBuilder.php on line 566.
+ 1 SYSTEMPATH\Model.php(930): CodeIgniter\Database\BaseBuilder->distinct('asal_kecamatan')
+ 2 APPPATH\Models\kelurahanModel.php(14): CodeIgniter\Model->__call('distinct', [...])
+ 3 APPPATH\Controllers\DaftarApp.php(37): App\Models\kelurahanModel->getKelurahan()
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->kelurahan()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-10-11 02:59:07 --> ErrorException: Undefined array key "asal_kecamatan"
+[Method: GET, Route: kelurahan]
+in APPPATH\Views\pages\kelurahan.php on line 19.
+ 1 APPPATH\Views\pages\kelurahan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "asal_kecamatan"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kelurahan', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(39): view('pages/kelurahan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->kelurahan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-10-11 03:01:21 --> ErrorException: Undefined array key "asal_kecamatan"
+[Method: GET, Route: kelurahan]
+in APPPATH\Views\pages\kelurahan.php on line 19.
+ 1 APPPATH\Views\pages\kelurahan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "asal_kecamatan"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kelurahan', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(39): view('pages/kelurahan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->kelurahan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-10-11 03:01:22 --> ErrorException: Undefined array key "asal_kecamatan"
+[Method: GET, Route: kelurahan]
+in APPPATH\Views\pages\kelurahan.php on line 19.
+ 1 APPPATH\Views\pages\kelurahan.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "asal_kecamatan"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php', 19)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kelurahan', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(39): view('pages/kelurahan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->kelurahan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-10-11 03:17:44 --> ErrorException: Array to string conversion
+[Method: GET, Route: kelurahan]
+in APPPATH\Views\pages\kelurahan.php on line 20.
+ 1 APPPATH\Views\pages\kelurahan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kelurahan', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(39): view('pages/kelurahan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->kelurahan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-10-11 03:17:46 --> ErrorException: Array to string conversion
+[Method: GET, Route: kelurahan]
+in APPPATH\Views\pages\kelurahan.php on line 20.
+ 1 APPPATH\Views\pages\kelurahan.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php', 20)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kelurahan', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(39): view('pages/kelurahan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->kelurahan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-10-11 03:25:24 --> ValueError: array_combine(): Argument #1 ($keys) and argument #2 ($values) must have the same number of elements
+[Method: GET, Route: kelurahan]
+in APPPATH\Views\pages\kelurahan.php on line 20.
+ 1 APPPATH\Views\pages\kelurahan.php(20): array_combine([...], [])
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kelurahan', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(39): view('pages/kelurahan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->kelurahan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')

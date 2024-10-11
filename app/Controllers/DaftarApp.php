@@ -1,9 +1,18 @@
 <?php
 
 namespace App\Controllers;
+use App\Models\kecamatanModel;
+use App\Models\kelurahanModel;
 
 class DaftarApp extends BaseController
 {
+    protected $kecamatanModel;
+    protected $kelurahanModel;
+    public function __construct()
+    {
+        $this->kecamatanModel = new kecamatanModel();
+        $this->kelurahanModel = new kelurahanModel();
+    }
     public function index()
     {
         $data = [
@@ -16,6 +25,7 @@ class DaftarApp extends BaseController
     {
         $data = [
             'title' => 'Daftar Kecamatan',
+            'kecamatan' => $this->kecamatanModel->getKecamatan()
         ];
         return view('pages/kecamatan',$data);
     }
@@ -24,6 +34,7 @@ class DaftarApp extends BaseController
     {
         $data = [
             'title' => 'Daftar Kelurahan',
+            'kelurahan' => $this->kelurahanModel->getKelurahan()
         ];
         return view('pages/kelurahan',$data);
     }

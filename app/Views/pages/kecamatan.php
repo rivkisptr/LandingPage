@@ -14,117 +14,29 @@
             <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
 
                 <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="50">
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                    <?php foreach($kecamatan as $k): ?>
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop-<?= $k['slug']; ?>">
                         <div class="portfolio-content h-100">
                             <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
                             <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan 1</a></h4>
+                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan <?= $k['nama_kecamatan']; ?></a></h4>
                                 <p>Lorem ipsum, dolor sit amet consectetur</p>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                        <div class="portfolio-content h-100">
-                            <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan 2</a></h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                        <div class="portfolio-content h-100">
-                            <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan 3</a></h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                        <div class="portfolio-content h-100">
-                            <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan 4</a></h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                        <div class="portfolio-content h-100">
-                            <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan 5</a></h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                        <div class="portfolio-content h-100">
-                            <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan 6</a></h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                        <div class="portfolio-content h-100">
-                            <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan 7</a></h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                        <div class="portfolio-content h-100">
-                            <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan 8</a></h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                        <div class="portfolio-content h-100">
-                            <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan 9</a></h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-Kecamatan" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                        <div class="portfolio-content h-100">
-                            <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
-                            <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan 10</a></h4>
-                                <p>Lorem ipsum, dolor sit amet consectetur</p>
-                            </div>
-                        </div>
-                    </div>
-
+                    <?php endforeach; ?>
 
                 </div>
             </div>
         </div>
 
         <!-- Modal -->
-
-        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <?php foreach($kecamatan as $k) : ?>
+        <div class="modal fade" id="staticBackdrop-<?= $k['slug'];?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title">Kecamatan / Keluarahan X</h5>
+                        <h5 class="modal-title">Kecamatan <?= $k['nama_kecamatan']; ?></h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
@@ -205,6 +117,7 @@
                 </div>
             </div>
         </div>
+        <?php endforeach; ?>
 
     </section>
 </main>
