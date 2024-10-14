@@ -1,0 +1,585 @@
+1,aplikasi xx,Bagian Umum dan Protokol,#,cilandak
+2,aplikasi xx,"Bagian Program, Pelaporan dan Keuangan",#,cilandak
+3,aplikasi xx,Bagian Kesra,#,cilandak
+4,aplikasi xx,Bagian Pemerintahan,#,cilandak
+5,aplikasi xx,Bagian Hukum,#,cilandak
+6,aplikasi xx,Satpol PP,#,cilandak
+7,aplikasi xx,Suku Badan Perencanaan Pembangunan Kota,#,cilandak
+8,aplikasi xx,Suku Bagian Kesbang Pol,#,cilandak
+9,aplikasi xx,"Suku Dinas Komunikasi, Informasi dan Statistik",#,cilandak
+10,aplikasi xx,Suku Badan Pengelola Keuangan,#,cilandak
+11,aplikasi xx,Suku Dinas Pendidikan Wilayah II,#,cilandak
+12,aplikasi xx,Bagian Perekonomian,#,cilandak
+13,aplikasi xx,Bagian Penataan dan Lingkungan Hidup,#,cilandak
+14,aplikasi xx,Inspektur Pembantu,#,cilandak
+15,aplikasi xx,Suku Dinas Pendidikan Wilayah I,#,cilandak
+16,aplikasi xx,Bagian Kepegawaian Ketatalaksanaan dan Pelayanan Publik,#,cilandak
+17,aplikasi xx,"Suku Dinas Ketahanan Pangan, Kelautan dan Pertanian",#,cilandak
+18,aplikasi xx,Suku Dinas Pemuda dan Olahraga,#,cilandak
+19,aplikasi xx,Suku Dinas Kebudayaan,#,cilandak
+20,aplikasi xx,Unit PTSP,#,cilandak
+21,aplikasi xx,Suku Badan Pendapatan Daerah,#,cilandak
+22,aplikasi xx,Suku Badan Pengelola Aset,#,cilandak
+23,aplikasi xx,Suku Dinas Kehutanan dan Taman Kota,#,cilandak
+24,aplikasi xx,Suku Dinas Perumahan Rakyat dan Kawasan Pemukiman,#,cilandak
+25,aplikasi xx,Suku Dinas Energi dan Ketenaga Kerjaan,#,cilandak
+26,aplikasi xx,Suku Badan Kepegawaian Kota,#,cilandak
+27,aplikasi xx,Suku Dinas Sosial,#,cilandak
+28,aplikasi xx,Unit PPBJ,#,cilandak
+29,aplikasi xx,"Suku Dinas Cipta Karya, Tata Ruang dan Pertanahan",#,cilandak
+30,aplikasi xx,Suku Dinas Perindustrian dan KUKM,#,cilandak
+31,aplikasi xx,Suku Dinas Bina Marga,#,cilandak
+32,aplikasi xx,Suku Dinas Sumber Daya Air,#,cilandak
+33,aplikasi xx,Suku Dinas Pariwisata,#,cilandak
+34,aplikasi xx,Suku Dinas Penanggulangan Kebakaran dan Penyelamatan,#,cilandak
+35,aplikasi xx,Suku Dinas Perhubungan,#,cilandak
+36,aplikasi xx,Suku Dinas Kependudukan dan Catatan Sipil,#,cilandak
+37,aplikasi xx,Suku Dinas Kesehatan Perpustakaan dan Arsip,#,cilandak
+38,aplikasi xx,Suku Dinas Lingkungan Hidup,#,cilandak
+39,aplikasi xx,Suku Dinas PPAPP,#,cilandak
+40,aplikasi xx,Bagian Umum dan Protokol,#,jagakarsa
+41,aplikasi xx,"Bagian Program, Pelaporan dan Keuangan",#,jagakarsa
+42,aplikasi xx,Bagian Kesra,#,jagakarsa
+43,aplikasi xx,Bagian Pemerintahan,#,jagakarsa
+44,aplikasi xx,Bagian Hukum,#,jagakarsa
+45,aplikasi xx,Satpol PP,#,jagakarsa
+46,aplikasi xx,Suku Badan Perencanaan Pembangunan Kota,#,jagakarsa
+47,aplikasi xx,Suku Bagian Kesbang Pol,#,jagakarsa
+48,aplikasi xx,"Suku Dinas Komunikasi, Informasi dan Statistik",#,jagakarsa
+49,aplikasi xx,Suku Badan Pengelola Keuangan,#,jagakarsa
+50,aplikasi xx,Suku Dinas Pendidikan Wilayah II,#,jagakarsa
+51,aplikasi xx,Bagian Perekonomian,#,jagakarsa
+52,aplikasi xx,Bagian Penataan dan Lingkungan Hidup,#,jagakarsa
+53,aplikasi xx,Inspektur Pembantu,#,jagakarsa
+54,aplikasi xx,Suku Dinas Pendidikan Wilayah I,#,jagakarsa
+55,aplikasi xx,Bagian Kepegawaian Ketatalaksanaan dan Pelayanan Publik,#,jagakarsa
+56,aplikasi xx,"Suku Dinas Ketahanan Pangan, Kelautan dan Pertanian",#,jagakarsa
+57,aplikasi xx,Suku Dinas Pemuda dan Olahraga,#,jagakarsa
+58,aplikasi xx,Suku Dinas Kebudayaan,#,jagakarsa
+59,aplikasi xx,Unit PTSP,#,jagakarsa
+60,aplikasi xx,Suku Badan Pendapatan Daerah,#,jagakarsa
+61,aplikasi xx,Suku Badan Pengelola Aset,#,jagakarsa
+62,aplikasi xx,Suku Dinas Kehutanan dan Taman Kota,#,jagakarsa
+63,aplikasi xx,Suku Dinas Perumahan Rakyat dan Kawasan Pemukiman,#,jagakarsa
+64,aplikasi xx,Suku Dinas Energi dan Ketenaga Kerjaan,#,jagakarsa
+65,aplikasi xx,Suku Badan Kepegawaian Kota,#,jagakarsa
+66,aplikasi xx,Suku Dinas Sosial,#,jagakarsa
+67,aplikasi xx,Unit PPBJ,#,jagakarsa
+68,aplikasi xx,"Suku Dinas Cipta Karya, Tata Ruang dan Pertanahan",#,jagakarsa
+69,aplikasi xx,Suku Dinas Perindustrian dan KUKM,#,jagakarsa
+70,aplikasi xx,Suku Dinas Bina Marga,#,jagakarsa
+71,aplikasi xx,Suku Dinas Sumber Daya Air,#,jagakarsa
+72,aplikasi xx,Suku Dinas Pariwisata,#,jagakarsa
+73,aplikasi xx,Suku Dinas Penanggulangan Kebakaran dan Penyelamatan,#,jagakarsa
+74,aplikasi xx,Suku Dinas Perhubungan,#,jagakarsa
+75,aplikasi xx,Suku Dinas Kependudukan dan Catatan Sipil,#,jagakarsa
+76,aplikasi xx,Suku Dinas Kesehatan Perpustakaan dan Arsip,#,jagakarsa
+77,aplikasi xx,Suku Dinas Lingkungan Hidup,#,jagakarsa
+78,aplikasi xx,Suku Dinas PPAPP,#,jagakarsa
+79,aplikasi xx,Bagian Umum dan Protokol,#,kebayoran-baru
+80,aplikasi xx,"Bagian Program, Pelaporan dan Keuangan",#,kebayoran-baru
+81,aplikasi xx,Bagian Kesra,#,kebayoran-baru
+82,aplikasi xx,Bagian Pemerintahan,#,kebayoran-baru
+83,aplikasi xx,Bagian Hukum,#,kebayoran-baru
+84,aplikasi xx,Satpol PP,#,kebayoran-baru
+85,aplikasi xx,Suku Badan Perencanaan Pembangunan Kota,#,kebayoran-baru
+86,aplikasi xx,Suku Bagian Kesbang Pol,#,kebayoran-baru
+87,aplikasi xx,"Suku Dinas Komunikasi, Informasi dan Statistik",#,kebayoran-baru
+88,aplikasi xx,Suku Badan Pengelola Keuangan,#,kebayoran-baru
+89,aplikasi xx,Suku Dinas Pendidikan Wilayah II,#,kebayoran-baru
+90,aplikasi xx,Bagian Perekonomian,#,kebayoran-baru
+91,aplikasi xx,Bagian Penataan dan Lingkungan Hidup,#,kebayoran-baru
+92,aplikasi xx,Inspektur Pembantu,#,kebayoran-baru
+93,aplikasi xx,Suku Dinas Pendidikan Wilayah I,#,kebayoran-baru
+94,aplikasi xx,Bagian Kepegawaian Ketatalaksanaan dan Pelayanan Publik,#,kebayoran-baru
+95,aplikasi xx,"Suku Dinas Ketahanan Pangan, Kelautan dan Pertanian",#,kebayoran-baru
+96,aplikasi xx,Suku Dinas Pemuda dan Olahraga,#,kebayoran-baru
+97,aplikasi xx,Suku Dinas Kebudayaan,#,kebayoran-baru
+98,aplikasi xx,Unit PTSP,#,kebayoran-baru
+99,aplikasi xx,Suku Badan Pendapatan Daerah,#,kebayoran-baru
+100,aplikasi xx,Suku Badan Pengelola Aset,#,kebayoran-baru
+101,aplikasi xx,Suku Dinas Kehutanan dan Taman Kota,#,kebayoran-baru
+102,aplikasi xx,Suku Dinas Perumahan Rakyat dan Kawasan Pemukiman,#,kebayoran-baru
+103,aplikasi xx,Suku Dinas Energi dan Ketenaga Kerjaan,#,kebayoran-baru
+104,aplikasi xx,Suku Badan Kepegawaian Kota,#,kebayoran-baru
+105,aplikasi xx,Suku Dinas Sosial,#,kebayoran-baru
+106,aplikasi xx,Unit PPBJ,#,kebayoran-baru
+107,aplikasi xx,"Suku Dinas Cipta Karya, Tata Ruang dan Pertanahan",#,kebayoran-baru
+108,aplikasi xx,Suku Dinas Perindustrian dan KUKM,#,kebayoran-baru
+109,aplikasi xx,Suku Dinas Bina Marga,#,kebayoran-baru
+110,aplikasi xx,Suku Dinas Sumber Daya Air,#,kebayoran-baru
+111,aplikasi xx,Suku Dinas Pariwisata,#,kebayoran-baru
+112,aplikasi xx,Suku Dinas Penanggulangan Kebakaran dan Penyelamatan,#,kebayoran-baru
+113,aplikasi xx,Suku Dinas Perhubungan,#,kebayoran-baru
+114,aplikasi xx,Suku Dinas Kependudukan dan Catatan Sipil,#,kebayoran-baru
+115,aplikasi xx,Suku Dinas Kesehatan Perpustakaan dan Arsip,#,kebayoran-baru
+116,aplikasi xx,Suku Dinas Lingkungan Hidup,#,kebayoran-baru
+117,aplikasi xx,Suku Dinas PPAPP,#,kebayoran-baru
+118,aplikasi xx,Bagian Umum dan Protokol,#,kebayoran-lama
+119,aplikasi xx,"Bagian Program, Pelaporan dan Keuangan",#,kebayoran-lama
+120,aplikasi xx,Bagian Kesra,#,kebayoran-lama
+121,aplikasi xx,Bagian Pemerintahan,#,kebayoran-lama
+122,aplikasi xx,Bagian Hukum,#,kebayoran-lama
+123,aplikasi xx,Satpol PP,#,kebayoran-lama
+124,aplikasi xx,Suku Badan Perencanaan Pembangunan Kota,#,kebayoran-lama
+125,aplikasi xx,Suku Bagian Kesbang Pol,#,kebayoran-lama
+126,aplikasi xx,"Suku Dinas Komunikasi, Informasi dan Statistik",#,kebayoran-lama
+127,aplikasi xx,Suku Badan Pengelola Keuangan,#,kebayoran-lama
+128,aplikasi xx,Suku Dinas Pendidikan Wilayah II,#,kebayoran-lama
+129,aplikasi xx,Bagian Perekonomian,#,kebayoran-lama
+130,aplikasi xx,Bagian Penataan dan Lingkungan Hidup,#,kebayoran-lama
+131,aplikasi xx,Inspektur Pembantu,#,kebayoran-lama
+132,aplikasi xx,Suku Dinas Pendidikan Wilayah I,#,kebayoran-lama
+133,aplikasi xx,Bagian Kepegawaian Ketatalaksanaan dan Pelayanan Publik,#,kebayoran-lama
+134,aplikasi xx,"Suku Dinas Ketahanan Pangan, Kelautan dan Pertanian",#,kebayoran-lama
+135,aplikasi xx,Suku Dinas Pemuda dan Olahraga,#,kebayoran-lama
+136,aplikasi xx,Suku Dinas Kebudayaan,#,kebayoran-lama
+137,aplikasi xx,Unit PTSP,#,kebayoran-lama
+138,aplikasi xx,Suku Badan Pendapatan Daerah,#,kebayoran-lama
+139,aplikasi xx,Suku Badan Pengelola Aset,#,kebayoran-lama
+140,aplikasi xx,Suku Dinas Kehutanan dan Taman Kota,#,kebayoran-lama
+141,aplikasi xx,Suku Dinas Perumahan Rakyat dan Kawasan Pemukiman,#,kebayoran-lama
+142,aplikasi xx,Suku Dinas Energi dan Ketenaga Kerjaan,#,kebayoran-lama
+143,aplikasi xx,Suku Badan Kepegawaian Kota,#,kebayoran-lama
+144,aplikasi xx,Suku Dinas Sosial,#,kebayoran-lama
+145,aplikasi xx,Unit PPBJ,#,kebayoran-lama
+146,aplikasi xx,"Suku Dinas Cipta Karya, Tata Ruang dan Pertanahan",#,kebayoran-lama
+147,aplikasi xx,Suku Dinas Perindustrian dan KUKM,#,kebayoran-lama
+148,aplikasi xx,Suku Dinas Bina Marga,#,kebayoran-lama
+149,aplikasi xx,Suku Dinas Sumber Daya Air,#,kebayoran-lama
+150,aplikasi xx,Suku Dinas Pariwisata,#,kebayoran-lama
+151,aplikasi xx,Suku Dinas Penanggulangan Kebakaran dan Penyelamatan,#,kebayoran-lama
+152,aplikasi xx,Suku Dinas Perhubungan,#,kebayoran-lama
+153,aplikasi xx,Suku Dinas Kependudukan dan Catatan Sipil,#,kebayoran-lama
+154,aplikasi xx,Suku Dinas Kesehatan Perpustakaan dan Arsip,#,kebayoran-lama
+155,aplikasi xx,Suku Dinas Lingkungan Hidup,#,kebayoran-lama
+156,aplikasi xx,Suku Dinas PPAPP,#,kebayoran-lama
+157,aplikasi xx,Bagian Umum dan Protokol,#,pancoran
+158,aplikasi xx,"Bagian Program, Pelaporan dan Keuangan",#,pancoran
+159,aplikasi xx,Bagian Kesra,#,pancoran
+160,aplikasi xx,Bagian Pemerintahan,#,pancoran
+161,aplikasi xx,Bagian Hukum,#,pancoran
+162,aplikasi xx,Satpol PP,#,pancoran
+163,aplikasi xx,Suku Badan Perencanaan Pembangunan Kota,#,pancoran
+164,aplikasi xx,Suku Bagian Kesbang Pol,#,pancoran
+165,aplikasi xx,"Suku Dinas Komunikasi, Informasi dan Statistik",#,pancoran
+166,aplikasi xx,Suku Badan Pengelola Keuangan,#,pancoran
+167,aplikasi xx,Suku Dinas Pendidikan Wilayah II,#,pancoran
+168,aplikasi xx,Bagian Perekonomian,#,pancoran
+169,aplikasi xx,Bagian Penataan dan Lingkungan Hidup,#,pancoran
+170,aplikasi xx,Inspektur Pembantu,#,pancoran
+171,aplikasi xx,Suku Dinas Pendidikan Wilayah I,#,pancoran
+172,aplikasi xx,Bagian Kepegawaian Ketatalaksanaan dan Pelayanan Publik,#,pancoran
+173,aplikasi xx,"Suku Dinas Ketahanan Pangan, Kelautan dan Pertanian",#,pancoran
+174,aplikasi xx,Suku Dinas Pemuda dan Olahraga,#,pancoran
+175,aplikasi xx,Suku Dinas Kebudayaan,#,pancoran
+176,aplikasi xx,Unit PTSP,#,pancoran
+177,aplikasi xx,Suku Badan Pendapatan Daerah,#,pancoran
+178,aplikasi xx,Suku Badan Pengelola Aset,#,pancoran
+179,aplikasi xx,Suku Dinas Kehutanan dan Taman Kota,#,pancoran
+180,aplikasi xx,Suku Dinas Perumahan Rakyat dan Kawasan Pemukiman,#,pancoran
+181,aplikasi xx,Suku Dinas Energi dan Ketenaga Kerjaan,#,pancoran
+182,aplikasi xx,Suku Badan Kepegawaian Kota,#,pancoran
+183,aplikasi xx,Suku Dinas Sosial,#,pancoran
+184,aplikasi xx,Unit PPBJ,#,pancoran
+185,aplikasi xx,"Suku Dinas Cipta Karya, Tata Ruang dan Pertanahan",#,pancoran
+186,aplikasi xx,Suku Dinas Perindustrian dan KUKM,#,pancoran
+187,aplikasi xx,Suku Dinas Bina Marga,#,pancoran
+188,aplikasi xx,Suku Dinas Sumber Daya Air,#,pancoran
+189,aplikasi xx,Suku Dinas Pariwisata,#,pancoran
+190,aplikasi xx,Suku Dinas Penanggulangan Kebakaran dan Penyelamatan,#,pancoran
+191,aplikasi xx,Suku Dinas Perhubungan,#,pancoran
+192,aplikasi xx,Suku Dinas Kependudukan dan Catatan Sipil,#,pancoran
+193,aplikasi xx,Suku Dinas Kesehatan Perpustakaan dan Arsip,#,pancoran
+194,aplikasi xx,Suku Dinas Lingkungan Hidup,#,pancoran
+195,aplikasi xx,Suku Dinas PPAPP,#,pancoran
+196,aplikasi xx,Bagian Umum dan Protokol,#,mampang-prapatan
+197,aplikasi xx,"Bagian Program, Pelaporan dan Keuangan",#,mampang-prapatan
+198,aplikasi xx,Bagian Kesra,#,mampang-prapatan
+199,aplikasi xx,Bagian Pemerintahan,#,mampang-prapatan
+200,aplikasi xx,Bagian Hukum,#,mampang-prapatan
+201,aplikasi xx,Satpol PP,#,mampang-prapatan
+202,aplikasi xx,Suku Badan Perencanaan Pembangunan Kota,#,mampang-prapatan
+203,aplikasi xx,Suku Bagian Kesbang Pol,#,mampang-prapatan
+204,aplikasi xx,"Suku Dinas Komunikasi, Informasi dan Statistik",#,mampang-prapatan
+205,aplikasi xx,Suku Badan Pengelola Keuangan,#,mampang-prapatan
+206,aplikasi xx,Suku Dinas Pendidikan Wilayah II,#,mampang-prapatan
+207,aplikasi xx,Bagian Perekonomian,#,mampang-prapatan
+208,aplikasi xx,Bagian Penataan dan Lingkungan Hidup,#,mampang-prapatan
+209,aplikasi xx,Inspektur Pembantu,#,mampang-prapatan
+210,aplikasi xx,Suku Dinas Pendidikan Wilayah I,#,mampang-prapatan
+211,aplikasi xx,Bagian Kepegawaian Ketatalaksanaan dan Pelayanan Publik,#,mampang-prapatan
+212,aplikasi xx,"Suku Dinas Ketahanan Pangan, Kelautan dan Pertanian",#,mampang-prapatan
+213,aplikasi xx,Suku Dinas Pemuda dan Olahraga,#,mampang-prapatan
+214,aplikasi xx,Suku Dinas Kebudayaan,#,mampang-prapatan
+215,aplikasi xx,Unit PTSP,#,mampang-prapatan
+216,aplikasi xx,Suku Badan Pendapatan Daerah,#,mampang-prapatan
+217,aplikasi xx,Suku Badan Pengelola Aset,#,mampang-prapatan
+218,aplikasi xx,Suku Dinas Kehutanan dan Taman Kota,#,mampang-prapatan
+219,aplikasi xx,Suku Dinas Perumahan Rakyat dan Kawasan Pemukiman,#,mampang-prapatan
+220,aplikasi xx,Suku Dinas Energi dan Ketenaga Kerjaan,#,mampang-prapatan
+221,aplikasi xx,Suku Badan Kepegawaian Kota,#,mampang-prapatan
+222,aplikasi xx,Suku Dinas Sosial,#,mampang-prapatan
+223,aplikasi xx,Unit PPBJ,#,mampang-prapatan
+224,aplikasi xx,"Suku Dinas Cipta Karya, Tata Ruang dan Pertanahan",#,mampang-prapatan
+225,aplikasi xx,Suku Dinas Perindustrian dan KUKM,#,mampang-prapatan
+226,aplikasi xx,Suku Dinas Bina Marga,#,mampang-prapatan
+227,aplikasi xx,Suku Dinas Sumber Daya Air,#,mampang-prapatan
+228,aplikasi xx,Suku Dinas Pariwisata,#,mampang-prapatan
+229,aplikasi xx,Suku Dinas Penanggulangan Kebakaran dan Penyelamatan,#,mampang-prapatan
+230,aplikasi xx,Suku Dinas Perhubungan,#,mampang-prapatan
+231,aplikasi xx,Suku Dinas Kependudukan dan Catatan Sipil,#,mampang-prapatan
+232,aplikasi xx,Suku Dinas Kesehatan Perpustakaan dan Arsip,#,mampang-prapatan
+233,aplikasi xx,Suku Dinas Lingkungan Hidup,#,mampang-prapatan
+234,aplikasi xx,Suku Dinas PPAPP,#,mampang-prapatan
+235,aplikasi xx,Bagian Umum dan Protokol,#,mampang-prapatan
+236,aplikasi xx,"Bagian Program, Pelaporan dan Keuangan",#,mampang-prapatan
+237,aplikasi xx,Bagian Kesra,#,mampang-prapatan
+238,aplikasi xx,Bagian Pemerintahan,#,mampang-prapatan
+239,aplikasi xx,Bagian Hukum,#,mampang-prapatan
+240,aplikasi xx,Satpol PP,#,mampang-prapatan
+241,aplikasi xx,Suku Badan Perencanaan Pembangunan Kota,#,mampang-prapatan
+242,aplikasi xx,Suku Bagian Kesbang Pol,#,mampang-prapatan
+243,aplikasi xx,"Suku Dinas Komunikasi, Informasi dan Statistik",#,mampang-prapatan
+244,aplikasi xx,Suku Badan Pengelola Keuangan,#,mampang-prapatan
+245,aplikasi xx,Suku Dinas Pendidikan Wilayah II,#,mampang-prapatan
+246,aplikasi xx,Bagian Perekonomian,#,mampang-prapatan
+247,aplikasi xx,Bagian Penataan dan Lingkungan Hidup,#,mampang-prapatan
+248,aplikasi xx,Inspektur Pembantu,#,mampang-prapatan
+249,aplikasi xx,Suku Dinas Pendidikan Wilayah I,#,mampang-prapatan
+250,aplikasi xx,Bagian Kepegawaian Ketatalaksanaan dan Pelayanan Publik,#,mampang-prapatan
+251,aplikasi xx,"Suku Dinas Ketahanan Pangan, Kelautan dan Pertanian",#,mampang-prapatan
+252,aplikasi xx,Suku Dinas Pemuda dan Olahraga,#,mampang-prapatan
+253,aplikasi xx,Suku Dinas Kebudayaan,#,mampang-prapatan
+254,aplikasi xx,Unit PTSP,#,mampang-prapatan
+255,aplikasi xx,Suku Badan Pendapatan Daerah,#,mampang-prapatan
+256,aplikasi xx,Suku Badan Pengelola Aset,#,mampang-prapatan
+257,aplikasi xx,Suku Dinas Kehutanan dan Taman Kota,#,mampang-prapatan
+258,aplikasi xx,Suku Dinas Perumahan Rakyat dan Kawasan Pemukiman,#,mampang-prapatan
+259,aplikasi xx,Suku Dinas Energi dan Ketenaga Kerjaan,#,mampang-prapatan
+260,aplikasi xx,Suku Badan Kepegawaian Kota,#,mampang-prapatan
+261,aplikasi xx,Suku Dinas Sosial,#,mampang-prapatan
+262,aplikasi xx,Unit PPBJ,#,mampang-prapatan
+263,aplikasi xx,"Suku Dinas Cipta Karya, Tata Ruang dan Pertanahan",#,mampang-prapatan
+264,aplikasi xx,Suku Dinas Perindustrian dan KUKM,#,mampang-prapatan
+265,aplikasi xx,Suku Dinas Bina Marga,#,mampang-prapatan
+266,aplikasi xx,Suku Dinas Sumber Daya Air,#,mampang-prapatan
+267,aplikasi xx,Suku Dinas Pariwisata,#,mampang-prapatan
+268,aplikasi xx,Suku Dinas Penanggulangan Kebakaran dan Penyelamatan,#,mampang-prapatan
+269,aplikasi xx,Suku Dinas Perhubungan,#,mampang-prapatan
+270,aplikasi xx,Suku Dinas Kependudukan dan Catatan Sipil,#,mampang-prapatan
+271,aplikasi xx,Suku Dinas Kesehatan Perpustakaan dan Arsip,#,mampang-prapatan
+272,aplikasi xx,Suku Dinas Lingkungan Hidup,#,mampang-prapatan
+273,aplikasi xx,Suku Dinas PPAPP,#,mampang-prapatan
+274,aplikasi xx,Bagian Umum dan Protokol,#,pasar-minggu
+275,aplikasi xx,"Bagian Program, Pelaporan dan Keuangan",#,pasar-minggu
+276,aplikasi xx,Bagian Kesra,#,pasar-minggu
+277,aplikasi xx,Bagian Pemerintahan,#,pasar-minggu
+278,aplikasi xx,Bagian Hukum,#,pasar-minggu
+279,aplikasi xx,Satpol PP,#,pasar-minggu
+280,aplikasi xx,Suku Badan Perencanaan Pembangunan Kota,#,pasar-minggu
+281,aplikasi xx,Suku Bagian Kesbang Pol,#,pasar-minggu
+282,aplikasi xx,"Suku Dinas Komunikasi, Informasi dan Statistik",#,pasar-minggu
+283,aplikasi xx,Suku Badan Pengelola Keuangan,#,pasar-minggu
+284,aplikasi xx,Suku Dinas Pendidikan Wilayah II,#,pasar-minggu
+285,aplikasi xx,Bagian Perekonomian,#,pasar-minggu
+286,aplikasi xx,Bagian Penataan dan Lingkungan Hidup,#,pasar-minggu
+287,aplikasi xx,Inspektur Pembantu,#,pasar-minggu
+288,aplikasi xx,Suku Dinas Pendidikan Wilayah I,#,pasar-minggu
+289,aplikasi xx,Bagian Kepegawaian Ketatalaksanaan dan Pelayanan Publik,#,pasar-minggu
+290,aplikasi xx,"Suku Dinas Ketahanan Pangan, Kelautan dan Pertanian",#,pasar-minggu
+291,aplikasi xx,Suku Dinas Pemuda dan Olahraga,#,pasar-minggu
+292,aplikasi xx,Suku Dinas Kebudayaan,#,pasar-minggu
+293,aplikasi xx,Unit PTSP,#,pasar-minggu
+294,aplikasi xx,Suku Badan Pendapatan Daerah,#,pasar-minggu
+295,aplikasi xx,Suku Badan Pengelola Aset,#,pasar-minggu
+296,aplikasi xx,Suku Dinas Kehutanan dan Taman Kota,#,pasar-minggu
+297,aplikasi xx,Suku Dinas Perumahan Rakyat dan Kawasan Pemukiman,#,pasar-minggu
+298,aplikasi xx,Suku Dinas Energi dan Ketenaga Kerjaan,#,pasar-minggu
+299,aplikasi xx,Suku Badan Kepegawaian Kota,#,pasar-minggu
+300,aplikasi xx,Suku Dinas Sosial,#,pasar-minggu
+301,aplikasi xx,Unit PPBJ,#,pasar-minggu
+302,aplikasi xx,"Suku Dinas Cipta Karya, Tata Ruang dan Pertanahan",#,pasar-minggu
+303,aplikasi xx,Suku Dinas Perindustrian dan KUKM,#,pasar-minggu
+304,aplikasi xx,Suku Dinas Bina Marga,#,pasar-minggu
+305,aplikasi xx,Suku Dinas Sumber Daya Air,#,pasar-minggu
+306,aplikasi xx,Suku Dinas Pariwisata,#,pasar-minggu
+307,aplikasi xx,Suku Dinas Penanggulangan Kebakaran dan Penyelamatan,#,pasar-minggu
+308,aplikasi xx,Suku Dinas Perhubungan,#,pasar-minggu
+309,aplikasi xx,Suku Dinas Kependudukan dan Catatan Sipil,#,pasar-minggu
+310,aplikasi xx,Suku Dinas Kesehatan Perpustakaan dan Arsip,#,pasar-minggu
+311,aplikasi xx,Suku Dinas Lingkungan Hidup,#,pasar-minggu
+312,aplikasi xx,Suku Dinas PPAPP,#,pasar-minggu
+313,aplikasi xx,Bagian Umum dan Protokol,#,pasar-minggu
+314,aplikasi xx,"Bagian Program, Pelaporan dan Keuangan",#,pasar-minggu
+315,aplikasi xx,Bagian Kesra,#,pasar-minggu
+316,aplikasi xx,Bagian Pemerintahan,#,pasar-minggu
+317,aplikasi xx,Bagian Hukum,#,pasar-minggu
+318,aplikasi xx,Satpol PP,#,pasar-minggu
+319,aplikasi xx,Suku Badan Perencanaan Pembangunan Kota,#,pasar-minggu
+320,aplikasi xx,Suku Bagian Kesbang Pol,#,pasar-minggu
+321,aplikasi xx,"Suku Dinas Komunikasi, Informasi dan Statistik",#,pasar-minggu
+322,aplikasi xx,Suku Badan Pengelola Keuangan,#,pasar-minggu
+323,aplikasi xx,Suku Dinas Pendidikan Wilayah II,#,pasar-minggu
+324,aplikasi xx,Bagian Perekonomian,#,pasar-minggu
+325,aplikasi xx,Bagian Penataan dan Lingkungan Hidup,#,pasar-minggu
+326,aplikasi xx,Inspektur Pembantu,#,pasar-minggu
+327,aplikasi xx,Suku Dinas Pendidikan Wilayah I,#,pasar-minggu
+328,aplikasi xx,Bagian Kepegawaian Ketatalaksanaan dan Pelayanan Publik,#,pasar-minggu
+329,aplikasi xx,"Suku Dinas Ketahanan Pangan, Kelautan dan Pertanian",#,pasar-minggu
+330,aplikasi xx,Suku Dinas Pemuda dan Olahraga,#,pasar-minggu
+331,aplikasi xx,Suku Dinas Kebudayaan,#,pasar-minggu
+332,aplikasi xx,Unit PTSP,#,pasar-minggu
+333,aplikasi xx,Suku Badan Pendapatan Daerah,#,pasar-minggu
+334,aplikasi xx,Suku Badan Pengelola Aset,#,pasar-minggu
+335,aplikasi xx,Suku Dinas Kehutanan dan Taman Kota,#,pasar-minggu
+336,aplikasi xx,Suku Dinas Perumahan Rakyat dan Kawasan Pemukiman,#,pasar-minggu
+337,aplikasi xx,Suku Dinas Energi dan Ketenaga Kerjaan,#,pasar-minggu
+338,aplikasi xx,Suku Badan Kepegawaian Kota,#,pasar-minggu
+339,aplikasi xx,Suku Dinas Sosial,#,pasar-minggu
+340,aplikasi xx,Unit PPBJ,#,pasar-minggu
+341,aplikasi xx,"Suku Dinas Cipta Karya, Tata Ruang dan Pertanahan",#,pasar-minggu
+342,aplikasi xx,Suku Dinas Perindustrian dan KUKM,#,pasar-minggu
+343,aplikasi xx,Suku Dinas Bina Marga,#,pasar-minggu
+344,aplikasi xx,Suku Dinas Sumber Daya Air,#,pasar-minggu
+345,aplikasi xx,Suku Dinas Pariwisata,#,pasar-minggu
+346,aplikasi xx,Suku Dinas Penanggulangan Kebakaran dan Penyelamatan,#,pasar-minggu
+347,aplikasi xx,Suku Dinas Perhubungan,#,pasar-minggu
+348,aplikasi xx,Suku Dinas Kependudukan dan Catatan Sipil,#,pasar-minggu
+349,aplikasi xx,Suku Dinas Kesehatan Perpustakaan dan Arsip,#,pasar-minggu
+350,aplikasi xx,Suku Dinas Lingkungan Hidup,#,pasar-minggu
+351,aplikasi xx,Suku Dinas PPAPP,#,pasar-minggu
+352,aplikasi xx,Bagian Umum dan Protokol,#,pesanggrahan
+353,aplikasi xx,"Bagian Program, Pelaporan dan Keuangan",#,pesanggrahan
+354,aplikasi xx,Bagian Kesra,#,pesanggrahan
+355,aplikasi xx,Bagian Pemerintahan,#,pesanggrahan
+356,aplikasi xx,Bagian Hukum,#,pesanggrahan
+357,aplikasi xx,Satpol PP,#,pesanggrahan
+358,aplikasi xx,Suku Badan Perencanaan Pembangunan Kota,#,pesanggrahan
+359,aplikasi xx,Suku Bagian Kesbang Pol,#,pesanggrahan
+360,aplikasi xx,"Suku Dinas Komunikasi, Informasi dan Statistik",#,pesanggrahan
+361,aplikasi xx,Suku Badan Pengelola Keuangan,#,pesanggrahan
+362,aplikasi xx,Suku Dinas Pendidikan Wilayah II,#,pesanggrahan
+363,aplikasi xx,Bagian Perekonomian,#,pesanggrahan
+364,aplikasi xx,Bagian Penataan dan Lingkungan Hidup,#,pesanggrahan
+365,aplikasi xx,Inspektur Pembantu,#,pesanggrahan
+366,aplikasi xx,Suku Dinas Pendidikan Wilayah I,#,pesanggrahan
+367,aplikasi xx,Bagian Kepegawaian Ketatalaksanaan dan Pelayanan Publik,#,pesanggrahan
+368,aplikasi xx,"Suku Dinas Ketahanan Pangan, Kelautan dan Pertanian",#,pesanggrahan
+369,aplikasi xx,Suku Dinas Pemuda dan Olahraga,#,pesanggrahan
+370,aplikasi xx,Suku Dinas Kebudayaan,#,pesanggrahan
+371,aplikasi xx,Unit PTSP,#,pesanggrahan
+372,aplikasi xx,Suku Badan Pendapatan Daerah,#,pesanggrahan
+373,aplikasi xx,Suku Badan Pengelola Aset,#,pesanggrahan
+374,aplikasi xx,Suku Dinas Kehutanan dan Taman Kota,#,pesanggrahan
+375,aplikasi xx,Suku Dinas Perumahan Rakyat dan Kawasan Pemukiman,#,pesanggrahan
+376,aplikasi xx,Suku Dinas Energi dan Ketenaga Kerjaan,#,pesanggrahan
+377,aplikasi xx,Suku Badan Kepegawaian Kota,#,pesanggrahan
+378,aplikasi xx,Suku Dinas Sosial,#,pesanggrahan
+379,aplikasi xx,Unit PPBJ,#,pesanggrahan
+380,aplikasi xx,"Suku Dinas Cipta Karya, Tata Ruang dan Pertanahan",#,pesanggrahan
+381,aplikasi xx,Suku Dinas Perindustrian dan KUKM,#,pesanggrahan
+382,aplikasi xx,Suku Dinas Bina Marga,#,pesanggrahan
+383,aplikasi xx,Suku Dinas Sumber Daya Air,#,pesanggrahan
+384,aplikasi xx,Suku Dinas Pariwisata,#,pesanggrahan
+385,aplikasi xx,Suku Dinas Penanggulangan Kebakaran dan Penyelamatan,#,pesanggrahan
+386,aplikasi xx,Suku Dinas Perhubungan,#,pesanggrahan
+387,aplikasi xx,Suku Dinas Kependudukan dan Catatan Sipil,#,pesanggrahan
+388,aplikasi xx,Suku Dinas Kesehatan Perpustakaan dan Arsip,#,pesanggrahan
+389,aplikasi xx,Suku Dinas Lingkungan Hidup,#,pesanggrahan
+390,aplikasi xx,Suku Dinas PPAPP,#,pesanggrahan
+391,aplikasi xx,Bagian Umum dan Protokol,#,pesanggrahan
+392,aplikasi xx,"Bagian Program, Pelaporan dan Keuangan",#,pesanggrahan
+393,aplikasi xx,Bagian Kesra,#,pesanggrahan
+394,aplikasi xx,Bagian Pemerintahan,#,pesanggrahan
+395,aplikasi xx,Bagian Hukum,#,pesanggrahan
+396,aplikasi xx,Satpol PP,#,pesanggrahan
+397,aplikasi xx,Suku Badan Perencanaan Pembangunan Kota,#,pesanggrahan
+398,aplikasi xx,Suku Bagian Kesbang Pol,#,pesanggrahan
+399,aplikasi xx,"Suku Dinas Komunikasi, Informasi dan Statistik",#,pesanggrahan
+400,aplikasi xx,Suku Badan Pengelola Keuangan,#,pesanggrahan
+401,aplikasi xx,Suku Dinas Pendidikan Wilayah II,#,pesanggrahan
+402,aplikasi xx,Bagian Perekonomian,#,pesanggrahan
+403,aplikasi xx,Bagian Penataan dan Lingkungan Hidup,#,pesanggrahan
+404,aplikasi xx,Inspektur Pembantu,#,pesanggrahan
+405,aplikasi xx,Suku Dinas Pendidikan Wilayah I,#,pesanggrahan
+406,aplikasi xx,Bagian Kepegawaian Ketatalaksanaan dan Pelayanan Publik,#,pesanggrahan
+407,aplikasi xx,"Suku Dinas Ketahanan Pangan, Kelautan dan Pertanian",#,pesanggrahan
+408,aplikasi xx,Suku Dinas Pemuda dan Olahraga,#,pesanggrahan
+409,aplikasi xx,Suku Dinas Kebudayaan,#,pesanggrahan
+410,aplikasi xx,Unit PTSP,#,pesanggrahan
+411,aplikasi xx,Suku Badan Pendapatan Daerah,#,pesanggrahan
+412,aplikasi xx,Suku Badan Pengelola Aset,#,pesanggrahan
+413,aplikasi xx,Suku Dinas Kehutanan dan Taman Kota,#,pesanggrahan
+414,aplikasi xx,Suku Dinas Perumahan Rakyat dan Kawasan Pemukiman,#,pesanggrahan
+415,aplikasi xx,Suku Dinas Energi dan Ketenaga Kerjaan,#,pesanggrahan
+416,aplikasi xx,Suku Badan Kepegawaian Kota,#,pesanggrahan
+417,aplikasi xx,Suku Dinas Sosial,#,pesanggrahan
+418,aplikasi xx,Unit PPBJ,#,pesanggrahan
+419,aplikasi xx,"Suku Dinas Cipta Karya, Tata Ruang dan Pertanahan",#,pesanggrahan
+420,aplikasi xx,Suku Dinas Perindustrian dan KUKM,#,pesanggrahan
+421,aplikasi xx,Suku Dinas Bina Marga,#,pesanggrahan
+422,aplikasi xx,Suku Dinas Sumber Daya Air,#,pesanggrahan
+423,aplikasi xx,Suku Dinas Pariwisata,#,pesanggrahan
+424,aplikasi xx,Suku Dinas Penanggulangan Kebakaran dan Penyelamatan,#,pesanggrahan
+425,aplikasi xx,Suku Dinas Perhubungan,#,pesanggrahan
+426,aplikasi xx,Suku Dinas Kependudukan dan Catatan Sipil,#,pesanggrahan
+427,aplikasi xx,Suku Dinas Kesehatan Perpustakaan dan Arsip,#,pesanggrahan
+428,aplikasi xx,Suku Dinas Lingkungan Hidup,#,pesanggrahan
+429,aplikasi xx,Suku Dinas PPAPP,#,pesanggrahan
+430,aplikasi xx,Bagian Umum dan Protokol,#,setiabudi
+431,aplikasi xx,"Bagian Program, Pelaporan dan Keuangan",#,setiabudi
+432,aplikasi xx,Bagian Kesra,#,setiabudi
+433,aplikasi xx,Bagian Pemerintahan,#,setiabudi
+434,aplikasi xx,Bagian Hukum,#,setiabudi
+435,aplikasi xx,Satpol PP,#,setiabudi
+436,aplikasi xx,Suku Badan Perencanaan Pembangunan Kota,#,setiabudi
+437,aplikasi xx,Suku Bagian Kesbang Pol,#,setiabudi
+438,aplikasi xx,"Suku Dinas Komunikasi, Informasi dan Statistik",#,setiabudi
+439,aplikasi xx,Suku Badan Pengelola Keuangan,#,setiabudi
+440,aplikasi xx,Suku Dinas Pendidikan Wilayah II,#,setiabudi
+441,aplikasi xx,Bagian Perekonomian,#,setiabudi
+442,aplikasi xx,Bagian Penataan dan Lingkungan Hidup,#,setiabudi
+443,aplikasi xx,Inspektur Pembantu,#,setiabudi
+444,aplikasi xx,Suku Dinas Pendidikan Wilayah I,#,setiabudi
+445,aplikasi xx,Bagian Kepegawaian Ketatalaksanaan dan Pelayanan Publik,#,setiabudi
+446,aplikasi xx,"Suku Dinas Ketahanan Pangan, Kelautan dan Pertanian",#,setiabudi
+447,aplikasi xx,Suku Dinas Pemuda dan Olahraga,#,setiabudi
+448,aplikasi xx,Suku Dinas Kebudayaan,#,setiabudi
+449,aplikasi xx,Unit PTSP,#,setiabudi
+450,aplikasi xx,Suku Badan Pendapatan Daerah,#,setiabudi
+451,aplikasi xx,Suku Badan Pengelola Aset,#,setiabudi
+452,aplikasi xx,Suku Dinas Kehutanan dan Taman Kota,#,setiabudi
+453,aplikasi xx,Suku Dinas Perumahan Rakyat dan Kawasan Pemukiman,#,setiabudi
+454,aplikasi xx,Suku Dinas Energi dan Ketenaga Kerjaan,#,setiabudi
+455,aplikasi xx,Suku Badan Kepegawaian Kota,#,setiabudi
+456,aplikasi xx,Suku Dinas Sosial,#,setiabudi
+457,aplikasi xx,Unit PPBJ,#,setiabudi
+458,aplikasi xx,"Suku Dinas Cipta Karya, Tata Ruang dan Pertanahan",#,setiabudi
+459,aplikasi xx,Suku Dinas Perindustrian dan KUKM,#,setiabudi
+460,aplikasi xx,Suku Dinas Bina Marga,#,setiabudi
+461,aplikasi xx,Suku Dinas Sumber Daya Air,#,setiabudi
+462,aplikasi xx,Suku Dinas Pariwisata,#,setiabudi
+463,aplikasi xx,Suku Dinas Penanggulangan Kebakaran dan Penyelamatan,#,setiabudi
+464,aplikasi xx,Suku Dinas Perhubungan,#,setiabudi
+465,aplikasi xx,Suku Dinas Kependudukan dan Catatan Sipil,#,setiabudi
+466,aplikasi xx,Suku Dinas Kesehatan Perpustakaan dan Arsip,#,setiabudi
+467,aplikasi xx,Suku Dinas Lingkungan Hidup,#,setiabudi
+468,aplikasi xx,Suku Dinas PPAPP,#,setiabudi
+469,aplikasi xx,Bagian Umum dan Protokol,#,setiabudi
+470,aplikasi xx,"Bagian Program, Pelaporan dan Keuangan",#,setiabudi
+471,aplikasi xx,Bagian Kesra,#,setiabudi
+472,aplikasi xx,Bagian Pemerintahan,#,setiabudi
+473,aplikasi xx,Bagian Hukum,#,setiabudi
+474,aplikasi xx,Satpol PP,#,setiabudi
+475,aplikasi xx,Suku Badan Perencanaan Pembangunan Kota,#,setiabudi
+476,aplikasi xx,Suku Bagian Kesbang Pol,#,setiabudi
+477,aplikasi xx,"Suku Dinas Komunikasi, Informasi dan Statistik",#,setiabudi
+478,aplikasi xx,Suku Badan Pengelola Keuangan,#,setiabudi
+479,aplikasi xx,Suku Dinas Pendidikan Wilayah II,#,setiabudi
+480,aplikasi xx,Bagian Perekonomian,#,setiabudi
+481,aplikasi xx,Bagian Penataan dan Lingkungan Hidup,#,setiabudi
+482,aplikasi xx,Inspektur Pembantu,#,setiabudi
+483,aplikasi xx,Suku Dinas Pendidikan Wilayah I,#,setiabudi
+484,aplikasi xx,Bagian Kepegawaian Ketatalaksanaan dan Pelayanan Publik,#,setiabudi
+485,aplikasi xx,"Suku Dinas Ketahanan Pangan, Kelautan dan Pertanian",#,setiabudi
+486,aplikasi xx,Suku Dinas Pemuda dan Olahraga,#,setiabudi
+487,aplikasi xx,Suku Dinas Kebudayaan,#,setiabudi
+488,aplikasi xx,Unit PTSP,#,setiabudi
+489,aplikasi xx,Suku Badan Pendapatan Daerah,#,setiabudi
+490,aplikasi xx,Suku Badan Pengelola Aset,#,setiabudi
+491,aplikasi xx,Suku Dinas Kehutanan dan Taman Kota,#,setiabudi
+492,aplikasi xx,Suku Dinas Perumahan Rakyat dan Kawasan Pemukiman,#,setiabudi
+493,aplikasi xx,Suku Dinas Energi dan Ketenaga Kerjaan,#,setiabudi
+494,aplikasi xx,Suku Badan Kepegawaian Kota,#,setiabudi
+495,aplikasi xx,Suku Dinas Sosial,#,setiabudi
+496,aplikasi xx,Unit PPBJ,#,setiabudi
+497,aplikasi xx,"Suku Dinas Cipta Karya, Tata Ruang dan Pertanahan",#,setiabudi
+498,aplikasi xx,Suku Dinas Perindustrian dan KUKM,#,setiabudi
+499,aplikasi xx,Suku Dinas Bina Marga,#,setiabudi
+500,aplikasi xx,Suku Dinas Sumber Daya Air,#,setiabudi
+501,aplikasi xx,Suku Dinas Pariwisata,#,setiabudi
+502,aplikasi xx,Suku Dinas Penanggulangan Kebakaran dan Penyelamatan,#,setiabudi
+503,aplikasi xx,Suku Dinas Perhubungan,#,setiabudi
+504,aplikasi xx,Suku Dinas Kependudukan dan Catatan Sipil,#,setiabudi
+505,aplikasi xx,Suku Dinas Kesehatan Perpustakaan dan Arsip,#,setiabudi
+506,aplikasi xx,Suku Dinas Lingkungan Hidup,#,setiabudi
+507,aplikasi xx,Suku Dinas PPAPP,#,setiabudi
+508,aplikasi xx,Bagian Umum dan Protokol,#,tebet
+509,aplikasi xx,"Bagian Program, Pelaporan dan Keuangan",#,tebet
+510,aplikasi xx,Bagian Kesra,#,tebet
+511,aplikasi xx,Bagian Pemerintahan,#,tebet
+512,aplikasi xx,Bagian Hukum,#,tebet
+513,aplikasi xx,Satpol PP,#,tebet
+514,aplikasi xx,Suku Badan Perencanaan Pembangunan Kota,#,tebet
+515,aplikasi xx,Suku Bagian Kesbang Pol,#,tebet
+516,aplikasi xx,"Suku Dinas Komunikasi, Informasi dan Statistik",#,tebet
+517,aplikasi xx,Suku Badan Pengelola Keuangan,#,tebet
+518,aplikasi xx,Suku Dinas Pendidikan Wilayah II,#,tebet
+519,aplikasi xx,Bagian Perekonomian,#,tebet
+520,aplikasi xx,Bagian Penataan dan Lingkungan Hidup,#,tebet
+521,aplikasi xx,Inspektur Pembantu,#,tebet
+522,aplikasi xx,Suku Dinas Pendidikan Wilayah I,#,tebet
+523,aplikasi xx,Bagian Kepegawaian Ketatalaksanaan dan Pelayanan Publik,#,tebet
+524,aplikasi xx,"Suku Dinas Ketahanan Pangan, Kelautan dan Pertanian",#,tebet
+525,aplikasi xx,Suku Dinas Pemuda dan Olahraga,#,tebet
+526,aplikasi xx,Suku Dinas Kebudayaan,#,tebet
+527,aplikasi xx,Unit PTSP,#,tebet
+528,aplikasi xx,Suku Badan Pendapatan Daerah,#,tebet
+529,aplikasi xx,Suku Badan Pengelola Aset,#,tebet
+530,aplikasi xx,Suku Dinas Kehutanan dan Taman Kota,#,tebet
+531,aplikasi xx,Suku Dinas Perumahan Rakyat dan Kawasan Pemukiman,#,tebet
+532,aplikasi xx,Suku Dinas Energi dan Ketenaga Kerjaan,#,tebet
+533,aplikasi xx,Suku Badan Kepegawaian Kota,#,tebet
+534,aplikasi xx,Suku Dinas Sosial,#,tebet
+535,aplikasi xx,Unit PPBJ,#,tebet
+536,aplikasi xx,"Suku Dinas Cipta Karya, Tata Ruang dan Pertanahan",#,tebet
+537,aplikasi xx,Suku Dinas Perindustrian dan KUKM,#,tebet
+538,aplikasi xx,Suku Dinas Bina Marga,#,tebet
+539,aplikasi xx,Suku Dinas Sumber Daya Air,#,tebet
+540,aplikasi xx,Suku Dinas Pariwisata,#,tebet
+541,aplikasi xx,Suku Dinas Penanggulangan Kebakaran dan Penyelamatan,#,tebet
+542,aplikasi xx,Suku Dinas Perhubungan,#,tebet
+543,aplikasi xx,Suku Dinas Kependudukan dan Catatan Sipil,#,tebet
+544,aplikasi xx,Suku Dinas Kesehatan Perpustakaan dan Arsip,#,tebet
+545,aplikasi xx,Suku Dinas Lingkungan Hidup,#,tebet
+546,aplikasi xx,Suku Dinas PPAPP,#,tebet
+547,aplikasi xx,Bagian Umum dan Protokol,#,tebet
+548,aplikasi xx,"Bagian Program, Pelaporan dan Keuangan",#,tebet
+549,aplikasi xx,Bagian Kesra,#,tebet
+550,aplikasi xx,Bagian Pemerintahan,#,tebet
+551,aplikasi xx,Bagian Hukum,#,tebet
+552,aplikasi xx,Satpol PP,#,tebet
+553,aplikasi xx,Suku Badan Perencanaan Pembangunan Kota,#,tebet
+554,aplikasi xx,Suku Bagian Kesbang Pol,#,tebet
+555,aplikasi xx,"Suku Dinas Komunikasi, Informasi dan Statistik",#,tebet
+556,aplikasi xx,Suku Badan Pengelola Keuangan,#,tebet
+557,aplikasi xx,Suku Dinas Pendidikan Wilayah II,#,tebet
+558,aplikasi xx,Bagian Perekonomian,#,tebet
+559,aplikasi xx,Bagian Penataan dan Lingkungan Hidup,#,tebet
+560,aplikasi xx,Inspektur Pembantu,#,tebet
+561,aplikasi xx,Suku Dinas Pendidikan Wilayah I,#,tebet
+562,aplikasi xx,Bagian Kepegawaian Ketatalaksanaan dan Pelayanan Publik,#,tebet
+563,aplikasi xx,"Suku Dinas Ketahanan Pangan, Kelautan dan Pertanian",#,tebet
+564,aplikasi xx,Suku Dinas Pemuda dan Olahraga,#,tebet
+565,aplikasi xx,Suku Dinas Kebudayaan,#,tebet
+566,aplikasi xx,Unit PTSP,#,tebet
+567,aplikasi xx,Suku Badan Pendapatan Daerah,#,tebet
+568,aplikasi xx,Suku Badan Pengelola Aset,#,tebet
+569,aplikasi xx,Suku Dinas Kehutanan dan Taman Kota,#,tebet
+570,aplikasi xx,Suku Dinas Perumahan Rakyat dan Kawasan Pemukiman,#,tebet
+571,aplikasi xx,Suku Dinas Energi dan Ketenaga Kerjaan,#,tebet
+572,aplikasi xx,Suku Badan Kepegawaian Kota,#,tebet
+573,aplikasi xx,Suku Dinas Sosial,#,tebet
+574,aplikasi xx,Unit PPBJ,#,tebet
+575,aplikasi xx,"Suku Dinas Cipta Karya, Tata Ruang dan Pertanahan",#,tebet
+576,aplikasi xx,Suku Dinas Perindustrian dan KUKM,#,tebet
+577,aplikasi xx,Suku Dinas Bina Marga,#,tebet
+578,aplikasi xx,Suku Dinas Sumber Daya Air,#,tebet
+579,aplikasi xx,Suku Dinas Pariwisata,#,tebet
+580,aplikasi xx,Suku Dinas Penanggulangan Kebakaran dan Penyelamatan,#,tebet
+581,aplikasi xx,Suku Dinas Perhubungan,#,tebet
+582,aplikasi xx,Suku Dinas Kependudukan dan Catatan Sipil,#,tebet
+583,aplikasi xx,Suku Dinas Kesehatan Perpustakaan dan Arsip,#,tebet
+584,aplikasi xx,Suku Dinas Lingkungan Hidup,#,tebet
+585,aplikasi xx,Suku Dinas PPAPP,#,tebet
