@@ -1942,3 +1942,7 @@ section,
 .content-table tbody td button {
   color: white;
 }
+
+.portfolio-item {
+  cursor: pointer;
+}
