@@ -15,7 +15,7 @@
 
                 <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="50">
                     <?php foreach ($kecamatan as $k): ?>
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop-<?= $k['slug']; ?>">
+                        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item" data-bs-toggle="modal" data-bs-target="#staticBackdrop-<?= $k['slug']; ?>">
                             <div class="portfolio-content h-100">
                                 <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
                                 <div class="portfolio-info">
@@ -66,7 +66,7 @@
                                     </table>
                                 </div>
                             </div>
-                            
+
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

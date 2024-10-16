@@ -7,7 +7,7 @@
         <!-- Section Title -->
         <div class="container section-title" data-aos="fade-up">
             <span class="description-title">Satuan Kerja Kelurahan</span>
-            <h2>Satuan Kerja Keluarahan</h2>
+            <h2>Satuan Kerja Kelurahan</h2>
         </div>
         <!-- End Section Title -->
         <div class="container">
@@ -31,13 +31,13 @@
                 <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="50">
 
                     <?php foreach ($kelurahan as $kel) : ?>
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-kecamatan-<?= $kel['slug_kecamatan']; ?>" 
-                        data-bs-toggle="modal" data-bs-target="#staticBackdrop-<?= $kel['slug']; ?>">
+                        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-kecamatan-<?= $kel['slug_kecamatan']; ?>"
+                            data-bs-toggle="modal" data-bs-target="#staticBackdrop-<?= $kel['slug']; ?>">
                             <div class="portfolio-content h-100">
                                 <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
                                 <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details">Kelurahan <?= $kel['nama_kelurahan']; ?></a></h4>
-                                    <p>Lorem ipsum, dolor sit amet consectetur</p>
+                                    <h4><a href="portfolio-details.html" title="More Details"><?= $kel['nama_kelurahan']; ?></a></h4>
+                                    <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
                                 </div>
                             </div>
                         </div>
@@ -49,8 +49,8 @@
 
         <!-- Modal -->
         <?php foreach ($kelurahan as $kel) : ?>
-            <div class="modal fade" id="staticBackdrop-<?= $kel['slug']; ?>" data-bs-backdrop="static" 
-            data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal fade" id="staticBackdrop-<?= $kel['slug']; ?>" data-bs-backdrop="static"
+                data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
                     <div class="modal-content">
                         <div class="modal-header">
