@@ -31,7 +31,7 @@
                 <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="50">
 
                     <?php foreach ($kelurahan as $kel) : ?>
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-kecamatan-<?= $kel['slug_kecamatan']; ?>"
+                        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-kecamatan-<?= $kel['slug_kecamatan']; ?>"
                             data-bs-toggle="modal" data-bs-target="#staticBackdrop-<?= $kel['slug']; ?>">
                             <div class="portfolio-content h-100">
                                 <a href="<?= $kel['link']; ?>" data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
