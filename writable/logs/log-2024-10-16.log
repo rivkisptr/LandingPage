@@ -255,3 +255,78 @@ in APPPATH\Views\pages\kecamatan.php on line 57.
 11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
 >>>>>>> 689c3ac5aea53df3ffef3b40a504585c2e360962
+CRITICAL - 2024-10-16 03:56:53 --> ErrorException: Undefined array key "link"
+[Method: GET, Route: kelurahan]
+in APPPATH\Views\pages\kelurahan.php on line 37.
+ 1 APPPATH\Views\pages\kelurahan.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "link"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kelurahan', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/kelurahan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->kelurahan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-10-16 03:57:42 --> ErrorException: Undefined array key "link"
+[Method: GET, Route: kelurahan]
+in APPPATH\Views\pages\kelurahan.php on line 37.
+ 1 APPPATH\Views\pages\kelurahan.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "link"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kelurahan', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/kelurahan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->kelurahan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-10-16 03:57:57 --> ErrorException: Undefined array key "link"
+[Method: GET, Route: kelurahan]
+in APPPATH\Views\pages\kelurahan.php on line 37.
+ 1 APPPATH\Views\pages\kelurahan.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "link"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kelurahan', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/kelurahan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->kelurahan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-10-16 03:58:42 --> ErrorException: Undefined array key "link"
+[Method: GET, Route: kelurahan]
+in APPPATH\Views\pages\kelurahan.php on line 37.
+ 1 APPPATH\Views\pages\kelurahan.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "link"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kelurahan', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/kelurahan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->kelurahan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-10-16 03:58:48 --> ErrorException: Undefined array key "link"
+[Method: GET, Route: kelurahan]
+in APPPATH\Views\pages\kelurahan.php on line 37.
+ 1 APPPATH\Views\pages\kelurahan.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "link"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php', 37)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kelurahan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kelurahan', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/kelurahan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->kelurahan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
