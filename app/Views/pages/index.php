@@ -16,12 +16,14 @@
                     <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-Kecamatan">
                         <div class="portfolio-content h-100">
                             <a href="/kecamatan" data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
+                            <a href="/kecamatan" data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
                             <div class="portfolio-info">
                                 <h4><a href="" title="More Details">Kecamatan</a></h4>
                             </div>
                         </div>
                     </div>
 
+                    <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-Kelurahan">
                     <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-Kelurahan">
                         <div class="portfolio-content h-100">
                             <a href="/kelurahan" data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
