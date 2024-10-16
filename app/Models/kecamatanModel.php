@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class kecamatanModel extends Model
 {
     protected $table = 'kecamatan';
-    protected $allowedFields = ['nama_kecamatan','slug'];
+    protected $allowedFields = ['nama_kecamatan', 'slug', 'link'];
 
     public function getKecamatan()
     {

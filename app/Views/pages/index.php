@@ -25,7 +25,7 @@
                         <div class="portfolio-content h-100">
                             <a data-gallery="portfolio-gallery-app" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
                             <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan 1</a></h4>
+                                <h4><a href="portfolio-details.html" title="More Details">Kecamatan</a></h4>
                                 <p>Lorem ipsum, dolor sit amet consectetur</p>
                             </div>
                         </div>
@@ -35,7 +35,7 @@
                         <div class="portfolio-content h-100">
                             <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
                             <div class="portfolio-info">
-                                <h4><a href="portfolio-details.html" title="More Details">Kelurahan 1</a></h4>
+                                <h4><a href="portfolio-details.html" title="More Details">Kelurahan</a></h4>
                                 <p>Lorem ipsum, dolor sit amet consectetur</p>
                             </div>
                         </div>

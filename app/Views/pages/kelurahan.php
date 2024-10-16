@@ -31,10 +31,10 @@
                 <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="50">
 
                     <?php foreach ($kelurahan as $kel) : ?>
-                        <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-kecamatan-<?= $kel['slug_kecamatan']; ?>"
+                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-kecamatan-<?= $kel['slug_kecamatan']; ?>"
                             data-bs-toggle="modal" data-bs-target="#staticBackdrop-<?= $kel['slug']; ?>">
                             <div class="portfolio-content h-100">
-                                <a data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
+                                <a href="<?= $kel['link']; ?>" data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
                                 <div class="portfolio-info">
                                     <h4><a href="portfolio-details.html" title="More Details"><?= $kel['nama_kelurahan']; ?></a></h4>
                                     <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
@@ -47,95 +47,6 @@
             </div>
         </div>
 
-        <!-- Modal -->
-        <?php foreach ($kelurahan as $kel) : ?>
-            <div class="modal fade" id="staticBackdrop-<?= $kel['slug']; ?>" data-bs-backdrop="static"
-                data-bs-keyboard="false" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title">Kelurahan <?= $kel['nama_kelurahan']; ?></h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                            <div class="container">
-                                <div class="row gy-4 isotope-container ">
-                                    <table class="content-table">
-                                        <thead>
-                                            <tr>
-                                                <th>#</th>
-                                                <th>Nama App</th>
-                                                <th>Instansi</th>
-                                                <th>Link</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>Aplikasi ---</td>
-                                                <td>Sudin ---</td>
-                                                <td><button type="button" class="btn btn-success">Link</button></td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>Aplikasi ---</td>
-                                                <td>Sudin ---</td>
-                                                <td><button type="button" class="btn btn-success">Link</button></td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>Aplikasi ---</td>
-                                                <td>Sudin ---</td>
-                                                <td><button type="button" class="btn btn-success">Link</button></td>
-                                            </tr>
-                                            <tr>
-                                                <td>4</td>
-                                                <td>Aplikasi ---</td>
-                                                <td>Sudin ---</td>
-                                                <td><button type="button" class="btn btn-success">Link</button></td>
-                                            </tr>
-                                            <tr>
-                                                <td>5</td>
-                                                <td>Aplikasi ---</td>
-                                                <td>Sudin ---</td>
-                                                <td><button type="button" class="btn btn-success">Link</button></td>
-                                            </tr>
-                                            <tr>
-                                                <td>6</td>
-                                                <td>Aplikasi ---</td>
-                                                <td>Sudin ---</td>
-                                                <td><button type="button" class="btn btn-success">Link</button></td>
-                                            </tr>
-                                            <tr>
-                                                <td>7</td>
-                                                <td>Aplikasi ---</td>
-                                                <td>Sudin ---</td>
-                                                <td><button type="button" class="btn btn-success">Link</button></td>
-                                            </tr>
-                                            <tr>
-                                                <td>8</td>
-                                                <td>Aplikasi ---</td>
-                                                <td>Sudin ---</td>
-                                                <td><button type="button" class="btn btn-success">Link</button></td>
-                                            </tr>
-                                            <tr>
-                                                <td>9</td>
-                                                <td>Aplikasi ---</td>
-                                                <td>Sudin ---</td>
-                                                <td><button type="button" class="btn btn-success">Link</button></td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        <?php endforeach; ?>
 
     </section>
 </main>
