@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 ERROR - 2024-10-16 02:29:45 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\LandingPage\system\Database\MySQLi\Connection.php:186
+=======
+ERROR - 2024-10-16 02:42:01 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\LandingPage\system\Database\MySQLi\Connection.php:186
+>>>>>>> 689c3ac5aea53df3ffef3b40a504585c2e360962
 Stack trace:
 #0 C:\xampp\htdocs\LandingPage\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'aplikasi_jaksel', 3306, '', 0)
 #1 C:\xampp\htdocs\LandingPage\system\Database\BaseConnection.php(421): CodeIgniter\Database\MySQLi\Connection->connect(false)
@@ -34,7 +38,11 @@ Stack trace:
 #12 C:\xampp\htdocs\LandingPage\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 #13 C:\xampp\htdocs\LandingPage\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
 #14 {main}
+<<<<<<< HEAD
 CRITICAL - 2024-10-16 02:29:45 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+=======
+CRITICAL - 2024-10-16 02:42:01 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+>>>>>>> 689c3ac5aea53df3ffef3b40a504585c2e360962
 Main connection [MySQLi]: No connection could be made because the target machine actively refused it
 [Method: GET, Route: kecamatan]
 in SYSTEMPATH\Database\BaseConnection.php on line 467.
@@ -52,6 +60,7 @@ FROM `kecamatan`', [], false)
 11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+<<<<<<< HEAD
 ERROR - 2024-10-16 02:29:49 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\LandingPage\system\Database\MySQLi\Connection.php:186
 Stack trace:
 #0 C:\xampp\htdocs\LandingPage\system\Database\MySQLi\Connection.php(186): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'aplikasi_jaksel', 3306, '', 0)
@@ -214,3 +223,35 @@ FROM `kecamatan`', [], false)
 11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
 12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
 13 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+=======
+CRITICAL - 2024-10-16 03:12:55 --> ErrorException: Undefined variable $aplikasi_per_kecamatan
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\pages\kecamatan.php on line 57.
+ 1 APPPATH\Views\pages\kecamatan.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aplikasi_per_kecamatan', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kecamatan', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(34): view('pages/kecamatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->kecamatan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-10-16 03:13:26 --> ErrorException: Undefined variable $aplikasi_per_kecamatan
+[Method: GET, Route: kecamatan]
+in APPPATH\Views\pages\kecamatan.php on line 57.
+ 1 APPPATH\Views\pages\kecamatan.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aplikasi_per_kecamatan', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan.php', 57)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kecamatan', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(34): view('pages/kecamatan', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->kecamatan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+>>>>>>> 689c3ac5aea53df3ffef3b40a504585c2e360962
