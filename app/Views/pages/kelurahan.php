@@ -11,7 +11,7 @@
         </div>
         <!-- End Section Title -->
         <div class="container">
-            <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+            <div class="isotope-layout" data-default-filter="*" data-sort="original-order">
                 <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
                     <li data-filter="*" class="filter-active">All</li>
                     <?php
@@ -28,28 +28,24 @@
                 </ul>
                 <!-- End Portfolio Filters -->
 
-                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="50">
-
-                    <?php foreach ($kelurahan as $kel) : ?>
-                        <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-kecamatan-<?= $kel['slug_kecamatan']; ?>"
-                            data-bs-toggle="modal" data-bs-target="#staticBackdrop-<?= $kel['slug']; ?>">
-                            <div class="portfolio-content h-100">
-                                <a href="<?= $kel['link']; ?>" data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
-                                <div class="portfolio-info">
-                                    <h4><a href="portfolio-details.html" title="More Details"><?= $kel['nama_kelurahan']; ?></a></h4>
-                                    <!-- <p>Lorem ipsum, dolor sit amet consectetur</p> -->
+                <div class="isotope-container" data-aos="fade-up" data-aos-delay="50">
+                    <div class="row justify-content-center">
+                        <?php foreach ($kelurahan as $kel) : ?>
+                            <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-kecamatan-<?= $kel['slug_kecamatan']; ?>">
+                                <div class="portfolio-content h-100">
+                                    <a href="<?= $kel['link']; ?>" data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
+                                    <div class="portfolio-info">
+                                        <h4><a href="<?= $kel['link']; ?>" title="More Details">Kelurahan <?= $kel['nama_kelurahan']; ?></a></h4>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                    <?php endforeach; ?>
-
+                        <?php endforeach; ?>
+                    </div>
                 </div>
             </div>
         </div>
-
-
     </section>
 </main>
-<!-- Scroll Tap -->
+<!-- Scroll Top -->
 <a class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 <?= $this->endSection('content'); ?>
