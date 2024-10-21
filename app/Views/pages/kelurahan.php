@@ -35,7 +35,7 @@
                                 <div class="portfolio-content h-100">
                                     <a href="<?= $kel['link']; ?>" data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
                                     <div class="portfolio-info">
-                                        <h4><a href="<?= $kel['link']; ?>" title="More Details">Kelurahan <?= $kel['nama_kelurahan']; ?></a></h4>
+                                        <h4><a href="<?= $kel['link']; ?>" title="More Details"><?= $kel['nama_kelurahan']; ?></a></h4>
                                     </div>
                                 </div>
                             </div>

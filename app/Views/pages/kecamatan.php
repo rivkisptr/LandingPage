@@ -17,7 +17,7 @@
                         <div class="portfolio-content h-100">
                             <a href="<?= $k['link']; ?>" data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
                             <div class="portfolio-info">
-                                <h4><a title="More Details">Kecamatan <?= $k['nama_kecamatan']; ?></a></h4>
+                                <h4><a title="More Details"><?= $k['nama_kecamatan']; ?></a></h4>
                             </div>
                         </div>
                     </div>

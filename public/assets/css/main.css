@@ -307,16 +307,16 @@ section,
 .portfolio-item {
   cursor: pointer;
   padding: 5px;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
-.isotope-container{
+.isotope-container {
   max-width: 1200px;
   margin: 0 auto;
   gap: 50px;
 }
 
-.isotope-container .row{
+.isotope-container .row {
   display: flex;
   align-items: center;
 }
