@@ -10,31 +10,29 @@
             <h2>Satuan Kerja</h2>
         </div>
         <!-- End Section Title -->
-            <div class="isotope-container" data-aos="fade-up" data-aos-delay="50">
-                <div class="row justify-content-center">
+        <div class="isotope-container" data-aos="fade-up" data-aos-delay="50">
+            <div class="row justify-content-center">
 
-                    <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-Kecamatan">
-                        <div class="portfolio-content h-100">
-                            <a href="/kecamatan" data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
-                            <a href="/kecamatan" data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
-                            <div class="portfolio-info">
-                                <h4><a href="" title="More Details">Kecamatan</a></h4>
-                            </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-Kecamatan">
+                    <div class="portfolio-content h-100">
+                        <a href="/kecamatan" data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
+                        <div class="portfolio-info">
+                            <h4><a href="" title="More Details">Kecamatan</a></h4>
                         </div>
                     </div>
-
-                    <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-Kelurahan">
-                    <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-Kelurahan">
-                        <div class="portfolio-content h-100">
-                            <a href="/kelurahan" data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
-                            <div class="portfolio-info">
-                                <h4><a title="More Details">Kelurahan</a></h4>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
+
+                <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item filter-Kelurahan">
+                    <div class="portfolio-content h-100">
+                        <a href="/kelurahan" data-gallery="portfolio-gallery-app"><img src="assets/img/default_img.jpg" class="img-fluid" alt=""></a>
+                        <div class="portfolio-info">
+                            <h4><a title="More Details">Kelurahan</a></h4>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+        </div>
     </section>
 </main>
 <!-- Scroll Tap -->
