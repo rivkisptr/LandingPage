@@ -186,6 +186,8 @@ section,
   margin-bottom: 0;
   position: relative;
   z-index: 2;
+  color: red;
+  font-weight: 250;
 }
 
 @media (max-width: 575px) {
@@ -275,7 +277,7 @@ section,
 }
 
 .portfolio .portfolio-content .portfolio-info h4 {
-  font-size: 19px;
+  font-size: 20px;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -325,6 +327,10 @@ section,
   cursor: pointer;
   padding: 5px;
   /* margin-bottom: 30px; */
+}
+
+.portfolio-item:last-child {
+  margin-bottom: 20px;
 }
 
 .portfolio-item .portfolio-info h4 a {
@@ -386,4 +392,21 @@ section,
 
 .content-table tbody td button {
   color: white;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.modal-body {
+  flex: 1; /* Mengisi sisa ruang */
+  padding: 0;
+  overflow-y: auto;
+}
+
+.modal-footer {
+  background-color: #ffffff;
+  padding: 1rem; /* Sesuaikan padding sesuai kebutuhan */
 }

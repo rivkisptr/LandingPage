@@ -21,6 +21,8 @@ class DaftarApp extends BaseController
     {
         $data = [
             'title' => 'Satuan Kerja Jakarta Selatan',
+            'kecamatan' => $this->kecamatanModel->getKecamatan(),
+            'kelurahan' => $this->kelurahanModel->getKelurahan()
         ];
         return view('pages/index', $data);
     }
