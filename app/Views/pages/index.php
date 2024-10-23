@@ -123,7 +123,9 @@
                             <div class="modal-body">
                                 <div class="container">
                                     <div class="row gy-4 isotope-container ">
-                                        <h1>AKWOEAOWEKOAWKEWOKOEA</h1>
+                                        <?php foreach ($kelurahan as $kel) : ?>
+
+                                        <?php endforeach; ?>
                                     </div>
                                 </div>
                             </div>

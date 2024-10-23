@@ -192,6 +192,7 @@
 })();
 
 // Modal Handler //
+// Modal Handler //
 document.addEventListener("DOMContentLoaded", function () {
   const firstModal = document.getElementById("KelurahanBackdrop");
   const secondModal = document.getElementById("SecondKelurahanBackdrop");
@@ -207,9 +208,8 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
-  // Fungsi untuk membersihkan modal (tanpa menghapus backdrop permanent)
+  // Fungsi untuk membersihkan modal
   function cleanupModals() {
-    // Hapus hanya backdrop yang bukan permanent
     const backdrops = document.getElementsByClassName("modal-backdrop");
     Array.from(backdrops).forEach((backdrop) => {
       if (!backdrop.classList.contains("modal-backdrop-permanent")) {
@@ -229,9 +229,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Fungsi untuk menghapus backdrop permanent
   function removeBackdrop() {
-    const permanentBackdrop = document.querySelector(
-      ".modal-backdrop-permanent"
-    );
+    const permanentBackdrop = document.querySelector(".modal-backdrop-permanent");
     if (permanentBackdrop) {
       permanentBackdrop.parentNode.removeChild(permanentBackdrop);
     }
@@ -240,9 +238,10 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.style.removeProperty("overflow");
   }
 
-  // Event listener untuk portfolio items
-  document.querySelectorAll(".portfolio-item").forEach((item) => {
-    item.addEventListener("click", function () {
+  // Event listener untuk Kelurahan saja
+  const kelurahanItem = document.querySelector('[data-bs-target="#KelurahanBackdrop"]');
+  if (kelurahanItem) {
+    kelurahanItem.addEventListener("click", function() {
       cleanupModals();
       reinitializeFirstModal();
       createBackdrop();
@@ -250,7 +249,7 @@ document.addEventListener("DOMContentLoaded", function () {
       const firstModalInstance = new bootstrap.Modal(firstModal);
       firstModalInstance.show();
     });
-  });
+  }
 
   // Handler untuk tombol Kembali
   document.getElementById("backToFirst").addEventListener("click", function () {
@@ -280,7 +279,7 @@ document.addEventListener("DOMContentLoaded", function () {
     button.addEventListener("click", function () {
       cleanupModals();
       reinitializeFirstModal();
-      removeBackdrop(); // Hapus backdrop hanya saat benar-benar keluar
+      removeBackdrop();
     });
   });
 
@@ -292,16 +291,16 @@ document.addEventListener("DOMContentLoaded", function () {
     button.addEventListener("click", function () {
       cleanupModals();
       reinitializeFirstModal();
-      removeBackdrop(); // Hapus backdrop hanya saat benar-benar keluar
+      removeBackdrop();
     });
   });
 
   // Handler ketika modal kedua selesai ditutup
-  secondModal.addEventListener("hidden.bs.modal ", function () {
+  secondModal.addEventListener("hidden.bs.modal", function () {
     if (!isBackButton) {
       cleanupModals();
       reinitializeFirstModal();
-      removeBackdrop(); // Hapus backdrop hanya saat benar-benar keluar
+      removeBackdrop();
     }
-  });
+   });
 });
