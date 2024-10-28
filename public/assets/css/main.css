@@ -421,3 +421,90 @@ section,
   background-color: #ffffff;
   padding: 1rem; /* Sesuaikan padding sesuai kebutuhan */
 }
+
+
+/* JAKSEL APP */
+
+.box{
+  display: grid;
+  position: relative;
+  width: 1200px;
+  min-width: 400px;
+  overflow: auto;
+  align-items: center;
+}
+
+.box .list{
+  position: relative;
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: 0.5s;
+  overflow: hidden;
+  background-color: #e6e6e6;
+}
+
+
+.box .list .imgbx{
+  position: relative;
+  width: 70px;
+  height: 80px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-right: 25px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box .list .imgbx img{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+}
+
+.box .list .content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #333;
+}
+
+.box .list .content .link{
+  position: absolute;
+  right: 20px;
+  color: green;
+  transition: 0.5s;
+  font-size: 2em;
+}
+
+.box .list .content p{
+  font-size: 0.75em;
+}
+
+.box .list .content h4{
+  line-height: 1.5em;
+  font-weight: 600;
+}
+
+.link a {
+  display: inline-block;
+  font-size: 16px;
+  padding: 13px 10px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px; 
+  transition: background-color 0.3s;
+}
+
+.link a:hover {
+  background-color: #45a049;
+}
