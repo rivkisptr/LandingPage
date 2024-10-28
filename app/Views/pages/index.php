@@ -24,7 +24,6 @@
                     </div>
                 <?php endforeach; ?>
 
-                <hr>
 
                 <!-- Modal Kecamatan -->
                 <?php foreach ($kecamatan as $k): ?>
@@ -90,166 +89,173 @@
                 <?php endforeach; ?>
 
     </section>
-    <section>
-        <div class="container justify-content-center">
-            <h1>Jaksel Apps</h1>
-            <div class="box">
 
-                <div class="list">
-                    <div class="imgbx">
-                        <img src="/assets/img/Website-Kota-Adm-Jakarta-Selatan.png" alt="img">
-                    </div>
-                    <div class="content">
-                        <h2 class="link">
-                            <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
-                        </h2>
-                        <h4>Website Kota Adm Jakarta Selatan</h4>
-                        <p>
-                            Media Informasi Kota Adm Jakarta Selatan yang terdiri dari Berita,
-                            <br>Agenda, Data dan Informasi
-                        </p>
-                    </div>
-                </div>
+    <section id="JakselApp" class="section">
+        <div class="container section-title" data-aos="fade-up">
+            <span class="description-title">Jaksel Apps</span>
+            <h2>Jaksel Apps</h2>
+        </div>
 
-                <div class="list">
-                    <div class="imgbx">
-                        <img src="/assets/img/PPID-Jakarta-Selatan.png" alt="img">
-                    </div>
-                    <div class="content">
-                        <h2 class="link">
-                            <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
-                        </h2>
-                        <h4>PPID Jakarta Selatan</h4>
-                        <p>
-                            Website Pejabat Pengelola Informasi dan Dokumentasi (PPID)
-                            <br>Sekretariat Kota Administrasi Jakarta Selatan
-                        </p>
-                    </div>
-                </div>
+        <div class="isotope-container" data-aos="fade-up" data-aos-delay="50">
+            <div class="row justify-content-center">
+                <div class="box">
 
-                <div class="list">
-                    <div class="imgbx">
-                        <img src="/assets/img/TechnoCare.png" alt="img">
+                    <div class="list">
+                        <div class="imgbx">
+                            <img src="/assets/img/Website-Kota-Adm-Jakarta-Selatan.png" alt="img">
+                        </div>
+                        <div class="content">
+                            <h2 class="link">
+                                <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
+                            </h2>
+                            <h4>Website Kota Adm Jakarta Selatan</h4>
+                            <p>
+                                Media Informasi Kota Adm Jakarta Selatan yang terdiri dari Berita,
+                                <br>Agenda, Data dan Informasi
+                            </p>
+                        </div>
                     </div>
-                    <div class="content">
-                        <h2 class="link">
-                            <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
-                        </h2>
-                        <h4>Technocare LTIK</h4>
-                        <p>
-                            Layanan Help Desk Sudin Kominfotik
-                            <br>Kota Adminitrasi Jakarta Selatan
-                        </p>
-                    </div>
-                </div>
 
-                <div class="list">
-                    <div class="imgbx">
-                        <img src="/assets/img/Ekin-PJLP-Setko.png" alt="img">
+                    <div class="list">
+                        <div class="imgbx">
+                            <img src="/assets/img/PPID-Jakarta-Selatan.png" alt="img">
+                        </div>
+                        <div class="content">
+                            <h2 class="link">
+                                <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
+                            </h2>
+                            <h4>PPID Jakarta Selatan</h4>
+                            <p>
+                                Website Pejabat Pengelola Informasi dan Dokumentasi (PPID)
+                                <br>Sekretariat Kota Administrasi Jakarta Selatan
+                            </p>
+                        </div>
                     </div>
-                    <div class="content">
-                        <h2 class="link">
-                            <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
-                        </h2>
-                        <h4>Ekin PJLP Setko</h4>
-                        <p>
-                            Sistem pencatatan aktivitas kerja PJLP Setko
-                            <br>Kota Adminitrasi Jakarta Selatan
-                        </p>
-                    </div>
-                </div>
 
-                <div class="list">
-                    <div class="imgbx">
-                        <img src="/assets/img/Sinoli.png" alt="img">
+                    <div class="list">
+                        <div class="imgbx">
+                            <img src="/assets/img/TechnoCare.png" alt="img">
+                        </div>
+                        <div class="content">
+                            <h2 class="link">
+                                <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
+                            </h2>
+                            <h4>Technocare LTIK</h4>
+                            <p>
+                                Layanan Help Desk Sudin Kominfotik
+                                <br>Kota Adminitrasi Jakarta Selatan
+                            </p>
+                        </div>
                     </div>
-                    <div class="content">
-                        <h2 class="link">
-                            <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
-                        </h2>
-                        <h4>Sinoli</h4>
-                        <p>
-                            Sistem Informasi non Litigasi Bagian Hukum
-                            <br>Kota Adminitrasi Jakarta Selatan
-                        </p>
-                    </div>
-                </div>
 
-                <div class="list">
-                    <div class="imgbx">
-                        <img src="/assets/img/Siperbast.png" alt="img">
+                    <div class="list">
+                        <div class="imgbx">
+                            <img src="/assets/img/Ekin-PJLP-Setko.png" alt="img">
+                        </div>
+                        <div class="content">
+                            <h2 class="link">
+                                <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
+                            </h2>
+                            <h4>Ekin PJLP Setko</h4>
+                            <p>
+                                Sistem pencatatan aktivitas kerja PJLP Setko
+                                <br>Kota Adminitrasi Jakarta Selatan
+                            </p>
+                        </div>
                     </div>
-                    <div class="content">
-                        <h2 class="link">
-                            <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
-                        </h2>
-                        <h4>Siperbast</h4>
-                        <p>
-                            Sistem Informasi Penerbitan Berita Acara
-                            <br>Serah Terima Bagian PLH
-                        </p>
-                    </div>
-                </div>
 
-                <div class="list">
-                    <div class="imgbx">
-                        <img src="/assets/img/E-Kinerja-PJLP.png" alt="img">
+                    <div class="list">
+                        <div class="imgbx">
+                            <img src="/assets/img/Sinoli.png" alt="img">
+                        </div>
+                        <div class="content">
+                            <h2 class="link">
+                                <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
+                            </h2>
+                            <h4>Sinoli</h4>
+                            <p>
+                                Sistem Informasi non Litigasi Bagian Hukum
+                                <br>Kota Adminitrasi Jakarta Selatan
+                            </p>
+                        </div>
                     </div>
-                    <div class="content">
-                        <h2 class="link">
-                            <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
-                        </h2>
-                        <h4>E-Kinerja PJLP</h4>
-                        <p>
-                            Sistem pencatatan aktivitas kerja PJLP
-                            <br>Sudin Kominfotik Jakarta Selatan
-                        </p>
-                    </div>
-                </div>
 
-                <div class="list">
-                    <div class="imgbx">
-                        <img src="/assets/img/Posko-Siaga-Bencana.png" alt="img">
+                    <div class="list">
+                        <div class="imgbx">
+                            <img src="/assets/img/Siperbast.png" alt="img">
+                        </div>
+                        <div class="content">
+                            <h2 class="link">
+                                <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
+                            </h2>
+                            <h4>Siperbast</h4>
+                            <p>
+                                Sistem Informasi Penerbitan Berita Acara
+                                <br>Serah Terima Bagian PLH
+                            </p>
+                        </div>
                     </div>
-                    <div class="content">
-                        <h2 class="link">
-                            <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
-                        </h2>
-                        <h4>Posko Siaga Bencana</h4>
-                        <p>
-                            Sistem pencatatan segala keperluan dan bantuan
-                            <br>yang dibutuhkan dalam bencana
-                        </p>
-                    </div>
-                </div>
 
-                <div class="list">
-                    <div class="imgbx">
-                        <img src="/assets/img/Destinasi-Jakarta-Selatan.png" alt="img">
+                    <div class="list">
+                        <div class="imgbx">
+                            <img src="/assets/img/E-Kinerja-PJLP.png" alt="img">
+                        </div>
+                        <div class="content">
+                            <h2 class="link">
+                                <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
+                            </h2>
+                            <h4>E-Kinerja PJLP</h4>
+                            <p>
+                                Sistem pencatatan aktivitas kerja PJLP
+                                <br>Sudin Kominfotik Jakarta Selatan
+                            </p>
+                        </div>
                     </div>
-                    <div class="content">
-                        <h2 class="link">
-                            <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
-                        </h2>
-                        <h4>Destinasi Jakarta Selatan</h4>
-                        <p>
-                            Peta destinasi pariwisata di Jakarta Selatan
-                        </p>
-                    </div>
-                </div>
 
-                <div class="list">
-                    <div class="imgbx">
-                        <img src="/assets/img/Website-Bagian-Hukum.png" alt="img">
+                    <div class="list">
+                        <div class="imgbx">
+                            <img src="/assets/img/Posko-Siaga-Bencana.png" alt="img">
+                        </div>
+                        <div class="content">
+                            <h2 class="link">
+                                <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
+                            </h2>
+                            <h4>Posko Siaga Bencana</h4>
+                            <p>
+                                Sistem pencatatan segala keperluan dan bantuan
+                                <br>yang dibutuhkan dalam bencana
+                            </p>
+                        </div>
                     </div>
-                    <div class="content">
-                        <h2 class="link">
-                            <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
-                        </h2>
-                        <h4>Website Bagian Hukum</h4>
-                        <p>
-                            Dokumentasi kegiatan bagian hukum
-                        </p>
+
+                    <div class="list">
+                        <div class="imgbx">
+                            <img src="/assets/img/Destinasi-Jakarta-Selatan.png" alt="img">
+                        </div>
+                        <div class="content">
+                            <h2 class="link">
+                                <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
+                            </h2>
+                            <h4>Destinasi Jakarta Selatan</h4>
+                            <p>
+                                Peta destinasi pariwisata di Jakarta Selatan
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="list">
+                        <div class="imgbx">
+                            <img src="/assets/img/Website-Bagian-Hukum.png" alt="img">
+                        </div>
+                        <div class="content">
+                            <h2 class="link">
+                                <a href="URL_YANG_DIINGINKAN" class="button">Kunjungi</a>
+                            </h2>
+                            <h4>Website Bagian Hukum</h4>
+                            <p>
+                                Dokumentasi kegiatan bagian hukum
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

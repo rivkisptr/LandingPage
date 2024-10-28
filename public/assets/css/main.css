@@ -422,10 +422,9 @@ section,
   padding: 1rem; /* Sesuaikan padding sesuai kebutuhan */
 }
 
-
 /* JAKSEL APP */
 
-.box{
+.box {
   display: grid;
   position: relative;
   width: 1200px;
@@ -434,20 +433,18 @@ section,
   align-items: center;
 }
 
-.box .list{
+.box .list {
   position: relative;
   display: flex;
   padding: 10px;
   border-radius: 10px;
   margin: 10px 0;
-  cursor: pointer;
   transition: 0.5s;
   overflow: hidden;
   background-color: #e6e6e6;
 }
 
-
-.box .list .imgbx{
+.box .list .imgbx {
   position: relative;
   width: 70px;
   height: 80px;
@@ -460,24 +457,23 @@ section,
   align-items: center;
 }
 
-.box .list .imgbx img{
+.box .list .imgbx img {
   position: relative;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   object-fit: contain;
-
 }
 
-.box .list .content{
+.box .list .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: #333;
 }
 
-.box .list .content .link{
+.box .list .content .link {
   position: absolute;
   right: 20px;
   color: green;
@@ -485,11 +481,11 @@ section,
   font-size: 2em;
 }
 
-.box .list .content p{
-  font-size: 0.75em;
+.box .list .content p {
+  font-size: 0.95em;
 }
 
-.box .list .content h4{
+.box .list .content h4 {
   line-height: 1.5em;
   font-weight: 600;
 }
@@ -498,10 +494,10 @@ section,
   display: inline-block;
   font-size: 16px;
   padding: 13px 10px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
   color: white;
   text-decoration: none;
-  border-radius: 10px; 
+  border-radius: 10px;
   transition: background-color 0.3s;
 }
 
