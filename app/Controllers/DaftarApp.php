@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-use App\Models\aplikasiKecamatanModel;
+use App\Models\aplikasiJakselModel;
 use App\Models\kecamatanModel;
 use App\Models\kelurahanModel;
 
@@ -10,48 +10,58 @@ class DaftarApp extends BaseController
 {
     protected $kecamatanModel;
     protected $kelurahanModel;
-    protected $aplikasiKecamatanModel;
+    protected $aplikasiJakselModel;
     public function __construct()
     {
         $this->kecamatanModel = new kecamatanModel();
         $this->kelurahanModel = new kelurahanModel();
-        $this->aplikasiKecamatanModel = new aplikasiKecamatanModel();
+        $this->aplikasiJakselModel = new aplikasiJakselModel();
     }
     public function index()
     {
         $data = [
-            'title' => 'Satuan Kerja Jakarta Selatan',
+            'title'     => 'Satuan Kerja Jakarta Selatan',
             'kecamatan' => $this->kecamatanModel->getKecamatan(),
-            'kelurahan' => $this->kelurahanModel->getKelurahan()
+            'kelurahan' => $this->kelurahanModel->getKelurahan(),
+            'aplikasi'  => $this->aplikasiJakselModel->paginate(4),
+            'pager'     => $this->aplikasiJakselModel->pager
         ];
         return view('pages/index', $data);
     }
 
-    public function kecamatan()
+    public function getApps()
     {
-        $data = [
-            'title' => 'Daftar Kecamatan',
-            'kecamatan' => $this->kecamatanModel->getKecamatan(),
-            'aplikasi_kecamatan' => $this->aplikasiKecamatanModel->getAplikasiKecamatan(),
-            'aplikasi_per_kecamatan' => []
-        ];
+        $page = $this->request->getVar('page') ?? 1;
+        $data['aplikasi'] = $this->aplikasiJakselModel->paginate(4, 'jaksel_app', $page);
 
-        foreach ($data['kecamatan'] as $kecamatan) {
-            $aplikasi_per_kecamatan[$kecamatan['slug']] = $this->aplikasiKecamatanModel->getAplikasiKecamatanBySlug($kecamatan['slug']);
-        }
-
-        $data['aplikasi_per_kecamatan'] = $aplikasi_per_kecamatan;
-        return view('pages/kecamatan', $data);
+        return view('pages/apps_partial', $data);
     }
 
-    public function kelurahan()
-    {
-        $data = [
-            'title' => 'Daftar Kelurahan',
-            'kelurahan' => $this->kelurahanModel->getKelurahan()
-        ];
-        return view('pages/kelurahan', $data);
-    }
+    // public function kecamatan()
+    // {
+    //     $data = [
+    //         'title' => 'Daftar Kecamatan',
+    //         'kecamatan' => $this->kecamatanModel->getKecamatan(),
+    //         'aplikasi_kecamatan' => $this->aplikasiKecamatanModel->getAplikasiKecamatan(),
+    //         'aplikasi_per_kecamatan' => []
+    //     ];
+
+    //     foreach ($data['kecamatan'] as $kecamatan) {
+    //         $aplikasi_per_kecamatan[$kecamatan['slug']] = $this->aplikasiKecamatanModel->getAplikasiKecamatanBySlug($kecamatan['slug']);
+    //     }
+
+    //     $data['aplikasi_per_kecamatan'] = $aplikasi_per_kecamatan;
+    //     return view('pages/kecamatan', $data);
+    // }
+
+    // public function kelurahan()
+    // {
+    //     $data = [
+    //         'title' => 'Daftar Kelurahan',
+    //         'kelurahan' => $this->kelurahanModel->getKelurahan()
+    //     ];
+    //     return view('pages/kelurahan', $data);
+    // }
 
     // public function table()
     // {
@@ -61,20 +71,20 @@ class DaftarApp extends BaseController
     //     return view('pages/table', $data);
     // }
 
-    public function ContohTable()
-    {
-        $data = [
-            'title' => 'Daftar Kecamatan',
-            'kecamatan' => $this->kecamatanModel->getKecamatan(),
-            'aplikasi_kecamatan' => $this->aplikasiKecamatanModel->getAplikasiKecamatan(),
-            'aplikasi_per_kecamatan' => []
-        ];
+    // public function ContohTable()
+    // {
+    //     $data = [
+    //         'title' => 'Daftar Kecamatan',
+    //         'kecamatan' => $this->kecamatanModel->getKecamatan(),
+    //         'aplikasi_kecamatan' => $this->aplikasiKecamatanModel->getAplikasiKecamatan(),
+    //         'aplikasi_per_kecamatan' => []
+    //     ];
 
-        foreach ($data['kecamatan'] as $kecamatan) {
-            $aplikasi_per_kecamatan[$kecamatan['slug']] = $this->aplikasiKecamatanModel->getAplikasiKecamatanBySlug($kecamatan['slug']);
-        }
+    //     foreach ($data['kecamatan'] as $kecamatan) {
+    //         $aplikasi_per_kecamatan[$kecamatan['slug']] = $this->aplikasiKecamatanModel->getAplikasiKecamatanBySlug($kecamatan['slug']);
+    //     }
 
-        $data['aplikasi_per_kecamatan'] = $aplikasi_per_kecamatan;
-        return view('pages/table', $data);
-    }
+    //     $data['aplikasi_per_kecamatan'] = $aplikasi_per_kecamatan;
+    //     return view('pages/table', $data);
+    // }
 }

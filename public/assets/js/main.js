@@ -15,6 +15,9 @@
   function toggleScrolled() {
     const selectBody = document.querySelector("body");
     const selectHeader = document.querySelector("#header");
+
+    if (!selectHeader) return;
+
     if (
       !selectHeader.classList.contains("scroll-up-sticky") &&
       !selectHeader.classList.contains("sticky-top") &&
@@ -191,3 +194,57 @@
   document.addEventListener("scroll", navmenuScrollspy);
 })();
 
+// Pagination Handler
+
+$(document).ready(function () {
+  $(document).on("click", ".pagination-button", function () {
+    var page = $(this).data("page");
+    loadApps(page);
+
+    $(".pagination-button").removeClass("active");
+    $(this).addClass("active");
+  });
+
+  function loadApps(page) {
+    // Fade out effect
+    $(".box").css("opacity", "0");
+
+    setTimeout(() => {
+      $.ajax({
+        url: "/daftarapp/getApps",
+        method: "GET",
+        data: { page: page },
+        success: function (response) {
+          // Update konten
+          $(".box").html(response).css("opacity", "1");
+
+          // Animasi untuk setiap item
+          $(".list").each(function (index) {
+            $(this)
+              .css({
+                opacity: "0",
+                transform: "translateX(50px)",
+                transition: "all 0.5s ease",
+              })
+              .delay(index * 200) // Delay untuk setiap item
+              .queue(function (next) {
+                $(this).css({
+                  opacity: "1",
+                  transform: "translateX(0)",
+                });
+                next();
+              });
+          });
+        },
+        error: function (xhr, status, error) {
+          console.error(error);
+          $(".box")
+            .html('<div class="error">Terjadi kesalahan saat memuat data</div>')
+            .css("opacity", "1");
+        },
+      });
+    }, 300);
+  }
+
+  loadApps(1);
+});

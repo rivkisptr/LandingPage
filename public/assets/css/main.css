@@ -424,6 +424,12 @@ section,
 
 /* JAKSEL APP */
 
+#JakselApp {
+  background-color: #f3f3f3;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
 .box {
   display: grid;
   position: relative;
@@ -431,17 +437,31 @@ section,
   min-width: 400px;
   overflow: auto;
   align-items: center;
+  transition: opacity 0.3 ease-in-out;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.box::-webkit-scrollbar {
+  display: none;
+}
+
+.list {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 0.5s ease;
 }
 
 .box .list {
   position: relative;
   display: flex;
   padding: 10px;
-  border-radius: 10px;
-  margin: 10px 0;
+  border-radius: 15px;
+  margin: 7px 0;
   transition: 0.5s;
   overflow: hidden;
   background-color: #e6e6e6;
+  align-items: center;
 }
 
 .box .list .imgbx {
@@ -471,11 +491,15 @@ section,
   flex-direction: column;
   justify-content: center;
   color: #333;
+  width: calc(100% - 100px);
+  padding-right: 20px;
 }
 
 .box .list .content .link {
   position: absolute;
   right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
   color: green;
   transition: 0.5s;
   font-size: 2em;
@@ -486,7 +510,8 @@ section,
 }
 
 .box .list .content h4 {
-  line-height: 1.5em;
+  margin: 0 0 5px 0;
+  line-height: 1.2em;
   font-weight: 600;
 }
 
@@ -497,10 +522,69 @@ section,
   background-color: #4caf50;
   color: white;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 7px;
   transition: background-color 0.3s;
 }
 
 .link a:hover {
   background-color: #45a049;
+}
+
+.app-description {
+  word-wrap: break-word;
+  width: calc(100% - 100px);
+  max-width: 650px;
+  overflow-wrap: break-word;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .box .list .content {
+    width: calc(100% - 120px);
+  }
+}
+
+/* Pagination Animation */
+
+#pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+}
+
+/* Styling tombol pagination */
+.pagination-button {
+  margin: 0 5px;
+  padding: 8px 15px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.pagination-button:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pagination-button.active {
+  background-color: #4caf50;
+  color: white;
+  border-color: #49a34c;
+}
+
+/* Animasi fade konten */
+.fade-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.3s ease, transform 0.3s ease;
 }

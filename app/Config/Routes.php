@@ -10,3 +10,4 @@ $routes->get('/table', 'DaftarApp::table');
 $routes->get('/kecamatan', 'DaftarApp::kecamatan');
 $routes->get('/kelurahan', 'DaftarApp::kelurahan');
 $routes->get('/contohtable', 'DaftarApp::ContohTable');
+$routes->get('daftarapp/getApps', 'DaftarApp::getApps');
