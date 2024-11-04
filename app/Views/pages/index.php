@@ -11,7 +11,7 @@
         </div>
         <!-- End Section Title -->
         <div class="isotope-container" data-aos="fade-up" data-aos-delay="50">
-            <div class="row justify-content-center">
+            <div id="kecamatan-container" class="row justify-content-center">
 
                 <?php foreach ($kecamatan as $k): ?>
                     <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item" data-bs-toggle="modal" data-bs-target="#KecamatanBackdrop-<?= $k['slug']; ?>">
@@ -23,6 +23,10 @@
                         </div>
                     </div>
                 <?php endforeach; ?>
+                <div id="kecamatan-pagination-container">
+                    <button class="kecamatan-pagination-button" data-page="1">1</button>
+                    <button class="kecamatan-pagination-button" data-page="2">2</button>
+                </div>
 
 
                 <!-- Modal Kecamatan -->
@@ -44,7 +48,7 @@
                                         <div class="row justify-content-center">
                                             <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item">
                                                 <div class="portfolio-content h-100">
-                                                    <a href="<?= $k['link']; ?>" data-gallery="portfolio-gallery-app">
+                                                    <a href="<?= $k['link']; ?>" data-gallery="portfolio-gallery-app" target="_blank">
                                                         <img src="assets/img/kecamatan.png" class="img-fluid" alt="">
                                                     </a>
                                                     <div class="portfolio-info">
@@ -66,7 +70,7 @@
                                                 <?php if ($kel['slug_kecamatan'] == $k['slug']): ?>
                                                     <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item isotope-item">
                                                         <div class="portfolio-content h-100">
-                                                            <a href="<?= $kel['link']; ?>" data-gallery="portfolio-gallery-app">
+                                                            <a href="<?= $kel['link']; ?>" data-gallery="portfolio-gallery-app" target="_blank">
                                                                 <img src="assets/img/kelurahan.png" class="img-fluid" alt="">
                                                             </a>
                                                             <div class="portfolio-info">
@@ -89,7 +93,6 @@
                         </div>
                     </div>
                 <?php endforeach; ?>
-
     </section>
 
     <section id="JakselApp" class="section">

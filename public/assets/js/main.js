@@ -194,7 +194,7 @@
   document.addEventListener("scroll", navmenuScrollspy);
 })();
 
-// Pagination Handler
+// JakselApp Pagination Handler
 
 $(document).ready(function () {
   $(document).on("click", ".pagination-button", function () {
@@ -247,4 +247,52 @@ $(document).ready(function () {
   }
 
   loadApps(1);
+});
+
+$(document).ready(function () {
+  $(document).on("click", ".kecamatan-pagination-button", function () {
+    var page = $(this).data("page");
+    loadKecamatan(page);
+
+    $(".kecamatan-pagination-button").removeClass("active");
+    $(this).addClass("active");
+  });
+
+  function loadKecamatan(page) {
+    setTimeout(() => {
+      $.ajax({
+        url: "/daftarapp/getKecamatan",
+        method: "GET",
+        data: { page: page },
+        success: function (response) {
+          $("#kecamatan-container").html(response).css("opacity", "1");
+
+          $(".porfolio-item").each(function (index) {
+            $(this)
+              .css({
+                opacity: "0",
+                transform: "translateX(50px)",
+                transition: "all 0.5s ease",
+              })
+              .delay(index * 200) // Delay untuk setiap item
+              .queue(function (next) {
+                $(this).css({
+                  opacity: "1",
+                  transform: "translateX(0)",
+                });
+                next();
+              });
+          });
+        },
+        error: function (xhr, status, error) {
+          console.error(error);
+          $("#kecamatan-container")
+            .html('<div class="error">Terjadi kesalahan saat memuat data</div>')
+            .css("opacity", "1");
+        },
+      });
+    }, 300);
+  }
+
+  loadKecamatan(1);
 });

@@ -20,13 +20,26 @@ class DaftarApp extends BaseController
     public function index()
     {
         $data = [
-            'title'     => 'Satuan Kerja Jakarta Selatan',
-            'kecamatan' => $this->kecamatanModel->getKecamatan(),
-            'kelurahan' => $this->kelurahanModel->getKelurahan(),
-            'aplikasi'  => $this->aplikasiJakselModel->paginate(4),
-            'pager'     => $this->aplikasiJakselModel->pager
+            'title'             => 'Satuan Kerja Jakarta Selatan',
+            'kecamatan'         => $this->kecamatanModel->paginate(5),
+            'pager_kecamatan'   => $this->kecamatanModel->pager,
+            'kelurahan'         => $this->kelurahanModel->getKelurahan(),
+            'aplikasi'          => $this->aplikasiJakselModel->paginate(4),
+            'pager'             => $this->aplikasiJakselModel->pager
         ];
         return view('pages/index', $data);
+    }
+
+    public function getKecamatan()
+    {
+        $page = $this->request->getVar('page') ?? 1;
+        $data = [
+            'kecamatan' => $this->kecamatanModel->paginate(5, 'kecamatan', $page),
+            'kelurahan' => $this->kelurahanModel->getKelurahan(),
+            'pager'     => $this->kecamatanModel->pager
+        ];
+
+        return view('pages/kecamatan_partial', $data);
     }
 
     public function getApps()

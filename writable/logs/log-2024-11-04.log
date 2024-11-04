@@ -1,0 +1,1568 @@
+CRITICAL - 2024-11-04 02:16:06 --> TypeError: CodeIgniter\BaseModel::paginate(): Argument #3 ($page) must be of type ?int, string given, called in C:\xampp\htdocs\LandingPage\app\Controllers\DaftarApp.php on line 37
+[Method: GET, Route: daftarapp/getKecamatan]
+in SYSTEMPATH\BaseModel.php on line 1273.
+ 1 APPPATH\Controllers\DaftarApp.php(37): CodeIgniter\BaseModel->paginate(5, 'kecamatan', 'active')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->getKecamatan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 02:16:07 --> TypeError: CodeIgniter\BaseModel::paginate(): Argument #3 ($page) must be of type ?int, string given, called in C:\xampp\htdocs\LandingPage\app\Controllers\DaftarApp.php on line 47
+[Method: GET, Route: daftarapp/getApps]
+in SYSTEMPATH\BaseModel.php on line 1273.
+ 1 APPPATH\Controllers\DaftarApp.php(47): CodeIgniter\BaseModel->paginate(4, 'jaksel_app', 'active')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->getApps()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 02:17:52 --> TypeError: CodeIgniter\BaseModel::paginate(): Argument #3 ($page) must be of type ?int, string given, called in C:\xampp\htdocs\LandingPage\app\Controllers\DaftarApp.php on line 37
+[Method: GET, Route: daftarapp/getKecamatan]
+in SYSTEMPATH\BaseModel.php on line 1273.
+ 1 APPPATH\Controllers\DaftarApp.php(37): CodeIgniter\BaseModel->paginate(5, 'kecamatan', 'active')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->getKecamatan()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 02:17:52 --> TypeError: CodeIgniter\BaseModel::paginate(): Argument #3 ($page) must be of type ?int, string given, called in C:\xampp\htdocs\LandingPage\app\Controllers\DaftarApp.php on line 47
+[Method: GET, Route: daftarapp/getApps]
+in SYSTEMPATH\BaseModel.php on line 1273.
+ 1 APPPATH\Controllers\DaftarApp.php(47): CodeIgniter\BaseModel->paginate(4, 'jaksel_app', 'active')
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->getApps()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 02:24:08 --> Error: Call to undefined method CodeIgniter\Pager\Pager::setSurroundCount()
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 30.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 4 APPPATH\Controllers\DaftarApp.php(30): view('pages/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 02:29:55 --> ErrorException: foreach() argument must be of type array|object, string given
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 28.
+ 1 APPPATH\Views\pages\index.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, string given', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 28)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(30): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 02:40:09 --> CodeIgniter\Pager\Exceptions\PagerException: "custom_pagination" is not a valid Pager template.
+[Method: GET, Route: /]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('custom_pagination')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kecamatan', 'custom_pagination')
+ 3 APPPATH\Views\pages\index.php(27): CodeIgniter\Pager\Pager->links('kecamatan', 'custom_pagination')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 7 APPPATH\Controllers\DaftarApp.php(30): view('pages/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 02:40:11 --> CodeIgniter\Pager\Exceptions\PagerException: "custom_pagination" is not a valid Pager template.
+[Method: GET, Route: /]
+in SYSTEMPATH\Pager\Pager.php on line 124.
+ 1 SYSTEMPATH\Pager\Pager.php(124): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('custom_pagination')
+ 2 SYSTEMPATH\Pager\Pager.php(87): CodeIgniter\Pager\Pager->displayLinks('kecamatan', 'custom_pagination')
+ 3 APPPATH\Views\pages\index.php(27): CodeIgniter\Pager\Pager->links('kecamatan', 'custom_pagination')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 7 APPPATH\Controllers\DaftarApp.php(30): view('pages/index', [...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+DEBUG - 2024-11-04 03:13:33 --> Pager Kecamatan : CodeIgniter\Pager\Pager Object
+(
+    [groups:protected] => Array
+        (
+            [default] => Array
+                (
+                    [currentUri] => CodeIgniter\HTTP\SiteURI Object
+                        (
+                            [uriString:protected] => 
+                            [baseURL:CodeIgniter\HTTP\URI:private] => 
+                            [segments:protected] => Array
+                                (
+                                )
+
+                            [scheme:protected] => http
+                            [user:protected] => 
+                            [password:protected] => 
+                            [host:protected] => localhost
+                            [port:protected] => 8080
+                            [path:protected] => /index.php/
+                            [fragment:protected] => 
+                            [query:protected] => Array
+                                (
+                                )
+
+                            [defaultPorts:protected] => Array
+                                (
+                                    [http] => 80
+                                    [https] => 443
+                                    [ftp] => 21
+                                    [sftp] => 22
+                                )
+
+                            [showPassword:protected] => 
+                            [silent:protected] => 
+                            [rawQueryString:protected] => 
+                            [baseURL:CodeIgniter\HTTP\SiteURI:private] => CodeIgniter\HTTP\URI Object
+                                (
+                                    [uriString:protected] => 
+                                    [baseURL:CodeIgniter\HTTP\URI:private] => 
+                                    [segments:protected] => Array
+                                        (
+                                        )
+
+                                    [scheme:protected] => http
+                                    [user:protected] => 
+                                    [password:protected] => 
+                                    [host:protected] => localhost
+                                    [port:protected] => 8080
+                                    [path:protected] => /
+                                    [fragment:protected] => 
+                                    [query:protected] => Array
+                                        (
+                                        )
+
+                                    [defaultPorts:protected] => Array
+                                        (
+                                            [http] => 80
+                                            [https] => 443
+                                            [ftp] => 21
+                                            [sftp] => 22
+                                        )
+
+                                    [showPassword:protected] => 
+                                    [silent:protected] => 
+                                    [rawQueryString:protected] => 
+                                )
+
+                            [basePathWithoutIndexPage:CodeIgniter\HTTP\SiteURI:private] => /
+                            [indexPage:CodeIgniter\HTTP\SiteURI:private] => index.php
+                            [baseSegments:CodeIgniter\HTTP\SiteURI:private] => Array
+                                (
+                                    [0] => index.php
+                                )
+
+                            [routePath:CodeIgniter\HTTP\SiteURI:private] => 
+                        )
+
+                    [uri] => CodeIgniter\HTTP\SiteURI Object
+                        (
+                            [uriString:protected] => 
+                            [baseURL:CodeIgniter\HTTP\URI:private] => 
+                            [segments:protected] => Array
+                                (
+                                )
+
+                            [scheme:protected] => http
+                            [user:protected] => 
+                            [password:protected] => 
+                            [host:protected] => localhost
+                            [port:protected] => 8080
+                            [path:protected] => /index.php/
+                            [fragment:protected] => 
+                            [query:protected] => Array
+                                (
+                                )
+
+                            [defaultPorts:protected] => Array
+                                (
+                                    [http] => 80
+                                    [https] => 443
+                                    [ftp] => 21
+                                    [sftp] => 22
+                                )
+
+                            [showPassword:protected] => 
+                            [silent:protected] => 
+                            [rawQueryString:protected] => 
+                            [baseURL:CodeIgniter\HTTP\SiteURI:private] => CodeIgniter\HTTP\URI Object
+                                (
+                                    [uriString:protected] => 
+                                    [baseURL:CodeIgniter\HTTP\URI:private] => 
+                                    [segments:protected] => Array
+                                        (
+                                        )
+
+                                    [scheme:protected] => http
+                                    [user:protected] => 
+                                    [password:protected] => 
+                                    [host:protected] => localhost
+                                    [port:protected] => 8080
+                                    [path:protected] => /
+                                    [fragment:protected] => 
+                                    [query:protected] => Array
+                                        (
+                                        )
+
+                                    [defaultPorts:protected] => Array
+                                        (
+                                            [http] => 80
+                                            [https] => 443
+                                            [ftp] => 21
+                                            [sftp] => 22
+                                        )
+
+                                    [showPassword:protected] => 
+                                    [silent:protected] => 
+                                    [rawQueryString:protected] => 
+                                )
+
+                            [basePathWithoutIndexPage:CodeIgniter\HTTP\SiteURI:private] => /
+                            [indexPage:CodeIgniter\HTTP\SiteURI:private] => index.php
+                            [baseSegments:CodeIgniter\HTTP\SiteURI:private] => Array
+                                (
+                                    [0] => index.php
+                                )
+
+                            [routePath:CodeIgniter\HTTP\SiteURI:private] => 
+                        )
+
+                    [hasMore] => 
+                    [total] => 28
+                    [perPage] => 4
+                    [pageCount] => 7
+                    [pageSelector] => page
+                    [currentPage] => 1
+                )
+
+        )
+
+    [segment:protected] => Array
+        (
+        )
+
+    [config:protected] => Config\Pager Object
+        (
+            [templates] => Array
+                (
+                    [default_full] => CodeIgniter\Pager\Views\default_full
+                    [default_simple] => CodeIgniter\Pager\Views\default_simple
+                    [default_head] => CodeIgniter\Pager\Views\default_head
+                )
+
+            [perPage] => 20
+        )
+
+    [view:protected] => CodeIgniter\View\View Object
+        (
+            [data:protected] => Array
+                (
+                )
+
+            [tempData:protected] => 
+            [viewPath:protected] => C:\xampp\htdocs\LandingPage\app\Config/../Views\
+            [renderVars:protected] => Array
+                (
+                )
+
+            [loader:protected] => CodeIgniter\Autoloader\FileLocator Object
+                (
+                    [autoloader:protected] => CodeIgniter\Autoloader\Autoloader Object
+                        (
+                            [prefixes:protected] => Array
+                                (
+                                    [CodeIgniter] => Array
+                                        (
+                                            [0] => C:\xampp\htdocs\LandingPage\system\
+                                        )
+
+                                    [Config] => Array
+                                        (
+                                            [0] => C:\xampp\htdocs\LandingPage\app\Config\
+                                        )
+
+                                    [App] => Array
+                                        (
+                                            [0] => C:\xampp\htdocs\LandingPage\app\
+                                        )
+
+                                )
+
+                            [classmap:protected] => Array
+                                (
+                                    [Psr\Log\AbstractLogger] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/AbstractLogger.php
+                                    [Psr\Log\InvalidArgumentException] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/InvalidArgumentException.php
+                                    [Psr\Log\LoggerAwareInterface] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/LoggerAwareInterface.php
+                                    [Psr\Log\LoggerAwareTrait] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/LoggerAwareTrait.php
+                                    [Psr\Log\LoggerInterface] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/LoggerInterface.php
+                                    [Psr\Log\LoggerTrait] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/LoggerTrait.php
+                                    [Psr\Log\LogLevel] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/LogLevel.php
+                                    [Psr\Log\NullLogger] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/NullLogger.php
+                                    [Laminas\Escaper\Exception\ExceptionInterface] => C:\xampp\htdocs\LandingPage\system\ThirdParty/Escaper/Exception/ExceptionInterface.php
+                                    [Laminas\Escaper\Exception\InvalidArgumentException] => C:\xampp\htdocs\LandingPage\system\ThirdParty/Escaper/Exception/InvalidArgumentException.php
+                                    [Laminas\Escaper\Exception\RuntimeException] => C:\xampp\htdocs\LandingPage\system\ThirdParty/Escaper/Exception/RuntimeException.php
+                                    [Laminas\Escaper\Escaper] => C:\xampp\htdocs\LandingPage\system\ThirdParty/Escaper/Escaper.php
+                                )
+
+                            [files:protected] => Array
+                                (
+                                )
+
+                            [helpers:protected] => Array
+                                (
+                                    [0] => url
+                                )
+
+                        )
+
+                    [invalidClassnames:CodeIgniter\Autoloader\FileLocator:private] => Array
+                        (
+                        )
+
+                )
+
+            [logger:protected] => CodeIgniter\Log\Logger Object
+                (
+                    [logLevels:protected] => Array
+                        (
+                            [emergency] => 1
+                            [alert] => 2
+                            [critical] => 3
+                            [error] => 4
+                            [warning] => 5
+                            [notice] => 6
+                            [info] => 7
+                            [debug] => 8
+                        )
+
+                    [loggableLevels:protected] => Array
+                        (
+                            [0] => emergency
+                            [1] => alert
+                            [2] => critical
+                            [3] => error
+                            [4] => warning
+                            [5] => notice
+                            [6] => info
+                            [7] => debug
+                            [8] => 
+                        )
+
+                    [filePermissions:protected] => 420
+                    [dateFormat:protected] => Y-m-d H:i:s
+                    [fileExt:protected] => 
+                    [handlers:protected] => Array
+                        (
+                        )
+
+                    [handlerConfig:protected] => Array
+                        (
+                            [CodeIgniter\Log\Handlers\FileHandler] => Array
+                                (
+                                    [handles] => Array
+                                        (
+                                            [0] => critical
+                                            [1] => alert
+                                            [2] => emergency
+                                            [3] => debug
+                                            [4] => error
+                                            [5] => info
+                                            [6] => notice
+                                            [7] => warning
+                                        )
+
+                                    [fileExtension] => 
+                                    [filePermissions] => 420
+                                    [path] => 
+                                )
+
+                        )
+
+                    [logCache] => Array
+                        (
+                        )
+
+                    [cacheLogs:protected] => 1
+                )
+
+            [debug:protected] => 1
+            [performanceData:protected] => Array
+                (
+                )
+
+            [config:protected] => Config\View Object
+                (
+                    [saveData] => 1
+                    [filters] => Array
+                        (
+                            [abs] => \abs
+                            [capitalize] => \CodeIgniter\View\Filters::capitalize
+                            [date] => \CodeIgniter\View\Filters::date
+                            [date_modify] => \CodeIgniter\View\Filters::date_modify
+                            [default] => \CodeIgniter\View\Filters::default
+                            [esc] => \CodeIgniter\View\Filters::esc
+                            [excerpt] => \CodeIgniter\View\Filters::excerpt
+                            [highlight] => \CodeIgniter\View\Filters::highlight
+                            [highlight_code] => \CodeIgniter\View\Filters::highlight_code
+                            [limit_words] => \CodeIgniter\View\Filters::limit_words
+                            [limit_chars] => \CodeIgniter\View\Filters::limit_chars
+                            [local_currency] => \CodeIgniter\View\Filters::local_currency
+                            [local_number] => \CodeIgniter\View\Filters::local_number
+                            [lower] => \strtolower
+                            [nl2br] => \CodeIgniter\View\Filters::nl2br
+                            [number_format] => \number_format
+                            [prose] => \CodeIgniter\View\Filters::prose
+                            [round] => \CodeIgniter\View\Filters::round
+                            [strip_tags] => \strip_tags
+                            [title] => \CodeIgniter\View\Filters::title
+                            [upper] => \strtoupper
+                        )
+
+                    [plugins] => Array
+                        (
+                            [csp_script_nonce] => \CodeIgniter\View\Plugins::cspScriptNonce
+                            [csp_style_nonce] => \CodeIgniter\View\Plugins::cspStyleNonce
+                            [current_url] => \CodeIgniter\View\Plugins::currentURL
+                            [previous_url] => \CodeIgniter\View\Plugins::previousURL
+                            [mailto] => \CodeIgniter\View\Plugins::mailto
+                            [safe_mailto] => \CodeIgniter\View\Plugins::safeMailto
+                            [lang] => \CodeIgniter\View\Plugins::lang
+                            [validation_errors] => \CodeIgniter\View\Plugins::validationErrors
+                            [route] => \CodeIgniter\View\Plugins::route
+                            [siteURL] => \CodeIgniter\View\Plugins::siteURL
+                        )
+
+                    [coreFilters:protected] => Array
+                        (
+                            [abs] => \abs
+                            [capitalize] => \CodeIgniter\View\Filters::capitalize
+                            [date] => \CodeIgniter\View\Filters::date
+                            [date_modify] => \CodeIgniter\View\Filters::date_modify
+                            [default] => \CodeIgniter\View\Filters::default
+                            [esc] => \CodeIgniter\View\Filters::esc
+                            [excerpt] => \CodeIgniter\View\Filters::excerpt
+                            [highlight] => \CodeIgniter\View\Filters::highlight
+                            [highlight_code] => \CodeIgniter\View\Filters::highlight_code
+                            [limit_words] => \CodeIgniter\View\Filters::limit_words
+                            [limit_chars] => \CodeIgniter\View\Filters::limit_chars
+                            [local_currency] => \CodeIgniter\View\Filters::local_currency
+                            [local_number] => \CodeIgniter\View\Filters::local_number
+                            [lower] => \strtolower
+                            [nl2br] => \CodeIgniter\View\Filters::nl2br
+                            [number_format] => \number_format
+                            [prose] => \CodeIgniter\View\Filters::prose
+                            [round] => \CodeIgniter\View\Filters::round
+                            [strip_tags] => \strip_tags
+                            [title] => \CodeIgniter\View\Filters::title
+                            [upper] => \strtoupper
+                        )
+
+                    [corePlugins:protected] => Array
+                        (
+                            [csp_script_nonce] => \CodeIgniter\View\Plugins::cspScriptNonce
+                            [csp_style_nonce] => \CodeIgniter\View\Plugins::cspStyleNonce
+                            [current_url] => \CodeIgniter\View\Plugins::currentURL
+                            [previous_url] => \CodeIgniter\View\Plugins::previousURL
+                            [mailto] => \CodeIgniter\View\Plugins::mailto
+                            [safe_mailto] => \CodeIgniter\View\Plugins::safeMailto
+                            [lang] => \CodeIgniter\View\Plugins::lang
+                            [validation_errors] => \CodeIgniter\View\Plugins::validationErrors
+                            [route] => \CodeIgniter\View\Plugins::route
+                            [siteURL] => \CodeIgniter\View\Plugins::siteURL
+                        )
+
+                    [decorators] => Array
+                        (
+                        )
+
+                )
+
+            [saveData:protected] => 1
+            [viewsCount:protected] => 0
+            [layout:protected] => 
+            [sections:protected] => Array
+                (
+                )
+
+            [currentSection:protected] => 
+            [sectionStack:protected] => Array
+                (
+                )
+
+        )
+
+    [only:protected] => 
+)
+
+DEBUG - 2024-11-04 03:14:45 --> Pager Kecamatan : CodeIgniter\Pager\Pager Object
+(
+    [groups:protected] => Array
+        (
+            [default] => Array
+                (
+                    [currentUri] => CodeIgniter\HTTP\SiteURI Object
+                        (
+                            [uriString:protected] => 
+                            [baseURL:CodeIgniter\HTTP\URI:private] => 
+                            [segments:protected] => Array
+                                (
+                                )
+
+                            [scheme:protected] => http
+                            [user:protected] => 
+                            [password:protected] => 
+                            [host:protected] => localhost
+                            [port:protected] => 8080
+                            [path:protected] => /index.php/
+                            [fragment:protected] => 
+                            [query:protected] => Array
+                                (
+                                )
+
+                            [defaultPorts:protected] => Array
+                                (
+                                    [http] => 80
+                                    [https] => 443
+                                    [ftp] => 21
+                                    [sftp] => 22
+                                )
+
+                            [showPassword:protected] => 
+                            [silent:protected] => 
+                            [rawQueryString:protected] => 
+                            [baseURL:CodeIgniter\HTTP\SiteURI:private] => CodeIgniter\HTTP\URI Object
+                                (
+                                    [uriString:protected] => 
+                                    [baseURL:CodeIgniter\HTTP\URI:private] => 
+                                    [segments:protected] => Array
+                                        (
+                                        )
+
+                                    [scheme:protected] => http
+                                    [user:protected] => 
+                                    [password:protected] => 
+                                    [host:protected] => localhost
+                                    [port:protected] => 8080
+                                    [path:protected] => /
+                                    [fragment:protected] => 
+                                    [query:protected] => Array
+                                        (
+                                        )
+
+                                    [defaultPorts:protected] => Array
+                                        (
+                                            [http] => 80
+                                            [https] => 443
+                                            [ftp] => 21
+                                            [sftp] => 22
+                                        )
+
+                                    [showPassword:protected] => 
+                                    [silent:protected] => 
+                                    [rawQueryString:protected] => 
+                                )
+
+                            [basePathWithoutIndexPage:CodeIgniter\HTTP\SiteURI:private] => /
+                            [indexPage:CodeIgniter\HTTP\SiteURI:private] => index.php
+                            [baseSegments:CodeIgniter\HTTP\SiteURI:private] => Array
+                                (
+                                    [0] => index.php
+                                )
+
+                            [routePath:CodeIgniter\HTTP\SiteURI:private] => 
+                        )
+
+                    [uri] => CodeIgniter\HTTP\SiteURI Object
+                        (
+                            [uriString:protected] => 
+                            [baseURL:CodeIgniter\HTTP\URI:private] => 
+                            [segments:protected] => Array
+                                (
+                                )
+
+                            [scheme:protected] => http
+                            [user:protected] => 
+                            [password:protected] => 
+                            [host:protected] => localhost
+                            [port:protected] => 8080
+                            [path:protected] => /index.php/
+                            [fragment:protected] => 
+                            [query:protected] => Array
+                                (
+                                )
+
+                            [defaultPorts:protected] => Array
+                                (
+                                    [http] => 80
+                                    [https] => 443
+                                    [ftp] => 21
+                                    [sftp] => 22
+                                )
+
+                            [showPassword:protected] => 
+                            [silent:protected] => 
+                            [rawQueryString:protected] => 
+                            [baseURL:CodeIgniter\HTTP\SiteURI:private] => CodeIgniter\HTTP\URI Object
+                                (
+                                    [uriString:protected] => 
+                                    [baseURL:CodeIgniter\HTTP\URI:private] => 
+                                    [segments:protected] => Array
+                                        (
+                                        )
+
+                                    [scheme:protected] => http
+                                    [user:protected] => 
+                                    [password:protected] => 
+                                    [host:protected] => localhost
+                                    [port:protected] => 8080
+                                    [path:protected] => /
+                                    [fragment:protected] => 
+                                    [query:protected] => Array
+                                        (
+                                        )
+
+                                    [defaultPorts:protected] => Array
+                                        (
+                                            [http] => 80
+                                            [https] => 443
+                                            [ftp] => 21
+                                            [sftp] => 22
+                                        )
+
+                                    [showPassword:protected] => 
+                                    [silent:protected] => 
+                                    [rawQueryString:protected] => 
+                                )
+
+                            [basePathWithoutIndexPage:CodeIgniter\HTTP\SiteURI:private] => /
+                            [indexPage:CodeIgniter\HTTP\SiteURI:private] => index.php
+                            [baseSegments:CodeIgniter\HTTP\SiteURI:private] => Array
+                                (
+                                    [0] => index.php
+                                )
+
+                            [routePath:CodeIgniter\HTTP\SiteURI:private] => 
+                        )
+
+                    [hasMore] => 
+                    [total] => 28
+                    [perPage] => 4
+                    [pageCount] => 7
+                    [pageSelector] => page
+                    [currentPage] => 1
+                )
+
+        )
+
+    [segment:protected] => Array
+        (
+        )
+
+    [config:protected] => Config\Pager Object
+        (
+            [templates] => Array
+                (
+                    [default_full] => CodeIgniter\Pager\Views\default_full
+                    [default_simple] => CodeIgniter\Pager\Views\default_simple
+                    [default_head] => CodeIgniter\Pager\Views\default_head
+                )
+
+            [perPage] => 20
+        )
+
+    [view:protected] => CodeIgniter\View\View Object
+        (
+            [data:protected] => Array
+                (
+                )
+
+            [tempData:protected] => 
+            [viewPath:protected] => C:\xampp\htdocs\LandingPage\app\Config/../Views\
+            [renderVars:protected] => Array
+                (
+                )
+
+            [loader:protected] => CodeIgniter\Autoloader\FileLocator Object
+                (
+                    [autoloader:protected] => CodeIgniter\Autoloader\Autoloader Object
+                        (
+                            [prefixes:protected] => Array
+                                (
+                                    [CodeIgniter] => Array
+                                        (
+                                            [0] => C:\xampp\htdocs\LandingPage\system\
+                                        )
+
+                                    [Config] => Array
+                                        (
+                                            [0] => C:\xampp\htdocs\LandingPage\app\Config\
+                                        )
+
+                                    [App] => Array
+                                        (
+                                            [0] => C:\xampp\htdocs\LandingPage\app\
+                                        )
+
+                                )
+
+                            [classmap:protected] => Array
+                                (
+                                    [Psr\Log\AbstractLogger] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/AbstractLogger.php
+                                    [Psr\Log\InvalidArgumentException] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/InvalidArgumentException.php
+                                    [Psr\Log\LoggerAwareInterface] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/LoggerAwareInterface.php
+                                    [Psr\Log\LoggerAwareTrait] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/LoggerAwareTrait.php
+                                    [Psr\Log\LoggerInterface] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/LoggerInterface.php
+                                    [Psr\Log\LoggerTrait] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/LoggerTrait.php
+                                    [Psr\Log\LogLevel] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/LogLevel.php
+                                    [Psr\Log\NullLogger] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/NullLogger.php
+                                    [Laminas\Escaper\Exception\ExceptionInterface] => C:\xampp\htdocs\LandingPage\system\ThirdParty/Escaper/Exception/ExceptionInterface.php
+                                    [Laminas\Escaper\Exception\InvalidArgumentException] => C:\xampp\htdocs\LandingPage\system\ThirdParty/Escaper/Exception/InvalidArgumentException.php
+                                    [Laminas\Escaper\Exception\RuntimeException] => C:\xampp\htdocs\LandingPage\system\ThirdParty/Escaper/Exception/RuntimeException.php
+                                    [Laminas\Escaper\Escaper] => C:\xampp\htdocs\LandingPage\system\ThirdParty/Escaper/Escaper.php
+                                )
+
+                            [files:protected] => Array
+                                (
+                                )
+
+                            [helpers:protected] => Array
+                                (
+                                    [0] => url
+                                )
+
+                        )
+
+                    [invalidClassnames:CodeIgniter\Autoloader\FileLocator:private] => Array
+                        (
+                        )
+
+                )
+
+            [logger:protected] => CodeIgniter\Log\Logger Object
+                (
+                    [logLevels:protected] => Array
+                        (
+                            [emergency] => 1
+                            [alert] => 2
+                            [critical] => 3
+                            [error] => 4
+                            [warning] => 5
+                            [notice] => 6
+                            [info] => 7
+                            [debug] => 8
+                        )
+
+                    [loggableLevels:protected] => Array
+                        (
+                            [0] => emergency
+                            [1] => alert
+                            [2] => critical
+                            [3] => error
+                            [4] => warning
+                            [5] => notice
+                            [6] => info
+                            [7] => debug
+                            [8] => 
+                        )
+
+                    [filePermissions:protected] => 420
+                    [dateFormat:protected] => Y-m-d H:i:s
+                    [fileExt:protected] => 
+                    [handlers:protected] => Array
+                        (
+                        )
+
+                    [handlerConfig:protected] => Array
+                        (
+                            [CodeIgniter\Log\Handlers\FileHandler] => Array
+                                (
+                                    [handles] => Array
+                                        (
+                                            [0] => critical
+                                            [1] => alert
+                                            [2] => emergency
+                                            [3] => debug
+                                            [4] => error
+                                            [5] => info
+                                            [6] => notice
+                                            [7] => warning
+                                        )
+
+                                    [fileExtension] => 
+                                    [filePermissions] => 420
+                                    [path] => 
+                                )
+
+                        )
+
+                    [logCache] => Array
+                        (
+                        )
+
+                    [cacheLogs:protected] => 1
+                )
+
+            [debug:protected] => 1
+            [performanceData:protected] => Array
+                (
+                )
+
+            [config:protected] => Config\View Object
+                (
+                    [saveData] => 1
+                    [filters] => Array
+                        (
+                            [abs] => \abs
+                            [capitalize] => \CodeIgniter\View\Filters::capitalize
+                            [date] => \CodeIgniter\View\Filters::date
+                            [date_modify] => \CodeIgniter\View\Filters::date_modify
+                            [default] => \CodeIgniter\View\Filters::default
+                            [esc] => \CodeIgniter\View\Filters::esc
+                            [excerpt] => \CodeIgniter\View\Filters::excerpt
+                            [highlight] => \CodeIgniter\View\Filters::highlight
+                            [highlight_code] => \CodeIgniter\View\Filters::highlight_code
+                            [limit_words] => \CodeIgniter\View\Filters::limit_words
+                            [limit_chars] => \CodeIgniter\View\Filters::limit_chars
+                            [local_currency] => \CodeIgniter\View\Filters::local_currency
+                            [local_number] => \CodeIgniter\View\Filters::local_number
+                            [lower] => \strtolower
+                            [nl2br] => \CodeIgniter\View\Filters::nl2br
+                            [number_format] => \number_format
+                            [prose] => \CodeIgniter\View\Filters::prose
+                            [round] => \CodeIgniter\View\Filters::round
+                            [strip_tags] => \strip_tags
+                            [title] => \CodeIgniter\View\Filters::title
+                            [upper] => \strtoupper
+                        )
+
+                    [plugins] => Array
+                        (
+                            [csp_script_nonce] => \CodeIgniter\View\Plugins::cspScriptNonce
+                            [csp_style_nonce] => \CodeIgniter\View\Plugins::cspStyleNonce
+                            [current_url] => \CodeIgniter\View\Plugins::currentURL
+                            [previous_url] => \CodeIgniter\View\Plugins::previousURL
+                            [mailto] => \CodeIgniter\View\Plugins::mailto
+                            [safe_mailto] => \CodeIgniter\View\Plugins::safeMailto
+                            [lang] => \CodeIgniter\View\Plugins::lang
+                            [validation_errors] => \CodeIgniter\View\Plugins::validationErrors
+                            [route] => \CodeIgniter\View\Plugins::route
+                            [siteURL] => \CodeIgniter\View\Plugins::siteURL
+                        )
+
+                    [coreFilters:protected] => Array
+                        (
+                            [abs] => \abs
+                            [capitalize] => \CodeIgniter\View\Filters::capitalize
+                            [date] => \CodeIgniter\View\Filters::date
+                            [date_modify] => \CodeIgniter\View\Filters::date_modify
+                            [default] => \CodeIgniter\View\Filters::default
+                            [esc] => \CodeIgniter\View\Filters::esc
+                            [excerpt] => \CodeIgniter\View\Filters::excerpt
+                            [highlight] => \CodeIgniter\View\Filters::highlight
+                            [highlight_code] => \CodeIgniter\View\Filters::highlight_code
+                            [limit_words] => \CodeIgniter\View\Filters::limit_words
+                            [limit_chars] => \CodeIgniter\View\Filters::limit_chars
+                            [local_currency] => \CodeIgniter\View\Filters::local_currency
+                            [local_number] => \CodeIgniter\View\Filters::local_number
+                            [lower] => \strtolower
+                            [nl2br] => \CodeIgniter\View\Filters::nl2br
+                            [number_format] => \number_format
+                            [prose] => \CodeIgniter\View\Filters::prose
+                            [round] => \CodeIgniter\View\Filters::round
+                            [strip_tags] => \strip_tags
+                            [title] => \CodeIgniter\View\Filters::title
+                            [upper] => \strtoupper
+                        )
+
+                    [corePlugins:protected] => Array
+                        (
+                            [csp_script_nonce] => \CodeIgniter\View\Plugins::cspScriptNonce
+                            [csp_style_nonce] => \CodeIgniter\View\Plugins::cspStyleNonce
+                            [current_url] => \CodeIgniter\View\Plugins::currentURL
+                            [previous_url] => \CodeIgniter\View\Plugins::previousURL
+                            [mailto] => \CodeIgniter\View\Plugins::mailto
+                            [safe_mailto] => \CodeIgniter\View\Plugins::safeMailto
+                            [lang] => \CodeIgniter\View\Plugins::lang
+                            [validation_errors] => \CodeIgniter\View\Plugins::validationErrors
+                            [route] => \CodeIgniter\View\Plugins::route
+                            [siteURL] => \CodeIgniter\View\Plugins::siteURL
+                        )
+
+                    [decorators] => Array
+                        (
+                        )
+
+                )
+
+            [saveData:protected] => 1
+            [viewsCount:protected] => 0
+            [layout:protected] => 
+            [sections:protected] => Array
+                (
+                )
+
+            [currentSection:protected] => 
+            [sectionStack:protected] => Array
+                (
+                )
+
+        )
+
+    [only:protected] => 
+)
+
+DEBUG - 2024-11-04 03:16:04 --> Pager Kecamatan : CodeIgniter\Pager\Pager Object
+(
+    [groups:protected] => Array
+        (
+            [default] => Array
+                (
+                    [currentUri] => CodeIgniter\HTTP\SiteURI Object
+                        (
+                            [uriString:protected] => 
+                            [baseURL:CodeIgniter\HTTP\URI:private] => 
+                            [segments:protected] => Array
+                                (
+                                )
+
+                            [scheme:protected] => http
+                            [user:protected] => 
+                            [password:protected] => 
+                            [host:protected] => localhost
+                            [port:protected] => 8080
+                            [path:protected] => /index.php/
+                            [fragment:protected] => 
+                            [query:protected] => Array
+                                (
+                                )
+
+                            [defaultPorts:protected] => Array
+                                (
+                                    [http] => 80
+                                    [https] => 443
+                                    [ftp] => 21
+                                    [sftp] => 22
+                                )
+
+                            [showPassword:protected] => 
+                            [silent:protected] => 
+                            [rawQueryString:protected] => 
+                            [baseURL:CodeIgniter\HTTP\SiteURI:private] => CodeIgniter\HTTP\URI Object
+                                (
+                                    [uriString:protected] => 
+                                    [baseURL:CodeIgniter\HTTP\URI:private] => 
+                                    [segments:protected] => Array
+                                        (
+                                        )
+
+                                    [scheme:protected] => http
+                                    [user:protected] => 
+                                    [password:protected] => 
+                                    [host:protected] => localhost
+                                    [port:protected] => 8080
+                                    [path:protected] => /
+                                    [fragment:protected] => 
+                                    [query:protected] => Array
+                                        (
+                                        )
+
+                                    [defaultPorts:protected] => Array
+                                        (
+                                            [http] => 80
+                                            [https] => 443
+                                            [ftp] => 21
+                                            [sftp] => 22
+                                        )
+
+                                    [showPassword:protected] => 
+                                    [silent:protected] => 
+                                    [rawQueryString:protected] => 
+                                )
+
+                            [basePathWithoutIndexPage:CodeIgniter\HTTP\SiteURI:private] => /
+                            [indexPage:CodeIgniter\HTTP\SiteURI:private] => index.php
+                            [baseSegments:CodeIgniter\HTTP\SiteURI:private] => Array
+                                (
+                                    [0] => index.php
+                                )
+
+                            [routePath:CodeIgniter\HTTP\SiteURI:private] => 
+                        )
+
+                    [uri] => CodeIgniter\HTTP\SiteURI Object
+                        (
+                            [uriString:protected] => 
+                            [baseURL:CodeIgniter\HTTP\URI:private] => 
+                            [segments:protected] => Array
+                                (
+                                )
+
+                            [scheme:protected] => http
+                            [user:protected] => 
+                            [password:protected] => 
+                            [host:protected] => localhost
+                            [port:protected] => 8080
+                            [path:protected] => /index.php/
+                            [fragment:protected] => 
+                            [query:protected] => Array
+                                (
+                                )
+
+                            [defaultPorts:protected] => Array
+                                (
+                                    [http] => 80
+                                    [https] => 443
+                                    [ftp] => 21
+                                    [sftp] => 22
+                                )
+
+                            [showPassword:protected] => 
+                            [silent:protected] => 
+                            [rawQueryString:protected] => 
+                            [baseURL:CodeIgniter\HTTP\SiteURI:private] => CodeIgniter\HTTP\URI Object
+                                (
+                                    [uriString:protected] => 
+                                    [baseURL:CodeIgniter\HTTP\URI:private] => 
+                                    [segments:protected] => Array
+                                        (
+                                        )
+
+                                    [scheme:protected] => http
+                                    [user:protected] => 
+                                    [password:protected] => 
+                                    [host:protected] => localhost
+                                    [port:protected] => 8080
+                                    [path:protected] => /
+                                    [fragment:protected] => 
+                                    [query:protected] => Array
+                                        (
+                                        )
+
+                                    [defaultPorts:protected] => Array
+                                        (
+                                            [http] => 80
+                                            [https] => 443
+                                            [ftp] => 21
+                                            [sftp] => 22
+                                        )
+
+                                    [showPassword:protected] => 
+                                    [silent:protected] => 
+                                    [rawQueryString:protected] => 
+                                )
+
+                            [basePathWithoutIndexPage:CodeIgniter\HTTP\SiteURI:private] => /
+                            [indexPage:CodeIgniter\HTTP\SiteURI:private] => index.php
+                            [baseSegments:CodeIgniter\HTTP\SiteURI:private] => Array
+                                (
+                                    [0] => index.php
+                                )
+
+                            [routePath:CodeIgniter\HTTP\SiteURI:private] => 
+                        )
+
+                    [hasMore] => 
+                    [total] => 28
+                    [perPage] => 4
+                    [pageCount] => 7
+                    [pageSelector] => page
+                    [currentPage] => 1
+                )
+
+        )
+
+    [segment:protected] => Array
+        (
+        )
+
+    [config:protected] => Config\Pager Object
+        (
+            [templates] => Array
+                (
+                    [default_full] => CodeIgniter\Pager\Views\default_full
+                    [default_simple] => CodeIgniter\Pager\Views\default_simple
+                    [default_head] => CodeIgniter\Pager\Views\default_head
+                )
+
+            [perPage] => 20
+        )
+
+    [view:protected] => CodeIgniter\View\View Object
+        (
+            [data:protected] => Array
+                (
+                )
+
+            [tempData:protected] => 
+            [viewPath:protected] => C:\xampp\htdocs\LandingPage\app\Config/../Views\
+            [renderVars:protected] => Array
+                (
+                )
+
+            [loader:protected] => CodeIgniter\Autoloader\FileLocator Object
+                (
+                    [autoloader:protected] => CodeIgniter\Autoloader\Autoloader Object
+                        (
+                            [prefixes:protected] => Array
+                                (
+                                    [CodeIgniter] => Array
+                                        (
+                                            [0] => C:\xampp\htdocs\LandingPage\system\
+                                        )
+
+                                    [Config] => Array
+                                        (
+                                            [0] => C:\xampp\htdocs\LandingPage\app\Config\
+                                        )
+
+                                    [App] => Array
+                                        (
+                                            [0] => C:\xampp\htdocs\LandingPage\app\
+                                        )
+
+                                )
+
+                            [classmap:protected] => Array
+                                (
+                                    [Psr\Log\AbstractLogger] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/AbstractLogger.php
+                                    [Psr\Log\InvalidArgumentException] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/InvalidArgumentException.php
+                                    [Psr\Log\LoggerAwareInterface] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/LoggerAwareInterface.php
+                                    [Psr\Log\LoggerAwareTrait] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/LoggerAwareTrait.php
+                                    [Psr\Log\LoggerInterface] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/LoggerInterface.php
+                                    [Psr\Log\LoggerTrait] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/LoggerTrait.php
+                                    [Psr\Log\LogLevel] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/LogLevel.php
+                                    [Psr\Log\NullLogger] => C:\xampp\htdocs\LandingPage\system\ThirdParty/PSR/Log/NullLogger.php
+                                    [Laminas\Escaper\Exception\ExceptionInterface] => C:\xampp\htdocs\LandingPage\system\ThirdParty/Escaper/Exception/ExceptionInterface.php
+                                    [Laminas\Escaper\Exception\InvalidArgumentException] => C:\xampp\htdocs\LandingPage\system\ThirdParty/Escaper/Exception/InvalidArgumentException.php
+                                    [Laminas\Escaper\Exception\RuntimeException] => C:\xampp\htdocs\LandingPage\system\ThirdParty/Escaper/Exception/RuntimeException.php
+                                    [Laminas\Escaper\Escaper] => C:\xampp\htdocs\LandingPage\system\ThirdParty/Escaper/Escaper.php
+                                )
+
+                            [files:protected] => Array
+                                (
+                                )
+
+                            [helpers:protected] => Array
+                                (
+                                    [0] => url
+                                )
+
+                        )
+
+                    [invalidClassnames:CodeIgniter\Autoloader\FileLocator:private] => Array
+                        (
+                        )
+
+                )
+
+            [logger:protected] => CodeIgniter\Log\Logger Object
+                (
+                    [logLevels:protected] => Array
+                        (
+                            [emergency] => 1
+                            [alert] => 2
+                            [critical] => 3
+                            [error] => 4
+                            [warning] => 5
+                            [notice] => 6
+                            [info] => 7
+                            [debug] => 8
+                        )
+
+                    [loggableLevels:protected] => Array
+                        (
+                            [0] => emergency
+                            [1] => alert
+                            [2] => critical
+                            [3] => error
+                            [4] => warning
+                            [5] => notice
+                            [6] => info
+                            [7] => debug
+                            [8] => 
+                        )
+
+                    [filePermissions:protected] => 420
+                    [dateFormat:protected] => Y-m-d H:i:s
+                    [fileExt:protected] => 
+                    [handlers:protected] => Array
+                        (
+                        )
+
+                    [handlerConfig:protected] => Array
+                        (
+                            [CodeIgniter\Log\Handlers\FileHandler] => Array
+                                (
+                                    [handles] => Array
+                                        (
+                                            [0] => critical
+                                            [1] => alert
+                                            [2] => emergency
+                                            [3] => debug
+                                            [4] => error
+                                            [5] => info
+                                            [6] => notice
+                                            [7] => warning
+                                        )
+
+                                    [fileExtension] => 
+                                    [filePermissions] => 420
+                                    [path] => 
+                                )
+
+                        )
+
+                    [logCache] => Array
+                        (
+                        )
+
+                    [cacheLogs:protected] => 1
+                )
+
+            [debug:protected] => 1
+            [performanceData:protected] => Array
+                (
+                )
+
+            [config:protected] => Config\View Object
+                (
+                    [saveData] => 1
+                    [filters] => Array
+                        (
+                            [abs] => \abs
+                            [capitalize] => \CodeIgniter\View\Filters::capitalize
+                            [date] => \CodeIgniter\View\Filters::date
+                            [date_modify] => \CodeIgniter\View\Filters::date_modify
+                            [default] => \CodeIgniter\View\Filters::default
+                            [esc] => \CodeIgniter\View\Filters::esc
+                            [excerpt] => \CodeIgniter\View\Filters::excerpt
+                            [highlight] => \CodeIgniter\View\Filters::highlight
+                            [highlight_code] => \CodeIgniter\View\Filters::highlight_code
+                            [limit_words] => \CodeIgniter\View\Filters::limit_words
+                            [limit_chars] => \CodeIgniter\View\Filters::limit_chars
+                            [local_currency] => \CodeIgniter\View\Filters::local_currency
+                            [local_number] => \CodeIgniter\View\Filters::local_number
+                            [lower] => \strtolower
+                            [nl2br] => \CodeIgniter\View\Filters::nl2br
+                            [number_format] => \number_format
+                            [prose] => \CodeIgniter\View\Filters::prose
+                            [round] => \CodeIgniter\View\Filters::round
+                            [strip_tags] => \strip_tags
+                            [title] => \CodeIgniter\View\Filters::title
+                            [upper] => \strtoupper
+                        )
+
+                    [plugins] => Array
+                        (
+                            [csp_script_nonce] => \CodeIgniter\View\Plugins::cspScriptNonce
+                            [csp_style_nonce] => \CodeIgniter\View\Plugins::cspStyleNonce
+                            [current_url] => \CodeIgniter\View\Plugins::currentURL
+                            [previous_url] => \CodeIgniter\View\Plugins::previousURL
+                            [mailto] => \CodeIgniter\View\Plugins::mailto
+                            [safe_mailto] => \CodeIgniter\View\Plugins::safeMailto
+                            [lang] => \CodeIgniter\View\Plugins::lang
+                            [validation_errors] => \CodeIgniter\View\Plugins::validationErrors
+                            [route] => \CodeIgniter\View\Plugins::route
+                            [siteURL] => \CodeIgniter\View\Plugins::siteURL
+                        )
+
+                    [coreFilters:protected] => Array
+                        (
+                            [abs] => \abs
+                            [capitalize] => \CodeIgniter\View\Filters::capitalize
+                            [date] => \CodeIgniter\View\Filters::date
+                            [date_modify] => \CodeIgniter\View\Filters::date_modify
+                            [default] => \CodeIgniter\View\Filters::default
+                            [esc] => \CodeIgniter\View\Filters::esc
+                            [excerpt] => \CodeIgniter\View\Filters::excerpt
+                            [highlight] => \CodeIgniter\View\Filters::highlight
+                            [highlight_code] => \CodeIgniter\View\Filters::highlight_code
+                            [limit_words] => \CodeIgniter\View\Filters::limit_words
+                            [limit_chars] => \CodeIgniter\View\Filters::limit_chars
+                            [local_currency] => \CodeIgniter\View\Filters::local_currency
+                            [local_number] => \CodeIgniter\View\Filters::local_number
+                            [lower] => \strtolower
+                            [nl2br] => \CodeIgniter\View\Filters::nl2br
+                            [number_format] => \number_format
+                            [prose] => \CodeIgniter\View\Filters::prose
+                            [round] => \CodeIgniter\View\Filters::round
+                            [strip_tags] => \strip_tags
+                            [title] => \CodeIgniter\View\Filters::title
+                            [upper] => \strtoupper
+                        )
+
+                    [corePlugins:protected] => Array
+                        (
+                            [csp_script_nonce] => \CodeIgniter\View\Plugins::cspScriptNonce
+                            [csp_style_nonce] => \CodeIgniter\View\Plugins::cspStyleNonce
+                            [current_url] => \CodeIgniter\View\Plugins::currentURL
+                            [previous_url] => \CodeIgniter\View\Plugins::previousURL
+                            [mailto] => \CodeIgniter\View\Plugins::mailto
+                            [safe_mailto] => \CodeIgniter\View\Plugins::safeMailto
+                            [lang] => \CodeIgniter\View\Plugins::lang
+                            [validation_errors] => \CodeIgniter\View\Plugins::validationErrors
+                            [route] => \CodeIgniter\View\Plugins::route
+                            [siteURL] => \CodeIgniter\View\Plugins::siteURL
+                        )
+
+                    [decorators] => Array
+                        (
+                        )
+
+                )
+
+            [saveData:protected] => 1
+            [viewsCount:protected] => 0
+            [layout:protected] => 
+            [sections:protected] => Array
+                (
+                )
+
+            [currentSection:protected] => 
+            [sectionStack:protected] => Array
+                (
+                )
+
+        )
+
+    [only:protected] => 
+)
+
+CRITICAL - 2024-11-04 04:36:39 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: daftarapp/getKecamatan]
+in APPPATH\Views\pages\kecamatan_partial.php on line 16.
+ 1 APPPATH\Views\pages\kecamatan_partial.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kecamatan_partial', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(41): view('pages/kecamatan_partial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->getKecamatan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 04:37:24 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: daftarapp/getKecamatan]
+in APPPATH\Views\pages\kecamatan_partial.php on line 16.
+ 1 APPPATH\Views\pages\kecamatan_partial.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kecamatan_partial', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(41): view('pages/kecamatan_partial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->getKecamatan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 04:37:38 --> ErrorException: Undefined variable $pager
+[Method: GET, Route: daftarapp/getKecamatan]
+in APPPATH\Views\pages\kecamatan_partial.php on line 16.
+ 1 APPPATH\Views\pages\kecamatan_partial.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kecamatan_partial', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(41): view('pages/kecamatan_partial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->getKecamatan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 06:12:06 --> ErrorException: Undefined variable $kecamatan
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 16.
+ 1 APPPATH\Views\pages\index.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kecamatan', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 16)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(30): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 07:30:25 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: daftarapp/getKecamatan]
+in APPPATH\Views\pages\kecamatan_partial.php on line 55.
+ 1 APPPATH\Views\pages\kecamatan_partial.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kecamatan_partial', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(41): view('pages/kecamatan_partial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->getKecamatan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 07:31:09 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: daftarapp/getKecamatan]
+in APPPATH\Views\pages\kecamatan_partial.php on line 55.
+ 1 APPPATH\Views\pages\kecamatan_partial.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kecamatan_partial', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(41): view('pages/kecamatan_partial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->getKecamatan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 07:31:46 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: daftarapp/getKecamatan]
+in APPPATH\Views\pages\kecamatan_partial.php on line 55.
+ 1 APPPATH\Views\pages\kecamatan_partial.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kecamatan_partial', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(41): view('pages/kecamatan_partial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->getKecamatan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 07:31:50 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: daftarapp/getKecamatan]
+in APPPATH\Views\pages\kecamatan_partial.php on line 55.
+ 1 APPPATH\Views\pages\kecamatan_partial.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kecamatan_partial', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(41): view('pages/kecamatan_partial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->getKecamatan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 07:31:54 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: daftarapp/getKecamatan]
+in APPPATH\Views\pages\kecamatan_partial.php on line 55.
+ 1 APPPATH\Views\pages\kecamatan_partial.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kecamatan_partial', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(41): view('pages/kecamatan_partial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->getKecamatan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 07:32:17 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: daftarapp/getKecamatan]
+in APPPATH\Views\pages\kecamatan_partial.php on line 55.
+ 1 APPPATH\Views\pages\kecamatan_partial.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kecamatan_partial', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(41): view('pages/kecamatan_partial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->getKecamatan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 07:32:21 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: daftarapp/getKecamatan]
+in APPPATH\Views\pages\kecamatan_partial.php on line 55.
+ 1 APPPATH\Views\pages\kecamatan_partial.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kecamatan_partial', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(41): view('pages/kecamatan_partial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->getKecamatan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 07:32:35 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: daftarapp/getKecamatan]
+in APPPATH\Views\pages\kecamatan_partial.php on line 55.
+ 1 APPPATH\Views\pages\kecamatan_partial.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kecamatan_partial', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(41): view('pages/kecamatan_partial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->getKecamatan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 07:32:48 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: daftarapp/getKecamatan]
+in APPPATH\Views\pages\kecamatan_partial.php on line 55.
+ 1 APPPATH\Views\pages\kecamatan_partial.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kecamatan_partial', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(41): view('pages/kecamatan_partial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->getKecamatan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-04 07:37:06 --> ErrorException: Undefined variable $kelurahan
+[Method: GET, Route: daftarapp/getKecamatan]
+in APPPATH\Views\pages\kecamatan_partial.php on line 55.
+ 1 APPPATH\Views\pages\kecamatan_partial.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $kelurahan', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php', 55)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\kecamatan_partial.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/kecamatan_partial', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(41): view('pages/kecamatan_partial', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->getKecamatan()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
