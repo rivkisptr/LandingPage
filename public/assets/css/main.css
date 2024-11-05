@@ -247,12 +247,19 @@ section,
 .portfolio .portfolio-content {
   background-color: var(--surface-color);
   border: 1px solid #ececec;
+  border-radius: 10px;
   box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   height: 100%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.portfolio .portfolio-content:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
 }
 
 .portfolio .portfolio-content img {
@@ -399,6 +406,16 @@ section,
   z-index: 2;
 }
 
+.modal-body .section-title h3:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 450px;
+  width: 20%;
+  height: 3px;
+  background: #a5a5a53f;
+}
+
 .modal-content {
   display: flex;
   flex-direction: column;
@@ -417,9 +434,45 @@ section,
   max-width: 300px;
 }
 
+.modal-body .portfolio-item {
+  opacity: 0;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modal-body .portfolio-content {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.modal-body .portfolio-content:hover {
+  transform: translateY(-7px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
 .modal-footer {
   background-color: #ffffff;
   padding: 1rem; /* Sesuaikan padding sesuai kebutuhan */
+}
+
+.modal-body .portfolio-content img {
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.modal-body .portfolio-content:hover img {
+  transform: scale(1.05);
 }
 
 /* JAKSEL APP */
@@ -545,6 +598,16 @@ section,
 }
 
 /* Pagination Animation */
+
+.portfolio-item {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: all 0.5s ease;
+}
+
+#kecamatan-container {
+  transition: opacity 0.3s ease-in-out;
+}
 
 #kecamatan-pagination-container {
   display: flex;

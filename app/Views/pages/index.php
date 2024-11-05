@@ -10,7 +10,7 @@
             <h2>Satuan Kerja Kecamatan dan Kelurahan</h2>
         </div>
         <!-- End Section Title -->
-        <div class="isotope-container" data-aos="fade-up" data-aos-delay="50">
+        <div class="isotope-container">
             <div id="kecamatan-container" class="row justify-content-center">
 
                 <?php foreach ($kecamatan as $k): ?>
@@ -23,15 +23,12 @@
                         </div>
                     </div>
                 <?php endforeach; ?>
-                <div id="kecamatan-pagination-container">
-                    <button class="kecamatan-pagination-button" data-page="1">1</button>
-                    <button class="kecamatan-pagination-button" data-page="2">2</button>
-                </div>
 
 
                 <!-- Modal Kecamatan -->
                 <?php foreach ($kecamatan as $k): ?>
-                    <div class="modal fade" id="KecamatanBackdrop-<?= $k['slug']; ?>" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal fade" id="KecamatanBackdrop-<?= $k['slug']; ?>" data-bs-backdrop="static"
+                        data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
                         <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
                             <div class="modal-content">
                                 <div class="modal-header">
@@ -39,10 +36,12 @@
                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
                                 <div class="modal-body">
+                                    <!-- Link Kecamatan Section -->
                                     <div class="container">
-                                        <!-- Link Kecamatan Section -->
-                                        <div class="container section-title" data-aos="fade-up">
-                                            <h3>Link Kecamatan</h3>
+                                        <div class="row mb-2">
+                                            <div class="col-12 section-title">
+                                                <h3>Website Kecamatan</h3>
+                                            </div>
                                         </div>
 
                                         <div class="row justify-content-center">
@@ -62,7 +61,11 @@
 
                                         <!-- Link Kelurahan Section -->
                                         <div class="container section-title">
-                                            <h4>Link Kelurahan di Kecamatan <?= $k['nama_kecamatan']; ?></h4>
+                                            <div class="row mb-2">
+                                                <div class="col-12 section-title">
+                                                    <h3>Link Kelurahan di Kecamatan <?= $k['nama_kecamatan']; ?></h3>
+                                                </div>
+                                            </div>
                                         </div>
 
                                         <div class="row justify-content-center">
@@ -93,6 +96,12 @@
                         </div>
                     </div>
                 <?php endforeach; ?>
+            </div>
+            <div id="kecamatan-pagination-container" class="mt-4" data-aos="fade-up">
+                <button class="kecamatan-pagination-button" data-page="1">1</button>
+                <button class="kecamatan-pagination-button" data-page="2">2</button>
+            </div>
+        </div>
     </section>
 
     <section id="JakselApp" class="section">
@@ -101,8 +110,8 @@
             <h2>Jaksel Apps</h2>
         </div>
 
-        <div class="isotope-container">
-            <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="50">
+        <div class="isotope-container" data-aos="fade-up">
+            <div class="row justify-content-center">
                 <div class="box">
 
                     <?php foreach ($aplikasi as $app): ?>
@@ -123,7 +132,7 @@
                 </div>
                 <div id="pagination-container">
                     <?php for ($i = 1; $i <= $pager->getPageCount(); $i++): ?>
-                        <button class="pagination-button" data-page="<?= $i ?>"><?= $i ?></button>
+                        <button class="pagination-button <?= $pager->getCurrentPage() == $i ? 'active' : '' ?>" data-page="<?= $i ?>"><?= $i ?></button>
                     <?php endfor; ?>
                 </div>
             </div>

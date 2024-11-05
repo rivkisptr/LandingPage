@@ -69,13 +69,6 @@
   window.addEventListener("load", aosInit);
 
   /**
-   * Initiate glightbox
-   */
-  const glightbox = GLightbox({
-    selector: ".glightbox",
-  });
-
-  /**
    * Init swiper sliders
    */
   function initSwiper() {
@@ -136,17 +129,6 @@
         );
       });
   });
-
-  /**
-   * Frequently Asked Questions Toggle
-   */
-  document
-    .querySelectorAll(".faq-item h3, .faq-item .faq-toggle")
-    .forEach((faqItem) => {
-      faqItem.addEventListener("click", () => {
-        faqItem.parentNode.classList.toggle("faq-active");
-      });
-    });
 
   /**
    * Correct scrolling position upon page load for URLs containing hash links.
@@ -249,6 +231,8 @@ $(document).ready(function () {
   loadApps(1);
 });
 
+// Kecamatan Pagination Handler
+
 $(document).ready(function () {
   $(document).on("click", ".kecamatan-pagination-button", function () {
     var page = $(this).data("page");
@@ -259,15 +243,21 @@ $(document).ready(function () {
   });
 
   function loadKecamatan(page) {
+    $("#kecamatan-container").css("opacity", "0");
+
+    $("#kecamatan-pagination-container").css("opacity", "1");
+
     setTimeout(() => {
       $.ajax({
         url: "/daftarapp/getKecamatan",
         method: "GET",
         data: { page: page },
         success: function (response) {
-          $("#kecamatan-container").html(response).css("opacity", "1");
+          $("#kecamatan-container").html(response);
 
-          $(".porfolio-item").each(function (index) {
+          $("#kecamatan-container").css("opacity", "1");
+
+          $(".isotope-item").each(function (index) {
             $(this)
               .css({
                 opacity: "0",
@@ -283,6 +273,7 @@ $(document).ready(function () {
                 next();
               });
           });
+          updatePaginationButtons(page);
         },
         error: function (xhr, status, error) {
           console.error(error);
@@ -292,6 +283,17 @@ $(document).ready(function () {
         },
       });
     }, 300);
+  }
+
+  function updatePaginationButtons(currentPage) {
+    $(
+      "#kecamatan-pagination-container .kecamatan-pagination-button"
+    ).removeClass("active");
+    $(
+      "#kecamatan-pagination-container .kecamatan-pagination-button[data-page='" +
+        currentPage +
+        "']"
+    ).addClass("active");
   }
 
   loadKecamatan(1);
