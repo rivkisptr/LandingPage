@@ -111,6 +111,24 @@
         </div>
 
         <div class="isotope-container" data-aos="fade-up">
+
+            <div class="row justify-content-between">
+                <div class="col-md-5">
+                    <div class="select-option">
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="search-bar">
+                        <input class="form-control mb-3" type="text" placeholder="Cari Aplikasi &#128269;" aria-label="default input example">
+                    </div>
+                </div>
+            </div>
             <div class="row justify-content-center">
                 <div class="box">
 
@@ -131,15 +149,27 @@
 
                 </div>
                 <div id="pagination-container">
-                    <?php for ($i = 1; $i <= $pager->getPageCount(); $i++): ?>
-                        <button class="pagination-button <?= $pager->getCurrentPage() == $i ? 'active' : '' ?>" data-page="<?= $i ?>"><?= $i ?></button>
-                    <?php endfor; ?>
+                    <button class="pagination-button prev" data-page="<?= $pager->getCurrentPage() - 1 ?>" <?= $pager->getCurrentPage() == 1 ? 'disabled' : '' ?>>
+                        <span aria-hidden="true">&#11164;</span>
+                    </button>
+                    <button class="pagination-button next" data-page="<?= $pager->getCurrentPage() + 1 ?>" <?= $pager->getCurrentPage() == $pager->getPageCount() ? 'disabled' : '' ?>>
+                        <span aria-hidden="true">&#11166;</span>
+                    </button>
                 </div>
             </div>
         </div>
 
     </section>
 </main>
+
+<script>
+    function updatePaginationButtons(currentPage) {
+        $('.pagination-button.prev').data('page', currentPage - 1)
+            .prop('disabled', currentPage <= 1);
+        $('.pagination-button.next').data('page', currentPage + 1)
+            .prop('disabled', currentPage >= <?= $pager->getPageCount() ?>);
+    }
+</script>
 <!-- Scroll Tap -->
 <a class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 <?= $this->endSection('content'); ?>

@@ -434,22 +434,6 @@ section,
   max-width: 300px;
 }
 
-.modal-body .portfolio-item {
-  opacity: 0;
-  animation: fadeIn 0.5s ease-in-out;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
 .modal-body .portfolio-content {
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -503,6 +487,7 @@ section,
   opacity: 0;
   transform: translateX(50px);
   transition: all 0.5s ease;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.199);
 }
 
 .box .list {
@@ -597,6 +582,29 @@ section,
   }
 }
 
+.search-bar input::placeholder {
+  text-align: right;
+  padding: 3px;
+}
+
+.select-option,
+.search-bar {
+  width: 100%;
+  max-width: 4 00px;
+}
+
+.search-bar input,
+.select-option select {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .select-option,
+  .search-bar {
+    margin-bottom: 10px;
+  }
+}
+
 /* Pagination Animation */
 
 .portfolio-item {
@@ -631,6 +639,7 @@ section,
   padding: 8px 15px;
   background-color: #f0f0f0;
   border: 1px solid #ddd;
+  color: #4caf50;
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -646,6 +655,11 @@ section,
   background-color: #4caf50;
   color: white;
   border-color: #49a34c;
+}
+
+.pagination-button[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
 }
 
 .kecamatan-pagination-button {

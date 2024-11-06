@@ -180,11 +180,10 @@
 
 $(document).ready(function () {
   $(document).on("click", ".pagination-button", function () {
-    var page = $(this).data("page");
-    loadApps(page);
-
-    $(".pagination-button").removeClass("active");
-    $(this).addClass("active");
+    if (!$(this).prop("disabled")) {
+      var page = $(this).data("page");
+      loadApps(page);
+    }
   });
 
   function loadApps(page) {
@@ -200,6 +199,11 @@ $(document).ready(function () {
           // Update konten
           $(".box").html(response).css("opacity", "1");
 
+          $(".box a").attr("target", "_blank");
+
+          // Update tombol pagination
+          updatePaginationButtons(page);
+
           // Animasi untuk setiap item
           $(".list").each(function (index) {
             $(this)
@@ -208,7 +212,7 @@ $(document).ready(function () {
                 transform: "translateX(50px)",
                 transition: "all 0.5s ease",
               })
-              .delay(index * 200) // Delay untuk setiap item
+              .delay(index * 200)
               .queue(function (next) {
                 $(this).css({
                   opacity: "1",
