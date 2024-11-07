@@ -302,3 +302,10 @@ $(document).ready(function () {
 
   loadKecamatan(1);
 });
+
+$(document).ready(function () {
+  $(".form-select").select2({
+    dropdownAutoWidth: true, // Atur lebar dropdown
+    maximumSelectionLength: 28, // Atur jumlah maksimum item yang bisa dipilih
+  });
+});

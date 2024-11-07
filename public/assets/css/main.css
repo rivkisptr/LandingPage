@@ -583,8 +583,21 @@ section,
 }
 
 .search-bar input::placeholder {
-  text-align: right;
-  padding: 3px;
+  text-align: left;
+  padding-right: 20px;
+}
+
+.search-bar {
+  position: relative;
+}
+
+.search-bar::after {
+  content: "🔍";
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
 }
 
 .select-option,

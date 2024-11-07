@@ -113,19 +113,36 @@
         <div class="isotope-container" data-aos="fade-up">
 
             <div class="row justify-content-between">
-                <div class="col-md-5">
+                <div class="col-md-4">
                     <div class="select-option">
-                        <select class="form-select" aria-label="Default select example">
-                            <option selected>Open this select menu</option>
+                        <select class="form-select" size="5" aria-label="Default select example">
+                            <option selected>--- Pilih Bagian / Suku Dinas ---</option>
                             <option value="1">One</option>
                             <option value="2">Two</option>
                             <option value="3">Three</option>
+                            <option value="4">empat</option>
+                            <option value="5">lima</option>
+                            <option value="6">enam</option>
+                            <option value="7">Tujuh</option>
+                            <option value="8">delapan</option>
+                            <option value="9">sembilan</option>
+                            <option value="10">sepuluh</option>
+                            <option value="11">sebelas</option>
+                            <option value="12">dua belas</option>
+                            <option value="13">tiga belas</option>
+                            <option value="14">empat belas</option>
+                            <option value="15">lima belas</option>
+                            <option value="16">enam belas</option>
+                            <option value="17">tujuh belas</option>
+                            <option value="18">delapan belas</option>
+                            <option value="19">sembilan belas</option>
+                            <option value="20">dua puluh</option>
                         </select>
                     </div>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-4">
                     <div class="search-bar">
-                        <input class="form-control mb-3" type="text" placeholder="Cari Aplikasi &#128269;" aria-label="default input example">
+                        <input class="form-control mb-3" type="text" placeholder="Cari Aplikasi" aria-label="default input example">
                     </div>
                 </div>
             </div>
@@ -161,15 +178,6 @@
 
     </section>
 </main>
-
-<script>
-    function updatePaginationButtons(currentPage) {
-        $('.pagination-button.prev').data('page', currentPage - 1)
-            .prop('disabled', currentPage <= 1);
-        $('.pagination-button.next').data('page', currentPage + 1)
-            .prop('disabled', currentPage >= <?= $pager->getPageCount() ?>);
-    }
-</script>
 <!-- Scroll Tap -->
 <a class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 <?= $this->endSection('content'); ?>
