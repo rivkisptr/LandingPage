@@ -23,12 +23,20 @@ class DaftarApp extends BaseController
     }
     public function index()
     {
+
+        $keyword = $this->request->getVar('keyword');
+        if ($keyword) {
+            $aplikasi = $this->aplikasiJakselModel->search($keyword);
+        } else {
+            $aplikasi = $this->aplikasiJakselModel;
+        }
+        
         $data = [
             'title'             => 'Satuan Kerja Jakarta Selatan',
             'kecamatan'         => $this->kecamatanModel->paginate(5),
             'kelurahan'         => $this->kelurahanModel->getKelurahan(),
             'instansi'          => $this->instansiModel->getInstansi(),
-            'aplikasi'          => $this->aplikasiJakselModel->paginate(4),
+            'aplikasi'          => $aplikasi->paginate(4),
             'pager_kecamatan'   => $this->kecamatanModel->pager,
             'pager'             => $this->aplikasiJakselModel->pager
         ];

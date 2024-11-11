@@ -112,28 +112,35 @@
 
         <div class="isotope-container" data-aos="fade-up">
 
+            <!-- Filter & Search Feature -->
             <div class="row justify-content-between">
                 <div class="col-md-4">
                     <div class="select-option">
-                        <select class="form-select" size="5" aria-label="Default select example">
-                            <option selected>--- Pilih Bagian / Suku Dinas ---</option>
+                        <select id="filter-instansi" class="form-select" aria-label="Default select example">
+                            <option value="*" selected>--- Pilih Bagian / Suku Dinas ---</option>
                             <?php foreach ($instansi as $ins) : ?>
-                                <option value="<?= $ins['slug_instansi']; ?>"><?= $ins['nama_instansi']; ?></option>
+                                <option value=".<?= $ins['slug']; ?>"><?= $ins['nama_instansi']; ?></option>
                             <?php endforeach; ?>
                         </select>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="search-bar">
-                        <input class="form-control mb-3" type="text" placeholder="Cari Aplikasi" aria-label="default input example">
+                        <form id="searching" action="" method="post">
+                            <input class="form-control mb-3" name="keyword" type="text" placeholder="Cari Aplikasi" aria-label="default input example">
+                            <!-- <div class="input-group-append">
+                                <button class="btn btn-outline-secondary" type="submit" name="submit"></button>
+                            </div> -->
+                        </form>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="box">
+
+            <div id="list-aplikasi" class="row justify-content-center">
+                <div class="isotope-container box ">
 
                     <?php foreach ($aplikasi as $app): ?>
-                        <div class="list">
+                        <div class="list isotope-item <?= $app['slug_instansi']; ?>">
                             <div class="imgbx">
                                 <img src="/assets/img/Jakselapp/<?= $app['img']; ?>" alt="img">
                             </div>

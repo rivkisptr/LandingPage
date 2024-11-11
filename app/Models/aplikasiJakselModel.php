@@ -13,4 +13,9 @@ class aplikasiJakselModel extends Model
     {
         return $this->findAll();
     }
+
+    public function search($keyword)
+    {
+        return $this->table('jaksel_app')->like('nama_aplikasi', $keyword);
+    }
 }
