@@ -726,3 +726,7 @@ section,
   margin: 0;
   font-weight: 500;
 }
+
+.dropdown-menu {
+  z-index: 1050;
+}

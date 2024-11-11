@@ -90,45 +90,43 @@
   /**
    * Init isotope layout and filters
    */
-  // document.querySelectorAll(".isotope-layout").forEach(function (isotopeItem) {
-  //   let layout = isotopeItem.getAttribute("data-layout") ?? "masonry";
-  //   let filter = isotopeItem.getAttribute("data-default-filter") ?? "*";
-  //   let sort = isotopeItem.getAttribute("data-sort") ?? "original-order";
+  document.querySelectorAll(".isotope-layout").forEach(function (isotopeItem) {
+    let filter = isotopeItem.getAttribute("data-default-filter") ?? "*";
+    let sort = isotopeItem.getAttribute("data-sort") ?? "original-order";
 
-  //   let initIsotope;
-  //   imagesLoaded(isotopeItem.querySelector(".isotope-container"), function () {
-  //     initIsotope = new Isotope(
-  //       isotopeItem.querySelector(".isotope-container"),
-  //       {
-  //         itemSelector: ".isotope-item",
-  //         layoutMode: layout,
-  //         filter: filter,
-  //         sortBy: sort,
-  //       }
-  //     );
-  //   });
+    let initIsotope;
+    imagesLoaded(isotopeItem.querySelector(".isotope-container"), function () {
+      initIsotope = new Isotope(
+        isotopeItem.querySelector(".isotope-container"),
+        {
+          itemSelector: ".isotope-item",
+          filter: filter,
+          sortBy: sort,
+        }
+      );
+    });
 
-  //   isotopeItem
-  //     .querySelectorAll(".isotope-filters li")
-  //     .forEach(function (filters) {
-  //       filters.addEventListener(
-  //         "click",
-  //         function () {
-  //           isotopeItem
-  //             .querySelector(".isotope-filters .filter-active")
-  //             .classList.remove("filter-active");
-  //           this.classList.add("filter-active");
-  //           initIsotope.arrange({
-  //             filter: this.getAttribute("data-filter"),
-  //           });
-  //           if (typeof aosInit === "function") {
-  //             aosInit();
-  //           }
-  //         },
-  //         false
-  //       );
-  //     });
-  // });
+    isotopeItem
+      .querySelectorAll(".isotope-filters li")
+      .forEach(function (filters) {
+        filters.addEventListener(
+          "click",
+          function () {
+            isotopeItem
+              .querySelector(".isotope-filters .filter-active")
+              .classList.remove("filter-active");
+            this.classList.add("filter-active");
+            initIsotope.arrange({
+              filter: this.getAttribute("data-filter"),
+            });
+            if (typeof aosInit === "function") {
+              aosInit();
+            }
+          },
+          false
+        );
+      });
+  });
 
   /**
    * Correct scrolling position upon page load for URLs containing hash links.
@@ -177,6 +175,8 @@
 })();
 
 // JakselApp Pagination Handler
+
+let allApps = [];
 
 $(document).ready(function () {
   $(document).on("click", ".pagination-button", function () {
@@ -331,30 +331,30 @@ $(document).ready(function () {
   }
 });
 
-    document.getElementById('search-input').addEventListener('input', function() {
-        const keyword = this.value;
+document.getElementById("search-input").addEventListener("input", function () {
+  const keyword = this.value;
 
-        // Hanya lakukan pencarian jika ada input
-        if (keyword.length > 0) {
-            fetch('path/to/your/search/api', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json'
-                    },
-                    body: JSON.stringify({
-                        keyword: keyword
-                    })
-                })
-                .then(response => response.json())
-                .then(data => {
-                    const resultsContainer = document.getElementById('search-results');
-                    resultsContainer.innerHTML = ''; // Clear previous results
+  // Hanya lakukan pencarian jika ada input
+  if (keyword.length > 0) {
+    fetch("path/to/your/search/api", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        keyword: keyword,
+      }),
+    })
+      .then((response) => response.json())
+      .then((data) => {
+        const resultsContainer = document.getElementById("search-results");
+        resultsContainer.innerHTML = ""; // Clear previous results
 
-                    if (data.length > 0) {
-                        data.forEach(app => {
-                            const appElement = document.createElement('div');
-                            appElement.className = 'list isotope-item';
-                            appElement.innerHTML = `
+        if (data.length > 0) {
+          data.forEach((app) => {
+            const appElement = document.createElement("div");
+            appElement.className = "list isotope-item";
+            appElement.innerHTML = `
                         <div class="imgbx">
                             <img src="/assets/img/Jakselapp/${app.img}" alt="img">
                         </div>
@@ -366,15 +366,15 @@ $(document).ready(function () {
                             <p class="app-description">${app.deskripsi}</p>
                         </div>
                     `;
-                            resultsContainer.appendChild(appElement);
-                        });
-                    } else {
-                        // resultsContainer.innerHTML = '<p>Tidak ada aplikasi yang ditemukan.</p>';
-                    }
-                })
-                .catch(error => console.error('Error:', error));
+            resultsContainer.appendChild(appElement);
+          });
         } else {
-            // Jika input kosong, bersihkan hasil pencarian
-            document.getElementById('search-results').innerHTML = '';
+          // resultsContainer.innerHTML = '<p>Tidak ada aplikasi yang ditemukan.</p>';
         }
-    });
+      })
+      .catch((error) => console.error("Error:", error));
+  } else {
+    // Jika input kosong, bersihkan hasil pencarian
+    document.getElementById("search-results").innerHTML = "";
+  }
+});

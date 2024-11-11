@@ -7,7 +7,7 @@ use CodeIgniter\Model;
 class aplikasiJakselModel extends Model
 {
     protected $table = 'jaksel_app';
-    protected $allowedFields = ['img', 'nama_aplikasi', 'deskripsi', 'link'];
+    protected $allowedFields = ['img', 'nama_aplikasi', 'deskripsi', 'link', 'slug'];
 
     public function getAplikasi()
     {

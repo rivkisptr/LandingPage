@@ -115,13 +115,14 @@
             <!-- Filter & Search Feature -->
             <div class="row justify-content-between">
                 <div class="col-md-4">
-                    <div class="select-option">
-                        <select id="filter-instansi" class="form-select" aria-label="Default select example">
-                            <option value="*" selected>--- Pilih Bagian / Suku Dinas ---</option>
+                    <div class="dropdown isotope-layout" data-default-filter="*" data-sort="original-order">
+                        <button class="btn btn-secondary dropdown-toggle mb-3" type="button" data-bs-toggle="dropdown">--- Pilih Bagian / Suku Dinas ---</button>
+                        <ul class="dropdown-menu portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="50">
+                            <li data-filter="*" class="filter-active"><a class="dropdown-item">All</a></li>
                             <?php foreach ($instansi as $ins) : ?>
-                                <option value=".<?= $ins['slug']; ?>"><?= $ins['nama_instansi']; ?></option>
+                                <li data-filter=".filter-<?= $ins['slug']; ?>"><a class="dropdown-item"><?= $ins['nama_instansi']; ?></a></li>
                             <?php endforeach; ?>
-                        </select>
+                        </ul>
                     </div>
                 </div>
                 <div class="col-md-4">
