@@ -126,21 +126,18 @@
                 </div>
                 <div class="col-md-4">
                     <div class="search-bar">
-                        <form id="searching" action="" method="post">
-                            <input class="form-control mb-3" name="keyword" type="text" placeholder="Cari Aplikasi" aria-label="default input example">
-                            <!-- <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="submit" name="submit"></button>
-                            </div> -->
-                        </form>
+                        <input class="form-control mb-3" id="search-input" type="text" placeholder="Cari Aplikasi" aria-label="default input example">
                     </div>
+                    <div id="search-results" class="row justify-content-center"></div>
                 </div>
             </div>
 
+            <!-- list -->
             <div id="list-aplikasi" class="row justify-content-center">
                 <div class="isotope-container box ">
 
                     <?php foreach ($aplikasi as $app): ?>
-                        <div class="list isotope-item <?= $app['slug_instansi']; ?>">
+                        <div class="list isotope-item <?= isset($app['slug']) ? $app['slug'] : 'default-slug'; ?>">
                             <div class="imgbx">
                                 <img src="/assets/img/Jakselapp/<?= $app['img']; ?>" alt="img">
                             </div>
@@ -168,6 +165,7 @@
 
     </section>
 </main>
+
 <!-- Scroll Tap -->
 <a class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 <?= $this->endSection('content'); ?>

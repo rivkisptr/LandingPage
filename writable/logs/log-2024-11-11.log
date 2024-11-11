@@ -1,0 +1,450 @@
+CRITICAL - 2024-11-11 01:30:05 --> ErrorException: Undefined array key "slug_instansi"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug_instansi"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:30:09 --> ErrorException: Undefined array key "slug_instansi"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug_instansi"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:31:53 --> ErrorException: Undefined array key "slug_instansi"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug_instansi"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:31:54 --> ErrorException: Undefined array key "slug_instansi"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug_instansi"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:31:54 --> ErrorException: Undefined array key "slug_instansi"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug_instansi"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:32:55 --> ErrorException: Undefined array key "slug_instansi"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug_instansi"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:33:00 --> ErrorException: Undefined array key "slug_instansi"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug_instansi"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:33:59 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:34:00 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:45:38 --> ErrorException: Undefined array key "slug_instansi"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug_instansi"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:45:39 --> ErrorException: Undefined array key "slug_instansi"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug_instansi"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:45:39 --> ErrorException: Undefined array key "slug_instansi"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug_instansi"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:46:25 --> ErrorException: Undefined array key "nama_instansi"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_instansi"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:46:27 --> ErrorException: Undefined array key "nama_instansi"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_instansi"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:46:52 --> ErrorException: Undefined array key "slug_instansi"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug_instansi"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:46:53 --> ErrorException: Undefined array key "slug_instansi"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug_instansi"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:47:05 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:47:06 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:50:44 --> ErrorException: Undefined variable $jaksel_app
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 142.
+ 1 APPPATH\Views\pages\index.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jaksel_app', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 142)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:54:03 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:55:20 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 145.
+ 1 APPPATH\Views\pages\index.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 145)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:55:22 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 145.
+ 1 APPPATH\Views\pages\index.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 145)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:55:23 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 145.
+ 1 APPPATH\Views\pages\index.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 145)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:55:24 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 145.
+ 1 APPPATH\Views\pages\index.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 145)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:55:25 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 145.
+ 1 APPPATH\Views\pages\index.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 145)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:56:04 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:56:37 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:56:38 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 01:58:55 --> ErrorException: Undefined array key "slug"
+[Method: GET, Route: /]
+in APPPATH\Views\pages\index.php on line 143.
+ 1 APPPATH\Views\pages\index.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "slug"', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 143)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
+CRITICAL - 2024-11-11 02:24:25 --> ErrorException: Undefined variable $pager
+[Method: POST, Route: /]
+in APPPATH\Views\pages\index.php on line 156.
+ 1 APPPATH\Views\pages\index.php(156): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pager', 'C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php', 156)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\LandingPage\\app\\Views\\pages\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/index', [], true)
+ 5 APPPATH\Controllers\DaftarApp.php(43): view('pages/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\DaftarApp->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarApp))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\LandingPage\\public\\index.php')
