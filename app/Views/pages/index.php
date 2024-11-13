@@ -113,11 +113,11 @@
         <div class="isotope-container" data-aos="fade-up">
 
             <!-- Filter & Search Feature -->
-            <div class="row justify-content-between">
+            <div class="row justify-content-between" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-md-4">
                     <div class="dropdown isotope-layout" data-default-filter="*" data-sort="original-order">
-                        <button class="btn btn-secondary dropdown-toggle mb-3" type="button" data-bs-toggle="dropdown">--- Pilih Bagian / Suku Dinas ---</button>
-                        <ul class="dropdown-menu portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="50">
+                        <button id="dropdownButton" class="btn btn-secondary dropdown-toggle mb-3" type="button" data-bs-toggle="dropdown">--- Pilih Bagian / Suku Dinas ---</button>
+                        <ul class="dropdown-menu portfolio-filters isotope-filters">
                             <li data-filter="*" class="filter-active"><a class="dropdown-item">All</a></li>
                             <?php foreach ($instansi as $ins) : ?>
                                 <li data-filter=".filter-<?= $ins['slug']; ?>"><a class="dropdown-item"><?= $ins['nama_instansi']; ?></a></li>
@@ -135,7 +135,7 @@
 
             <!-- list -->
             <div id="list-aplikasi" class="row justify-content-center">
-                <div class="isotope-container box ">
+                <div class="isotope-container box">
 
                     <?php foreach ($aplikasi as $app): ?>
                         <div class="list isotope-item <?= isset($app['slug']) ? $app['slug'] : 'default-slug'; ?>">
@@ -152,14 +152,6 @@
                         </div>
                     <?php endforeach; ?>
 
-                </div>
-                <div id="pagination-container">
-                    <button class="pagination-button prev" data-page="<?= $pager->getCurrentPage() - 1 ?>" <?= $pager->getCurrentPage() == 1 ? 'disabled' : '' ?>>
-                        <span aria-hidden="true">&#11164;</span>
-                    </button>
-                    <button class="pagination-button next" data-page="<?= $pager->getCurrentPage() + 1 ?>" <?= $pager->getCurrentPage() == $pager->getPageCount() ? 'disabled' : '' ?>>
-                        <span aria-hidden="true">&#11166;</span>
-                    </button>
                 </div>
             </div>
         </div>

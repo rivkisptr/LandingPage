@@ -90,43 +90,43 @@
   /**
    * Init isotope layout and filters
    */
-  document.querySelectorAll(".isotope-layout").forEach(function (isotopeItem) {
-    let filter = isotopeItem.getAttribute("data-default-filter") ?? "*";
-    let sort = isotopeItem.getAttribute("data-sort") ?? "original-order";
+  // document.querySelectorAll(".isotope-layout").forEach(function (isotopeItem) {
+  //   let filter = isotopeItem.getAttribute("data-default-filter") ?? "*";
+  //   let sort = isotopeItem.getAttribute("data-sort") ?? "original-order";
 
-    let initIsotope;
-    imagesLoaded(isotopeItem.querySelector(".isotope-container"), function () {
-      initIsotope = new Isotope(
-        isotopeItem.querySelector(".isotope-container"),
-        {
-          itemSelector: ".isotope-item",
-          filter: filter,
-          sortBy: sort,
-        }
-      );
-    });
+  //   let initIsotope;
+  //   imagesLoaded(isotopeItem.querySelector(".isotope-container"), function () {
+  //     initIsotope = new Isotope(
+  //       isotopeItem.querySelector(".isotope-container"),
+  //       {
+  //         itemSelector: ".isotope-item",
+  //         filter: filter,
+  //         sortBy: sort,
+  //       }
+  //     );
+  //   });
 
-    isotopeItem
-      .querySelectorAll(".isotope-filters li")
-      .forEach(function (filters) {
-        filters.addEventListener(
-          "click",
-          function () {
-            isotopeItem
-              .querySelector(".isotope-filters .filter-active")
-              .classList.remove("filter-active");
-            this.classList.add("filter-active");
-            initIsotope.arrange({
-              filter: this.getAttribute("data-filter"),
-            });
-            if (typeof aosInit === "function") {
-              aosInit();
-            }
-          },
-          false
-        );
-      });
-  });
+  //   isotopeItem
+  //     .querySelectorAll(".isotope-filters li")
+  //     .forEach(function (filters) {
+  //       filters.addEventListener(
+  //         "click",
+  //         function () {
+  //           isotopeItem
+  //             .querySelector(".isotope-filters .filter-active")
+  //             .classList.remove("filter-active");
+  //           this.classList.add("filter-active");
+  //           initIsotope.arrange({
+  //             filter: this.getAttribute("data-filter"),
+  //           });
+  //           if (typeof aosInit === "function") {
+  //             aosInit();
+  //           }
+  //         },
+  //         false
+  //       );
+  //     });
+  // });
 
   /**
    * Correct scrolling position upon page load for URLs containing hash links.
@@ -175,9 +175,6 @@
 })();
 
 // JakselApp Pagination Handler
-
-let allApps = [];
-
 $(document).ready(function () {
   $(document).on("click", ".pagination-button", function () {
     if (!$(this).prop("disabled")) {
@@ -303,14 +300,8 @@ $(document).ready(function () {
   loadKecamatan(1);
 });
 
-$(document).ready(function () {
-  $(".form-select").select2({
-    dropdownAutoWidth: true, // Atur lebar dropdown
-    maximumSelectionLength: 28, // Atur jumlah maksimum item yang bisa dipilih
-  });
-});
-
 // Jaksel App Filtering
+
 
 // Jaksel App Searching
 $(document).ready(function () {
@@ -377,4 +368,17 @@ document.getElementById("search-input").addEventListener("input", function () {
     // Jika input kosong, bersihkan hasil pencarian
     document.getElementById("search-results").innerHTML = "";
   }
+});
+
+const dropdownButton = document.getElementById("dropdownButton");
+
+// Ambil semua item dropdown
+const dropdownItems = document.querySelectorAll(".dropdown-item");
+
+// Tambahkan event listener untuk setiap item
+dropdownItems.forEach((item) => {
+  item.addEventListener("click", function () {
+    // Ubah teks tombol dengan teks item yang dipilih
+    dropdownButton.textContent = this.textContent;
+  });
 });

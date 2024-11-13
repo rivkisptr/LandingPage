@@ -467,12 +467,17 @@ section,
   scrollbar-width: none;
 }
 
+#list-aplikasi {
+  max-height: 600px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 .box {
   display: grid;
   position: relative;
   width: 1200px;
   min-width: 400px;
-  overflow: auto;
   align-items: center;
   transition: opacity 0.3 ease-in-out;
   -ms-overflow-style: none;
@@ -728,5 +733,7 @@ section,
 }
 
 .dropdown-menu {
-  z-index: 1050;
+  max-height: 300px;
+  overflow-y: auto;
+  cursor: pointer;
 }
