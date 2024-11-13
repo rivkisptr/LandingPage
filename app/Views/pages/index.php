@@ -115,9 +115,9 @@
             <!-- Filter & Search Feature -->
             <div class="row justify-content-between" data-aos="fade-up" data-aos-delay="100">
                 <div class="col-md-4">
-                    <div class="dropdown isotope-layout" data-default-filter="*" data-sort="original-order">
+                    <div class="dropdown filter-app-byInstansi" data-default-filter="*" data-sort="original-order">
                         <button id="dropdownButton" class="btn btn-secondary dropdown-toggle mb-3" type="button" data-bs-toggle="dropdown">--- Pilih Bagian / Suku Dinas ---</button>
-                        <ul class="dropdown-menu portfolio-filters isotope-filters">
+                        <ul class="dropdown-menu portfolio-filters">
                             <li data-filter="*" class="filter-active"><a class="dropdown-item">All</a></li>
                             <?php foreach ($instansi as $ins) : ?>
                                 <li data-filter=".filter-<?= $ins['slug']; ?>"><a class="dropdown-item"><?= $ins['nama_instansi']; ?></a></li>
@@ -138,7 +138,7 @@
                 <div class="isotope-container box">
 
                     <?php foreach ($aplikasi as $app): ?>
-                        <div class="list isotope-item <?= isset($app['slug']) ? $app['slug'] : 'default-slug'; ?>">
+                        <div class="list filter-<?= $app['slug_instansi']; ?>">
                             <div class="imgbx">
                                 <img src="/assets/img/Jakselapp/<?= $app['img']; ?>" alt="img">
                             </div>

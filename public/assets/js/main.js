@@ -301,7 +301,29 @@ $(document).ready(function () {
 });
 
 // Jaksel App Filtering
+$(document).ready(function () {
+  // Event listener untuk item dropdown
+  $(".portfolio-filters li").on("click", function () {
+    // Ambil filter yang dipilih
+    var filterValue = $(this).data("filter");
 
+    // Hapus kelas 'filter-active' dari semua item dan tambahkan pada yang dipilih
+    $(".portfolio-filters li").removeClass("filter-active");
+    $(this).addClass("filter-active");
+
+    // Sembunyikan semua item
+    $(".list").hide();
+
+    // Tampilkan item yang sesuai dengan filter
+    if (filterValue === "*") {
+      // Tampilkan semua item
+      $(".list").show();
+    } else {
+      // Tampilkan item yang sesuai dengan filter
+      $(".list" + filterValue).show();
+    }
+  });
+});
 
 // Jaksel App Searching
 $(document).ready(function () {
@@ -320,16 +342,34 @@ $(document).ready(function () {
       }
     });
   }
+
+  $(document).ready(function () {
+    $("#search-input").on("input", function () {
+      var keyword = $(this).val().toLowerCase();
+      if (keyword.length > 0) {
+        filterApps(keyword); // Panggil fungsi filterApps untuk melakukan pencarian
+      } else {
+        $(".list").show(); // Jika input kosong, tampilkan semua item
+      }
+    });
+  });
 });
 
-document.getElementById("search-input").addEventListener("input", function () {
-  const keyword = this.value.toLowerCase();
+// Dropdown Text Handler
 
-  // Hanya lakukan pencarian jika ada input
-  if (keyword.length > 0) {
-      filterApps(keyword); // Panggil fungsi filterApps untuk melakukan pencarian
-  } else {
-      // Jika input kosong, bersihkan hasil pencarian
-      document.getElementById("search-results").innerHTML = "";
-  }
+const dropdownButton = document.getElementById("dropdownButton");
+const dropdownItems = document.querySelectorAll(".dropdown-item");
+const defaultText = "--- Pilih Bagian / Suku Dinas ---";
+
+dropdownButton.textContent = defaultText;
+
+
+dropdownItems.forEach((item) => {
+  item.addEventListener("click", function () {
+    if (this.textContent == "All") {
+      dropdownButton.textContent = defaultText;
+    } else {
+      dropdownButton.textContent = this.textContent;
+    }
+  });
 });
