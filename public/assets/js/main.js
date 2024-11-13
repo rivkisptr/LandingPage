@@ -323,62 +323,13 @@ $(document).ready(function () {
 });
 
 document.getElementById("search-input").addEventListener("input", function () {
-  const keyword = this.value;
+  const keyword = this.value.toLowerCase();
 
   // Hanya lakukan pencarian jika ada input
   if (keyword.length > 0) {
-    fetch("path/to/your/search/api", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        keyword: keyword,
-      }),
-    })
-      .then((response) => response.json())
-      .then((data) => {
-        const resultsContainer = document.getElementById("search-results");
-        resultsContainer.innerHTML = ""; // Clear previous results
-
-        if (data.length > 0) {
-          data.forEach((app) => {
-            const appElement = document.createElement("div");
-            appElement.className = "list isotope-item";
-            appElement.innerHTML = `
-                        <div class="imgbx">
-                            <img src="/assets/img/Jakselapp/${app.img}" alt="img">
-                        </div>
-                        <div class="content">
-                            <h2 class="link">
-                                <a href="${app.link}" class="button">Kunjungi</a>
-                            </h2>
-                            <h4>${app.nama_aplikasi}</h4>
-                            <p class="app-description">${app.deskripsi}</p>
-                        </div>
-                    `;
-            resultsContainer.appendChild(appElement);
-          });
-        } else {
-          // resultsContainer.innerHTML = '<p>Tidak ada aplikasi yang ditemukan.</p>';
-        }
-      })
-      .catch((error) => console.error("Error:", error));
+      filterApps(keyword); // Panggil fungsi filterApps untuk melakukan pencarian
   } else {
-    // Jika input kosong, bersihkan hasil pencarian
-    document.getElementById("search-results").innerHTML = "";
+      // Jika input kosong, bersihkan hasil pencarian
+      document.getElementById("search-results").innerHTML = "";
   }
-});
-
-const dropdownButton = document.getElementById("dropdownButton");
-
-// Ambil semua item dropdown
-const dropdownItems = document.querySelectorAll(".dropdown-item");
-
-// Tambahkan event listener untuk setiap item
-dropdownItems.forEach((item) => {
-  item.addEventListener("click", function () {
-    // Ubah teks tombol dengan teks item yang dipilih
-    dropdownButton.textContent = this.textContent;
-  });
 });
