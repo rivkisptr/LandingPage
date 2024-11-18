@@ -44,17 +44,6 @@
     <!-- Main JS File -->
     <script src="assets/js/main.js"></script>
     <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-
-    <script>
-        function updatePaginationButtons(currentPage) {
-            $('.pagination-button.prev').data('page', currentPage - 1)
-                .prop('disabled', currentPage <= 1);
-            $('.pagination-button.next').data('page', currentPage + 1)
-                .prop('disabled', currentPage >= <?= $pager->getPageCount() ?>);
-        }
-    </script>
-
-
 </body>
 
 </html>

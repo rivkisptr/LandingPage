@@ -16,10 +16,10 @@ class DaftarApp extends BaseController
 
     public function __construct()
     {
-        $this->kecamatanModel = new kecamatanModel();
-        $this->kelurahanModel = new kelurahanModel();
+        $this->kecamatanModel      = new kecamatanModel();
+        $this->kelurahanModel      = new kelurahanModel();
         $this->aplikasiJakselModel = new aplikasiJakselModel();
-        $this->instansiModel = new instansiModel();
+        $this->instansiModel       = new instansiModel();
     }
     public function index()
     {
@@ -28,9 +28,8 @@ class DaftarApp extends BaseController
             'kecamatan'         => $this->kecamatanModel->paginate(5),
             'kelurahan'         => $this->kelurahanModel->getKelurahan(),
             'instansi'          => $this->instansiModel->getInstansi(),
-            'aplikasi'          => $this->aplikasiJakselModel->paginate(100, 'jaskel_app'),
+            'aplikasi'          => $this->aplikasiJakselModel->getAplikasi(),
             'pager_kecamatan'   => $this->kecamatanModel->pager,
-            'pager'             => $this->aplikasiJakselModel->pager
         ];
         return view('pages/index', $data);
     }
@@ -45,13 +44,5 @@ class DaftarApp extends BaseController
         ];
 
         return view('partial_pagination/kecamatan_partial', $data);
-    }
-
-    public function getApps()
-    {
-        $page = $this->request->getVar('page') ?? 1;
-        $data['aplikasi'] = $this->aplikasiJakselModel->paginate(100, 'jaksel_app', $page);
-
-        return view('partial_pagination/apps_partial', $data);
     }
 }

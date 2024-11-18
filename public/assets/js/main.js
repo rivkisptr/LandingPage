@@ -88,47 +88,6 @@
   window.addEventListener("load", initSwiper);
 
   /**
-   * Init isotope layout and filters
-   */
-  // document.querySelectorAll(".isotope-layout").forEach(function (isotopeItem) {
-  //   let filter = isotopeItem.getAttribute("data-default-filter") ?? "*";
-  //   let sort = isotopeItem.getAttribute("data-sort") ?? "original-order";
-
-  //   let initIsotope;
-  //   imagesLoaded(isotopeItem.querySelector(".isotope-container"), function () {
-  //     initIsotope = new Isotope(
-  //       isotopeItem.querySelector(".isotope-container"),
-  //       {
-  //         itemSelector: ".isotope-item",
-  //         filter: filter,
-  //         sortBy: sort,
-  //       }
-  //     );
-  //   });
-
-  //   isotopeItem
-  //     .querySelectorAll(".isotope-filters li")
-  //     .forEach(function (filters) {
-  //       filters.addEventListener(
-  //         "click",
-  //         function () {
-  //           isotopeItem
-  //             .querySelector(".isotope-filters .filter-active")
-  //             .classList.remove("filter-active");
-  //           this.classList.add("filter-active");
-  //           initIsotope.arrange({
-  //             filter: this.getAttribute("data-filter"),
-  //           });
-  //           if (typeof aosInit === "function") {
-  //             aosInit();
-  //           }
-  //         },
-  //         false
-  //       );
-  //     });
-  // });
-
-  /**
    * Correct scrolling position upon page load for URLs containing hash links.
    */
   window.addEventListener("load", function (e) {
@@ -174,66 +133,7 @@
   document.addEventListener("scroll", navmenuScrollspy);
 })();
 
-// JakselApp Pagination Handler
-$(document).ready(function () {
-  $(document).on("click", ".pagination-button", function () {
-    if (!$(this).prop("disabled")) {
-      var page = $(this).data("page");
-      loadApps(page);
-    }
-  });
-
-  function loadApps(page) {
-    // Fade out effect
-    $(".box").css("opacity", "0");
-
-    setTimeout(() => {
-      $.ajax({
-        url: "/daftarapp/getApps",
-        method: "GET",
-        data: { page: page },
-        success: function (response) {
-          // Update konten
-          $(".box").html(response).css("opacity", "1");
-
-          $(".box a").attr("target", "_blank");
-
-          // Update tombol pagination
-          updatePaginationButtons(page);
-
-          // Animasi untuk setiap item
-          $(".list").each(function (index) {
-            $(this)
-              .css({
-                opacity: "0",
-                transform: "translateX(50px)",
-                transition: "all 0.5s ease",
-              })
-              .delay(index * 200)
-              .queue(function (next) {
-                $(this).css({
-                  opacity: "1",
-                  transform: "translateX(0)",
-                });
-                next();
-              });
-          });
-        },
-        error: function (xhr, status, error) {
-          console.error(error);
-          $(".box")
-            .html('<div class="error">Terjadi kesalahan saat memuat data</div>')
-            .css("opacity", "1");
-        },
-      });
-    }, 300);
-  }
-
-  loadApps(1);
-});
-
 // Kecamatan Pagination Handler
-
 $(document).ready(function () {
   $(document).on("click", ".kecamatan-pagination-button", function () {
     var page = $(this).data("page");
@@ -302,24 +202,16 @@ $(document).ready(function () {
 
 // Jaksel App Filtering
 $(document).ready(function () {
-  // Event listener untuk item dropdown
   $(".portfolio-filters li").on("click", function () {
-    // Ambil filter yang dipilih
     var filterValue = $(this).data("filter");
 
-    // Hapus kelas 'filter-active' dari semua item dan tambahkan pada yang dipilih
     $(".portfolio-filters li").removeClass("filter-active");
     $(this).addClass("filter-active");
-
-    // Sembunyikan semua item
     $(".list").hide();
 
-    // Tampilkan item yang sesuai dengan filter
     if (filterValue === "*") {
-      // Tampilkan semua item
       $(".list").show();
     } else {
-      // Tampilkan item yang sesuai dengan filter
       $(".list" + filterValue).show();
     }
   });
@@ -329,16 +221,16 @@ $(document).ready(function () {
 $(document).ready(function () {
   $("#search-input").on("input", function () {
     var keyword = $(this).val().toLowerCase();
-    filterApps(keyword);
+    SearchApps(keyword);
   });
 
-  function filterApps(keyword) {
+  function SearchApps(keyword) {
     $(".list").each(function () {
       var appName = $(this).find("h4").text().toLowerCase();
       if (appName.includes(keyword)) {
-        $(this).show(); // Tampilkan item yang cocok
+        $(this).show();
       } else {
-        $(this).hide(); // Sembunyikan item yang tidak cocok
+        $(this).hide();
       }
     });
   }
@@ -347,22 +239,20 @@ $(document).ready(function () {
     $("#search-input").on("input", function () {
       var keyword = $(this).val().toLowerCase();
       if (keyword.length > 0) {
-        filterApps(keyword); // Panggil fungsi filterApps untuk melakukan pencarian
+        SearchApps(keyword);
       } else {
-        $(".list").show(); // Jika input kosong, tampilkan semua item
+        $(".list").show();
       }
     });
   });
 });
 
 // Dropdown Text Handler
-
 const dropdownButton = document.getElementById("dropdownButton");
 const dropdownItems = document.querySelectorAll(".dropdown-item");
 const defaultText = "--- Pilih Bagian / Suku Dinas ---";
 
 dropdownButton.textContent = defaultText;
-
 
 dropdownItems.forEach((item) => {
   item.addEventListener("click", function () {

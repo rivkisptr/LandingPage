@@ -60,7 +60,7 @@
                                         <br>
 
                                         <!-- Link Kelurahan Section -->
-                                        <div class="container section-title">
+                                        <div class="container">
                                             <div class="row mb-2">
                                                 <div class="col-12 section-title">
                                                     <h3>Link Kelurahan di Kecamatan <?= $k['nama_kecamatan']; ?></h3>
@@ -114,9 +114,10 @@
 
             <!-- Filter & Search Feature -->
             <div class="row justify-content-between" data-aos="fade-up" data-aos-delay="100">
+
                 <div class="col-md-4">
                     <div class="dropdown filter-app-byInstansi" data-default-filter="*" data-sort="original-order">
-                        <button id="dropdownButton" class="btn btn-secondary dropdown-toggle mb-3" type="button" data-bs-toggle="dropdown">--- Pilih Bagian / Suku Dinas ---</button>
+                        <button id="dropdownButton" class="btn btn-secondary dropdown-toggle mb-3 shadow-sm" type="button" data-bs-toggle="dropdown">--- Pilih Bagian / Suku Dinas ---</button>
                         <ul class="dropdown-menu portfolio-filters">
                             <li data-filter="*" class="filter-active"><a class="dropdown-item">All</a></li>
                             <?php foreach ($instansi as $ins) : ?>
@@ -125,12 +126,14 @@
                         </ul>
                     </div>
                 </div>
+
                 <div class="col-md-4">
                     <div class="search-bar">
                         <input class="form-control mb-3" id="search-input" type="text" placeholder="Cari Aplikasi" aria-label="default input example">
                     </div>
                     <div id="search-results" class="row justify-content-center"></div>
                 </div>
+
             </div>
 
             <!-- list -->
