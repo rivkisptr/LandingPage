@@ -434,6 +434,10 @@ section,
   max-height: 600px;
   overflow-y: auto;
   overflow-x: hidden;
+  display: flex;
+  flex-wrap: wrap; /* Memungkinkan item membungkus ke baris berikutnya */
+  justify-content: center; /* Pusatkan item di dalam kontainer */
+  padding: 10px; /* Tambahkan padding jika diperlukan */
 }
 
 .box {
@@ -445,6 +449,7 @@ section,
   transition: opacity 0.3 ease-in-out;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  flex: 1 1 200px;
 }
 
 .box::-webkit-scrollbar {
@@ -486,7 +491,7 @@ section,
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: contain;
 }
 
@@ -669,4 +674,16 @@ section,
   max-height: 300px;
   overflow-y: auto;
   cursor: pointer;
+}
+
+
+/* custom */
+@media (max-width: 768px) {
+  /* Gaya untuk perangkat dengan lebar maksimum 768px (tablet dan ponsel) */
+  body {
+      font-size: 14px;
+  }
+  .portfolio-item {
+      width: 100%; /* Atur lebar item portfolio menjadi 100% di perangkat kecil */
+  }
 }

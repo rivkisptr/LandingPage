@@ -8,7 +8,6 @@
     <meta name="description" content="">
     <meta name="keywords" content="">
 
-
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>

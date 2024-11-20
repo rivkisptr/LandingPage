@@ -147,14 +147,16 @@
                             </div>
                             <div class="content">
                                 <h2 class="link">
-                                    <a href="<?= $app['link']; ?>" class="button">Kunjungi</a>
+                                    <a href="<?= $app['link']; ?>" class="button" target="_blank">Kunjungi</a>
                                 </h2>
                                 <h4><?= $app['nama_aplikasi']; ?></h4>
                                 <p class="app-description"><?= $app['deskripsi']; ?></p>
                             </div>
                         </div>
                     <?php endforeach; ?>
-
+                    <br>
+                    <br>
+                    <br>
                 </div>
             </div>
         </div>
