@@ -7,11 +7,14 @@ use CodeIgniter\Model;
 class aplikasiJakselModel extends Model
 {
     protected $table = 'jaksel_app';
-    protected $allowedFields = ['img', 'nama_aplikasi', 'deskripsi', 'link', 'slug'];
+    protected $allowedFields = ['img', 'nama_aplikasi', 'deskripsi', 'link', 'slug_instansi'];
 
-    public function getAplikasi()
+    public function getAplikasi($id = false)
     {
-        return $this->findAll();
+        if ($id == false) {
+            return $this->findAll();
+        }
+        return $this->where('id', $id)->first();
     }
 
     public function search($keyword)
