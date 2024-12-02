@@ -5,7 +5,7 @@
 <aside id="sidebar" class="sidebar">
     <ul class="sidebar-nav" id="sidebar-nav">
         <li class="nav-item">
-            <a class="nav-link collapsed" href="/dashboard">
+            <a class="nav-link collapsed" href="/">
                 <i class="ri ri-home-4-line"></i>
                 <span>Home</span>
             </a>
@@ -39,7 +39,7 @@
         <h1>Ubah Aplikasi</h1>
         <nav>
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/dashboard">Home</a></li>
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
                 <li class="breadcrumb-item">Daftar Tabel</li>
                 <li class="breadcrumb-item"><a href="/dashboard/apptabel">Aplikasi</a></li>
                 <li class="breadcrumb-item active">Edit Aplikasi</li>

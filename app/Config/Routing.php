@@ -48,7 +48,7 @@ class Routing extends BaseRouting
      *
      * Default: 'Home'
      */
-    public string $defaultController = 'DaftarApp';
+    public string $defaultController = 'DashboardJakselApp';
 
     /**
      * For Defined Routes and Auto Routing.

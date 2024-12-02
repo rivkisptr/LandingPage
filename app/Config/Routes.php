@@ -5,8 +5,8 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'DaftarApp::index');
-$routes->get('/dashboard', 'DashboardJakselApp::index');
+$routes->get('/jakselapp', 'DaftarApp::index');
+$routes->get('/', 'DashboardJakselApp::index');
 $routes->get('/dashboard/apptabel', 'DashboardJakselApp::AppTable');
 $routes->get('/dashboard/instansitabel', 'DashboardJakselApp::InstansiTable');
 $routes->get('/dashboard/createAplikasi', 'DashboardJakselApp::createAplikasi');

@@ -24,6 +24,14 @@
 
     <!-- Template Main CSS File -->
     <link href="/dashboard_assets/css/style.css" rel="stylesheet" />
+
+    <!-- =======================================================
+    * Template Name: NiceAdmin
+    * Template URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+    * Updated: Apr 20 2024 with Bootstrap v5.3.3
+    * Author: BootstrapMade.com
+    * License: https://bootstrapmade.com/license/
+    ======================================================== -->
 </head>
 
 <body>
@@ -31,8 +39,7 @@
     <header id="header" class="header fixed-top d-flex align-items-center">
         <div class="d-flex align-items-center justify-content-between">
             <a href="/dashboard" class="logo d-flex align-items-center">
-                <img src="/dashboard_assets/img/logo.png" alt="" />
-                <span class="d-none d-lg-block"> JakselApps</span>
+                <span class="d-none d-lg-block ms-4"> JakselApps</span>
             </a>
             <i class="bi bi-list toggle-sidebar-btn"></i>
         </div>
@@ -47,15 +54,15 @@
                 </li>
                 <!-- End Search Icon-->
 
-                <li class="nav-item dropdown pe-3">
+                <li class="nav-item dropdown pe-3 me-3">
                     <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
                         <img src="/dashboard_assets/img/profile-img.jpg" alt="Profile" class="rounded-circle" />
-                        <span class="d-none d-md-block dropdown-toggle ps-2">Default Account</span></a>
+                        <span class="d-none d-md-block dropdown-toggle ps-2 ms-2"><?= user()->username; ?></span></a>
                     <!-- End Profile Iamge Icon -->
 
                     <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
                         <li class="dropdown-header">
-                            <h6>Hello, Default Account</h6>
+                            <h6>Hello, <span>Admin <?= user()->username; ?></span></h6>
                         </li>
 
                         <li>
@@ -80,7 +87,7 @@
                         </li>
 
                         <li>
-                            <a class="dropdown-item d-flex align-items-center" href="#">
+                            <a class="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                                 <i class="bi bi-box-arrow-right"></i>
                                 <span>Sign Out</span>
                             </a>
@@ -93,6 +100,27 @@
         </nav>
         <!-- End Icons Navigation -->
     </header>
+
+    <!-- Modal Logout -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="staticBackdropLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Apakah anda yakin ingin Logout?
+                </div>
+                
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                    <a href="<?= base_url('logout'); ?>" class="btn btn-primary">Logout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- End Header -->
 
     <?= $this->renderSection('dashboardContent'); ?>
@@ -100,10 +128,10 @@
     <!-- ======= Footer ======= -->
     <footer id="footer" class="footer">
         <div class="copyright">
-            &copy; Copyright <strong><span>Kominfotik</span></strong>. All Rights Reserved
+            &copy; Copyright <strong><span>Kominfotik</span></strong> <?= date('Y'); ?>. All Rights Reserved
         </div>
         <div class="credits">
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Design by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
     </footer>
     <!-- End Footer -->
